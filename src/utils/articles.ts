@@ -1,3 +1,4 @@
+
 export interface Article {
   id: string;
   title: string;
@@ -47,6 +48,142 @@ export const articles: Article[] = [
     slug: "initiating-no-contact",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
     imageUrl: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
+  },
+  {
+    id: "closure",
+    title: "Closure",
+    subtitle: "Everyone wants closure after a breakup. Why did it happen? Why? Why, why, why? But closure is not important for your healing.",
+    slug: "closure",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+  },
+  {
+    id: "remove-reminders",
+    title: "Remove All Reminders",
+    subtitle: "It's obvious, but it's so hard to do: you have to get rid of anything and everything that reminds you of your ex-.",
+    slug: "remove-reminders",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+  },
+  {
+    id: "contact-from-ex",
+    title: "Contact from the Ex",
+    subtitle: "You shouldn't contact your ex-. But what if your ex- contacts you? How do you interpret what the ex- says and does?",
+    slug: "contact-from-ex",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475"
+  },
+  {
+    id: "bumping-into-ex",
+    title: "Bumping into the Ex",
+    subtitle: "It's a difficult and stressful situation to bump into the ex- when you're still recovering from the breakup, so it's worth thinking about in advance.",
+    slug: "bumping-into-ex",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+  },
+  {
+    id: "ex-special-occasions",
+    title: "Ex's Special Occasions",
+    subtitle: "What do you do when your ex- has a big life event like a birthday, job promotion, or graduation? Acknowledge it? How? Ignore it?",
+    slug: "ex-special-occasions",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+  },
+  {
+    id: "ex-with-new-partner",
+    title: "Ex- with New Partner",
+    subtitle: "Your ex- will be with a new person someday. Maybe sooner, maybe later, but it will happen (or already has). And you're going to have to accept that.",
+    slug: "ex-with-new-partner",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
+  },
+  {
+    id: "getting-back-together",
+    title: "Getting Back Together",
+    subtitle: "I know from deeply painful personal experience that getting back together with your ex- seems the only hope for life. The odds are very low.",
+    slug: "getting-back-together",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+  },
+  {
+    id: "friends-family-support",
+    title: "Friends, Family, Support",
+    subtitle: "It's obvious, but you shouldn't spend a lot of time alone. Get a team of people you can rely on: friends, family, posters on internet forums.",
+    slug: "friends-family-support",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1501286353178-1ec871214838"
+  },
+  {
+    id: "mental-work",
+    title: "Mental Work",
+    subtitle: "You need to make a real mental effort to focus on YOU and YOUR future, not to obsess about your ex- and the past. It's hard. Very hard.",
+    slug: "mental-work",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475"
+  },
+  {
+    id: "never-another-love",
+    title: "Never Another Love",
+    subtitle: "The ex- is \"the one\" for you. You'll never find anyone else. You're doomed to die alone. Sigh... But on the other hand, everyone repeating to you \"big ocean, lots of fish\" doesn't help.",
+    slug: "never-another-love",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+  },
+  {
+    id: "revenge",
+    title: "Revenge",
+    subtitle: "The desire to hurt the person who hurt you is overwhelming. That's natural. And if there was betrayal as well... trust me, my mental revenge scenarios were detailed and gory.",
+    slug: "revenge",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+  },
+  {
+    id: "alcohol-drugs-medicine",
+    title: "Alcohol, Drugs, Medicine",
+    subtitle: "It's natural that you want to dull the pain and try to escape. A magic pill to make it all go away would be great. But it's not going to help and usually just makes things worse.",
+    slug: "alcohol-drugs-medicine",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+  },
+  {
+    id: "health",
+    title: "Health",
+    subtitle: "Your body goes through extreme physical duress following a divorce or breakup: sleep issues, stress hormones, food problems, lethargy, anxiety, and more.",
+    slug: "health",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475"
+  },
+  {
+    id: "activities",
+    title: "Activities",
+    subtitle: "After a break-up, everyone experiences a massive void. It's not just a hole in your heart… it's also literally a hole in your schedule: you have a huge amount of extra free time.",
+    slug: "activities",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1721322800607-8c38375eef04"
+  },
+  {
+    id: "rebound-relationships",
+    title: "Rebound Relationships",
+    subtitle: "Casual sex, casual dating, rebound relationships: there's lots of debate about how helpful it can be to your recovery. It all depends on YOU and what's best for YOU.",
+    slug: "rebound-relationships",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1481349518771-20055b2a7b24"
+  },
+  {
+    id: "language",
+    title: "Language",
+    subtitle: "As much as it hurts, you have to force yourself to make your language reflect the reality of the present... even when just talking to yourself.",
+    slug: "language",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1501286353178-1ec871214838"
+  },
+  {
+    id: "costly-guides-plans",
+    title: "Costly Guides & Plans",
+    subtitle: "A dumpee is in an incredibly vulnerable state and would pay anything for a \"guaranteed solution\" to end the pain and/or get the ex- back.",
+    slug: "costly-guides-plans",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.",
+    imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
   },
   {
     id: "youre-not-alone",
