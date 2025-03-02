@@ -18,7 +18,7 @@ export const articles: Article[] = [
   {
     id: "pain-is-real",
     title: "The Pain Is Real",
-    subtitle: "It's not "just in your mind". The pain you feel from being rejected is a traumatic event as strong as any physical pain and activates some of the same areas of the brain.",
+    subtitle: "It's not \"just in your mind\". The pain you feel from being rejected is a traumatic event as strong as any physical pain and activates some of the same areas of the brain.",
     slug: "pain-is-real",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl."
   },
@@ -158,7 +158,7 @@ export const articles: Article[] = [
   {
     id: "costly-guides-plans",
     title: "Costly Guides & Plans",
-    subtitle: "A dumpee is in an incredibly vulnerable state and would pay anything for a "guaranteed solution" to end the pain and/or get the ex- back.",
+    subtitle: "A dumpee is in an incredibly vulnerable state and would pay anything for a \"guaranteed solution\" to end the pain and/or get the ex- back.",
     slug: "costly-guides-plans",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl."
   },
