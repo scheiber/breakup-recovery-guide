@@ -45,6 +45,14 @@ const Article = () => {
           </p>
         </div>
       </div>
+
+      <div className="mb-8 rounded-lg overflow-hidden animate-fade-in" style={{ animationDelay: "0.15s" }}>
+        <img 
+          src={`${article.imageUrl}?auto=format&fit=crop&w=1200&q=90`}
+          alt={article.title}
+          className="w-full h-auto object-cover"
+        />
+      </div>
       
       <div className="prose prose-lg dark:prose-invert max-w-none animate-fade-in" style={{ animationDelay: "0.2s" }}>
         <p>{article.content}</p>

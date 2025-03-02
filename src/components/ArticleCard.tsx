@@ -17,6 +17,13 @@ export function ArticleCard({ article, index }: ArticleCardProps) {
         className="overflow-hidden h-full smooth-transition hover:shadow-md hover:-translate-y-1 border-border/40"
         style={{ animationDelay }}
       >
+        <div className="aspect-w-16 aspect-h-9 overflow-hidden">
+          <img 
+            src={`${article.imageUrl}?auto=format&fit=crop&w=500&q=80`}
+            alt={article.title}
+            className="object-cover w-full h-full transition-transform duration-500 hover:scale-105"
+          />
+        </div>
         <CardHeader className="p-4 md:p-6">
           <CardTitle className="text-lg md:text-xl">{article.title}</CardTitle>
         </CardHeader>
