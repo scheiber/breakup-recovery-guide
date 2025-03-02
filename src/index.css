@@ -1,14 +1,15 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 350 30% 98%; /* Changed from pure white to a very light pink/cream */
     --foreground: 240 10% 3.9%;
-    --card: 0 0% 100%;
+    --card: 350 30% 99%;
     --card-foreground: 240 10% 3.9%;
-    --popover: 0 0% 100%;
+    --popover: 350 30% 99%;
     --popover-foreground: 240 10% 3.9%;
     --primary: 354 100% 60%;
     --primary-foreground: 0 0% 98%;
@@ -27,11 +28,11 @@
   }
 
   .dark {
-    --background: 240 10% 3.9%;
+    --background: 240 20% 12%; /* Changed from pure black to a softer dark gray with slight blue tint */
     --foreground: 0 0% 98%;
-    --card: 240 10% 3.9%;
+    --card: 240 20% 10%;
     --card-foreground: 0 0% 98%;
-    --popover: 240 10% 3.9%;
+    --popover: 240 20% 10%;
     --popover-foreground: 0 0% 98%;
     --primary: 354 70% 65%;
     --primary-foreground: 355 50% 10%;
