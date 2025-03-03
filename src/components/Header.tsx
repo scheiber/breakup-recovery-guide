@@ -40,6 +40,14 @@ export function Header() {
             >
               Articles
             </Link>
+            <Link 
+              to="/about" 
+              className={`text-sm font-medium smooth-transition hover:text-primary ${
+                location.pathname === "/about" ? "text-primary" : "text-muted-foreground"
+              }`}
+            >
+              About
+            </Link>
           </div>
           <Button
             variant="ghost"

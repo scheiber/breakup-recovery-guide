@@ -21,6 +21,9 @@ export function Footer() {
           <Link to="/articles" className="hover:text-primary smooth-transition">
             Articles
           </Link>
+          <Link to="/about" className="hover:text-primary smooth-transition">
+            About
+          </Link>
         </nav>
       </div>
     </footer>
