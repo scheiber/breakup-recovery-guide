@@ -20,9 +20,9 @@ const Index = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-slide-down"
             style={{ animationDelay: "0.4s" }}
           >
-            <Link to="/articles/intro">
+            <Link to="/articles/immediate-aftermath">
               <Button size="lg" className="w-full sm:w-auto animate-pulse">
-                Start Your Recovery
+                Immediate Aftermath
               </Button>
             </Link>
             <Link to="/articles">
@@ -36,7 +36,9 @@ const Index = () => {
 
       <section className="py-8 md:py-16 flex-1">
         <div className="container max-w-5xl">
-          <h2 className="heading-md text-center mb-8">How We Help You Heal</h2>
+          <h2 className="heading-md text-center mb-8">
+            Honest. Real. Detailed. And 100% free.
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card
               className="animate-scale-in"

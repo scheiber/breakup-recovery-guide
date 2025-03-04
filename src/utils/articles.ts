@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "immediate-aftermath",
+    title: "Immediate Aftermath",
+    subtitle:
+      "A very short and clear summary of what you should and should not do immediately after being dumped. If your partner just broke up with you in the last hours or day and you’re in shock, read this section first.",
+    slug: "immediate-aftermath",
+    imageUrl: "/images/immediate-aftermath.jpg",
+  },
+  {
     id: "intro",
     title: "Intro",
     subtitle: "All about this site, who it's for, and how you can use it.",
