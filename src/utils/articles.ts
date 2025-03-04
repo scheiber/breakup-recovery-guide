@@ -20,7 +20,7 @@ export const articles: Article[] = [
     title: "Intro",
     subtitle: "All about this site, who it's for, and how you can use it.",
     slug: "intro",
-    imageUrl: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    imageUrl: "/images/intro.jpg",
   },
   {
     id: "pain-is-real",
@@ -28,14 +28,14 @@ export const articles: Article[] = [
     subtitle:
       'It\'s not "just in your mind". The pain you feel from being rejected is a traumatic event as strong as any physical pain and activates some of the same areas of the brain.',
     slug: "pain-is-real",
-    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    imageUrl: "/images/pain-is-real.jpg",
   },
   {
     id: "time-to-recover",
     title: "Time To Recover",
     subtitle: "How much time will it take until you recover from the breakup?",
     slug: "time-to-recover",
-    imageUrl: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
+    imageUrl: "/images/time-to-recover.jpg",
   },
   {
     id: "no-contact",
@@ -43,7 +43,7 @@ export const articles: Article[] = [
     subtitle:
       "Contact with your ex- is like cutting an open wound over and over again. Any contact at all, any reminders, makes healing harder.",
     slug: "no-contact",
-    imageUrl: "https://images.unsplash.com/photo-1501286353178-1ec871214838",
+    imageUrl: "/images/no-contact.jpg",
   },
   {
     id: "initiating-no-contact",
@@ -51,7 +51,7 @@ export const articles: Article[] = [
     subtitle:
       "How do you actually begin a no contact policy with your ex-? When should you start it?",
     slug: "initiating-no-contact",
-    imageUrl: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    imageUrl: "/images/initiating-no-contact.jpg",
   },
   {
     id: "closure",
@@ -59,7 +59,7 @@ export const articles: Article[] = [
     subtitle:
       "Everyone wants closure after a breakup. Why did it happen? Why? Why, why, why? But closure is not important for your healing.",
     slug: "closure",
-    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    imageUrl: "/images/closure.jpg",
   },
   {
     id: "remove-reminders",
@@ -67,7 +67,7 @@ export const articles: Article[] = [
     subtitle:
       "It's obvious, but it's so hard to do: you have to get rid of anything and everything that reminds you of your ex-.",
     slug: "remove-reminders",
-    imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    imageUrl: "/images/remove-reminders.jpg",
   },
   {
     id: "contact-from-ex",
@@ -75,8 +75,7 @@ export const articles: Article[] = [
     subtitle:
       "You shouldn't contact your ex-. But what if your ex- contacts you? How do you interpret what the ex- says and does?",
     slug: "contact-from-ex",
-
-    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    imageUrl: "/images/contact-from-ex.jpg",
   },
   {
     id: "bumping-into-ex",
@@ -84,8 +83,7 @@ export const articles: Article[] = [
     subtitle:
       "It's a difficult and stressful situation to bump into the ex- when you're still recovering from the breakup, so it's worth thinking about in advance.",
     slug: "bumping-into-ex",
-
-    imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+    imageUrl: "/images/bumping-into-ex.jpg",
   },
   {
     id: "ex-special-occasions",
@@ -93,8 +91,7 @@ export const articles: Article[] = [
     subtitle:
       "What do you do when your ex- has a big life event like a birthday, job promotion, or graduation? Acknowledge it? How? Ignore it?",
     slug: "ex-special-occasions",
-
-    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    imageUrl: "/images/ex-special-occasions.jpg",
   },
   {
     id: "ex-with-new-partner",
@@ -102,8 +99,7 @@ export const articles: Article[] = [
     subtitle:
       "Your ex- will be with a new person someday. Maybe sooner, maybe later, but it will happen (or already has). And you're going to have to accept that.",
     slug: "ex-with-new-partner",
-
-    imageUrl: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    imageUrl: "/images/ex-with-new-partner.jpg",
   },
   {
     id: "getting-back-together",
@@ -111,8 +107,7 @@ export const articles: Article[] = [
     subtitle:
       "I know from deeply painful personal experience that getting back together with your ex- seems the only hope for life. The odds are very low.",
     slug: "getting-back-together",
-
-    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    imageUrl: "/images/getting-back-together.jpg",
   },
   {
     id: "friends-family-support",
@@ -120,8 +115,7 @@ export const articles: Article[] = [
     subtitle:
       "It's obvious, but you shouldn't spend a lot of time alone. Get a team of people you can rely on: friends, family, posters on internet forums.",
     slug: "friends-family-support",
-
-    imageUrl: "https://images.unsplash.com/photo-1501286353178-1ec871214838",
+    imageUrl: "/images/friends-family-support.jpg",
   },
   {
     id: "mental-work",
@@ -129,8 +123,7 @@ export const articles: Article[] = [
     subtitle:
       "You need to make a real mental effort to focus on YOU and YOUR future, not to obsess about your ex- and the past. It's hard. Very hard.",
     slug: "mental-work",
-
-    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    imageUrl: "/images/mental-work.jpg",
   },
   {
     id: "never-another-love",
@@ -138,8 +131,7 @@ export const articles: Article[] = [
     subtitle:
       'The ex- is "the one" for you. You\'ll never find anyone else. You\'re doomed to die alone. Sigh... But on the other hand, everyone repeating to you "big ocean, lots of fish" doesn\'t help.',
     slug: "never-another-love",
-
-    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    imageUrl: "/images/never-another-love.jpg",
   },
   {
     id: "revenge",
@@ -147,8 +139,7 @@ export const articles: Article[] = [
     subtitle:
       "The desire to hurt the person who hurt you is overwhelming. That's natural. And if there was betrayal as well... trust me, my mental revenge scenarios were detailed and gory.",
     slug: "revenge",
-
-    imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+    imageUrl: "/images/revenge.jpg",
   },
   {
     id: "alcohol-drugs-medicine",
@@ -156,8 +147,7 @@ export const articles: Article[] = [
     subtitle:
       "It's natural that you want to dull the pain and try to escape. A magic pill to make it all go away would be great. But it's not going to help and usually just makes things worse.",
     slug: "alcohol-drugs-medicine",
-
-    imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    imageUrl: "/images/alcohol-drugs-medicine.jpg",
   },
   {
     id: "health",
@@ -165,8 +155,7 @@ export const articles: Article[] = [
     subtitle:
       "Your body goes through extreme physical duress following a divorce or breakup: sleep issues, stress hormones, food problems, lethargy, anxiety, and more.",
     slug: "health",
-
-    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    imageUrl: "/images/health.jpg",
   },
   {
     id: "activities",
@@ -174,8 +163,7 @@ export const articles: Article[] = [
     subtitle:
       "After a break-up, everyone experiences a massive void. It's not just a hole in your heart… it's also literally a hole in your schedule: you have a huge amount of extra free time.",
     slug: "activities",
-
-    imageUrl: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
+    imageUrl: "/images/activities.jpg",
   },
   {
     id: "rebound-relationships",
@@ -183,8 +171,7 @@ export const articles: Article[] = [
     subtitle:
       "Casual sex, casual dating, rebound relationships: there's lots of debate about how helpful it can be to your recovery. It all depends on YOU and what's best for YOU.",
     slug: "rebound-relationships",
-
-    imageUrl: "https://images.unsplash.com/photo-1481349518771-20055b2a7b24",
+    imageUrl: "/images/rebound-relationships.jpg",
   },
   {
     id: "language",
@@ -192,8 +179,7 @@ export const articles: Article[] = [
     subtitle:
       "As much as it hurts, you have to force yourself to make your language reflect the reality of the present... even when just talking to yourself.",
     slug: "language",
-
-    imageUrl: "https://images.unsplash.com/photo-1501286353178-1ec871214838",
+    imageUrl: "/images/language.jpg",
   },
   {
     id: "costly-guides-plans",
@@ -201,8 +187,7 @@ export const articles: Article[] = [
     subtitle:
       'A dumpee is in an incredibly vulnerable state and would pay anything for a "guaranteed solution" to end the pain and/or get the ex- back.',
     slug: "costly-guides-plans",
-
-    imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+    imageUrl: "/images/costly-guides-plans.jpg",
   },
   {
     id: "youre-not-alone",
@@ -210,8 +195,7 @@ export const articles: Article[] = [
     subtitle:
       "After a breakup, it's easy to feel that no one is suffering as you are. But right now at this moment, there are many others who've come to this site for help.",
     slug: "youre-not-alone",
-
-    imageUrl: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
+    imageUrl: "/images/youre-not-alone.jpg",
   },
 ];
 
