@@ -8,7 +8,7 @@ export function Header() {
   const { theme, setTheme } = useTheme();
   const location = useLocation();
   
-  // Calculate the opposite theme for correct toggling
+  // Toggle to the opposite theme
   const toggleTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
@@ -61,10 +61,11 @@ export function Header() {
             className="rounded-full"
             aria-label="Toggle theme"
           >
-            {theme === "dark" ? (
-              <Sun className="h-5 w-5 animate-fade-in" />
-            ) : (
+            {/* Show the icon for what we'll switch TO, not the current theme */}
+            {theme === "light" ? (
               <Moon className="h-5 w-5 animate-fade-in" />
+            ) : (
+              <Sun className="h-5 w-5 animate-fade-in" />
             )}
           </Button>
         </nav>
