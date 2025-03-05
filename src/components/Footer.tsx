@@ -11,7 +11,7 @@ export function Footer() {
         <div className="flex items-center gap-2">
           <HeartCrack className="h-5 w-5 text-muted-foreground" />
           <p className="text-sm text-muted-foreground">
-            © {year} Breakup Recovery Guide
+            Honest. Real. Detailed. And 100% free.
           </p>
         </div>
         <nav className="flex items-center gap-4 text-sm text-muted-foreground">
