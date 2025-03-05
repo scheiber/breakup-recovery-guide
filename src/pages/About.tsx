@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Info, Users, Heart, Coffee } from "lucide-react";
 
@@ -7,9 +6,10 @@ const About = () => {
     <div className="min-h-screen">
       <section className="py-12 md:py-20 bg-secondary/30">
         <div className="container max-w-4xl">
-          <h1 className="heading-xl text-center mb-6">About Us</h1>
+          <h1 className="heading-xl text-center mb-6">About The Guide</h1>
           <p className="text-xl text-center text-muted-foreground">
-            We're here to support you through the challenging journey of healing after a breakup.
+            It's here to support you through the challenging journey of healing
+            after a breakup.
           </p>
         </div>
       </section>
@@ -23,13 +23,12 @@ const About = () => {
                   <Info className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h2 className="heading-sm mb-3">Our Mission</h2>
+                  <h2 className="heading-sm mb-3">Non-Commercial</h2>
                   <p className="text-muted-foreground">
-                    The Breakup Recovery Guide was created to provide compassionate, 
-                    evidence-based support for those navigating the difficult aftermath 
-                    of a relationship ending. We believe that with the right guidance, 
-                    this painful experience can become an opportunity for profound 
-                    personal growth.
+                    The Breakup Recovery Guide is 100% free and open. No ads, no
+                    commercials, no marketing, no linking, no self-promotion, no
+                    social-media likes or sharing or posting. The only goal is
+                    to help anyone who can benefit from these words.
                   </p>
                 </div>
               </div>
@@ -43,13 +42,13 @@ const About = () => {
                   <Users className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h2 className="heading-sm mb-3">Who We Help</h2>
+                  <h2 className="heading-sm mb-3">The Content</h2>
                   <p className="text-muted-foreground">
-                    Our resources are designed for anyone experiencing the end of a 
-                    significant relationship, regardless of its duration or nature. 
-                    Whether you initiated the breakup or were on the receiving end, 
-                    our guidance can help you process your emotions and move forward 
-                    in a healthy way.
+                    Throughout theses pages is just honest, real advice for
+                    people recovering from a breakup, without the usual
+                    platitudes and cliches, all information based on both
+                    legitimate research from different fields of scientific
+                    research and the experiences of thousands of people.
                   </p>
                 </div>
               </div>
@@ -63,13 +62,14 @@ const About = () => {
                   <Heart className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h2 className="heading-sm mb-3">Our Approach</h2>
+                  <h2 className="heading-sm mb-3">The Creators</h2>
                   <p className="text-muted-foreground">
-                    We combine insights from psychology, relationship experts, and real 
-                    experiences to create practical, compassionate advice. Our content 
-                    focuses on emotional healing, self-discovery, and building resilience 
-                    that will serve you in all your future relationships—including the 
-                    one with yourself.
+                    This guide is dedicated to "Recovered" on the LoveShack.org
+                    forums, who was the creator of the original guide, as well
+                    as J., who was a curator of the original guide. Due to J.
+                    suffering a violent accident, the guide was no longer
+                    updated and went offline many years ago. This project is
+                    intended to restore the guide and continue their legacy.
                   </p>
                 </div>
               </div>
@@ -83,12 +83,13 @@ const About = () => {
                   <Coffee className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h2 className="heading-sm mb-3">Connect With Us</h2>
+                  <h2 className="heading-sm mb-3">Contact</h2>
                   <p className="text-muted-foreground">
-                    We're constantly updating our resources based on the latest research 
-                    and feedback from readers like you. If you have questions, suggestions, 
-                    or just want to share your story, we'd love to hear from you. Your 
-                    experiences help us create better content for others walking this path.
+                    The content in these pages is regularly updated and
+                    maintained. If you have questions, suggestions, or just want
+                    to share your story, we'd love to hear from you. Your
+                    experiences help us create better content for others walking
+                    this path.
                   </p>
                 </div>
               </div>
@@ -101,9 +102,9 @@ const About = () => {
         <div className="container max-w-3xl text-center">
           <h2 className="heading-md mb-6">Remember, You're Not Alone</h2>
           <p className="text-muted-foreground mb-6">
-            Millions of people go through breakups every day. While each experience is unique, 
-            the path to healing shares common elements. We're honored to be part of your 
-            journey and confident that with time and the right support, you'll emerge stronger 
+            While each breakup experience is unique, the path to healing shares
+            common elements. It is an honor to be part of your journey and
+            ensure that with time and the right support, you'll emerge stronger
             and wiser.
           </p>
         </div>

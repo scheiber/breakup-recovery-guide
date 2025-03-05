@@ -133,8 +133,8 @@ const Article = () => {
               you’re ready and learn about the physiology of what you’re
               suffering, how to deal with the pain, and steps to feel better.
               Use the navigation to go to the main{" "}
-              <a href="/artcles">article list</a> for this site, or jump
-              straight into <a href="/intro">the first article</a>.
+              <a href="/articles">article list</a> for this site, or jump
+              straight into <a href="/articles/intro">the first article</a>.
             </p>
           </>
         );
