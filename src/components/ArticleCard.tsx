@@ -28,7 +28,7 @@ export function ArticleCard({ article, index }: ArticleCardProps) {
           <CardTitle className="text-lg md:text-xl">{article.title}</CardTitle>
         </CardHeader>
         <CardContent className="p-4 md:p-6 pt-0">
-          <p className="text-sm text-muted-foreground line-clamp-2">
+          <p className="text-sm text-muted-foreground">
             {article.subtitle}
           </p>
         </CardContent>
