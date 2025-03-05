@@ -55,6 +55,10 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				link: {
+					DEFAULT: 'hsl(var(--link))',
+					hover: 'hsl(var(--link-hover))',
+				},
 			},
 			typography: {
 				DEFAULT: {
@@ -74,9 +78,13 @@ export default {
 							color: 'hsl(var(--foreground))',
 						},
 						a: {
-							color: 'hsl(var(--primary))',
+							color: 'hsl(var(--link))',
+							textDecoration: 'none',
+							borderBottom: '1px solid hsla(var(--link), 0.3)',
+							transition: 'color 0.2s ease, border-color 0.2s ease',
 							'&:hover': {
-								color: 'hsl(var(--primary))',
+								color: 'hsl(var(--link-hover))',
+								borderBottomColor: 'hsl(var(--link-hover))',
 							},
 						},
 						code: {

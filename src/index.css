@@ -24,6 +24,8 @@
     --border: 354 20% 91.4%;
     --input: 354 20% 91.4%;
     --ring: 354 100% 60%;
+    --link: 354 100% 60%; /* Primary color for links */
+    --link-hover: 354 70% 45%; /* Darker red for link hover in light mode */
     --radius: 0.75rem;
   }
 
@@ -47,6 +49,8 @@
     --border: 355 32.6% 20%;
     --input: 355 32.6% 20%;
     --ring: 354 70% 50%;
+    --link: 354 70% 65%; /* Lighter red for links in dark mode */
+    --link-hover: 354 80% 75%; /* Brighter red for link hover in dark mode */
   }
 }
 
@@ -63,6 +67,24 @@
 
   body {
     @apply bg-background text-foreground min-h-screen transition-colors duration-300 ease-in-out;
+  }
+
+  /* Link styling */
+  a {
+    @apply text-[hsl(var(--link))] transition-colors duration-200;
+  }
+
+  a:hover {
+    @apply text-[hsl(var(--link-hover))];
+  }
+
+  /* Article content specific link styling */
+  .prose a {
+    @apply text-[hsl(var(--link))] transition-colors duration-200 border-b border-[hsl(var(--link))/30];
+  }
+
+  .prose a:hover {
+    @apply text-[hsl(var(--link-hover))] border-b-[hsl(var(--link-hover))];
   }
 
   /* Custom scrollbar */
