@@ -8,6 +8,11 @@ export function Header() {
   const { theme, setTheme } = useTheme();
   const location = useLocation();
   
+  // Calculate the opposite theme for correct toggling
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+  
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-lg">
       <div className="container flex h-16 items-center justify-between">
@@ -52,14 +57,14 @@ export function Header() {
           <Button
             variant="ghost"
             size="icon"
-            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+            onClick={toggleTheme}
             className="rounded-full"
             aria-label="Toggle theme"
           >
-            {theme === "light" ? (
-              <Moon className="h-5 w-5 animate-fade-in" />
-            ) : (
+            {theme === "dark" ? (
               <Sun className="h-5 w-5 animate-fade-in" />
+            ) : (
+              <Moon className="h-5 w-5 animate-fade-in" />
             )}
           </Button>
         </nav>
