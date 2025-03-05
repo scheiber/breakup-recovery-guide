@@ -62,10 +62,10 @@ export function Header() {
             aria-label="Toggle theme"
           >
             {/* Show the icon for what we'll switch TO, not the current theme */}
-            {theme === "light" ? (
-              <Moon className="h-5 w-5 animate-fade-in" />
-            ) : (
+            {theme === "dark" || theme === "system" ? (
               <Sun className="h-5 w-5 animate-fade-in" />
+            ) : (
+              <Moon className="h-5 w-5 animate-fade-in" />
             )}
           </Button>
         </nav>
