@@ -15,7 +15,7 @@ const Articles = () => {
   );
 
   return (
-    <div className="page-container space-y-8">
+    <div className="page-container max-w-7xl space-y-8">
       <div className="text-center space-y-4 animate-fade-in">
         <h1 className="heading-lg">All Articles</h1>
         <p className="text-muted-foreground max-w-xl mx-auto">
