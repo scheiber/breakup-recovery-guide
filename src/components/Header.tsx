@@ -1,17 +1,9 @@
 
 import { Link, useLocation } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { useTheme } from "./ThemeProvider";
-import { HeartCrack, Moon, Sun } from "lucide-react";
+import { HeartCrack } from "lucide-react";
 
 export function Header() {
-  const { theme, setTheme } = useTheme();
   const location = useLocation();
-  
-  // Toggle to the opposite theme
-  const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
-  };
   
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-lg">
@@ -54,20 +46,6 @@ export function Header() {
               About
             </Link>
           </div>
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={toggleTheme}
-            className="rounded-full"
-            aria-label="Toggle theme"
-          >
-            {/* Show the icon for what we'll switch TO, not the current theme */}
-            {theme === "dark" || theme === "system" ? (
-              <Sun className="h-5 w-5 animate-fade-in" />
-            ) : (
-              <Moon className="h-5 w-5 animate-fade-in" />
-            )}
-          </Button>
         </nav>
       </div>
     </header>
