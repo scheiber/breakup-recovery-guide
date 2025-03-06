@@ -1,6 +1,7 @@
 
 import { Link, useLocation } from "react-router-dom";
 import { HeartCrack } from "lucide-react";
+import { MobileMenu } from "./MobileMenu";
 
 export function Header() {
   const location = useLocation();
@@ -46,6 +47,7 @@ export function Header() {
               About
             </Link>
           </div>
+          <MobileMenu />
         </nav>
       </div>
     </header>
