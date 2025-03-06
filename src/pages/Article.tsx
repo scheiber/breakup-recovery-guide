@@ -1224,56 +1224,83 @@ const Article = () => {
         return (
           <>
             <p>
-              One of the most practical yet emotionally challenging steps in
-              breakup recovery is removing physical reminders of your ex-partner
-              from your daily environment.
-            </p>
-            <h2>Why Reminders Hurt</h2>
-            <p>
-              Research in cognitive psychology shows that environmental cues
-              trigger associated memories and emotions. Each photo, gift, or
-              item connected to your ex serves as a stimulus that can instantly
-              activate the neural pathways associated with your relationship,
-              causing emotional flooding.
+              It’s really obvious, but it’s so hard to do: you have to get rid
+              of anything and everything that reminds you of your ex-. Pictures,
+              letters, presents, clothes you bought with him/her, that “special
+              pillow" that reminds you of him/her, etc.
             </p>
             <p>
-              This isn't just psychological - studies using fMRI scans have
-              demonstrated that viewing images of ex-partners activates brain
-              regions associated with physical pain and craving, similar to
-              what's observed in drug withdrawal.
-            </p>
-            <h2>What to Remove</h2>
-            <p>
-              Consider addressing these common triggers in your environment:
-            </p>
-            <ul>
-              <li>Photos on walls, shelves, and digital devices</li>
-              <li>Gifts, letters, and cards</li>
-              <li>
-                Clothing items that belonged to your ex or that remind you of
-                them
-              </li>
-              <li>
-                Digital content: emails, text message threads, social media
-                connections
-              </li>
-              <li>Shared playlists or meaningful songs</li>
-              <li>
-                Items that remind you of significant memories or trips together
-              </li>
-            </ul>
-            <h2>The "Box Method"</h2>
-            <p>
-              If you're not ready to permanently discard meaningful items,
-              consider the box method: place everything in a sealed container
-              and store it somewhere not easily accessible. This creates
-              physical and psychological distance while allowing you the option
-              to revisit these items when you've healed.
+              I know how hard it is. But it’s very important. Anything which
+              triggers memories of your ex- is harmful to you. As MRI brain
+              scans show, reminders of your ex- activate the same areas of your
+              brain as physical pain does, so looking at any keepsakes from the
+              ex- is literally like cutting your wound open over and over again.
+              You significantly prolong your pain and slow your healing. (The
+              physical effects which are caused by a breakup are discussed in
+              more detail in the article{" "}
+              <a href="/articles/pain-is-real">Pain of Rejection is Real</a>{" "}
+              here on this site, so please take a look if you haven't seen it.)
             </p>
             <p>
-              Remember that removing reminders isn't about erasing your
-              past—it's about creating space for your present healing and future
-              growth.
+              Whatever it is, get rid of it. Throw it away, give it to charity,
+              burn it… whatever you have to do, get rid of everything. Every
+              trace of the ex- which you have lying around will just torture you
+              and prolong your recovery.
+            </p>
+            <h2>Don't meet your ex-</h2>
+            <p>
+              If you have stuff of your ex- which you need to return, pack it up
+              and ask a friend to deliver it so you don’t have to see the ex-.
+              It’s really important to not deliver it yourself or allow your ex-
+              to pick it up personally. You don’t want any contact with the ex-,
+              and especially not contact involving returning stuff: it will only
+              lead to horrible situations and much more grief and heartache for
+              you.
+            </p>
+            <p>
+              {" "}
+              (And be a good person: if you have stuff of your ex- which you
+              know s/he wants back, don’t keep it or throw it away just in spite
+              no matter how upset you are.)
+            </p>
+            <p>
+              I like to keep memories, so throwing away some of the stuff I had
+              related to “us" just wasn’t an option.
+            </p>
+            <p>
+              Instead, I put everything in a box. Then, knowing that there was
+              no way I’d be strong enough to resist looking, I gave the box to a
+              friend for safe keeping, with the instructions to not give it back
+              until I was 100%, completely and totally recovered… no matter how
+              much I beg.
+            </p>
+            <h2>Delete or lock all electronic records</h2>
+            <p>
+              Computer files and phone memories are another big issue. I had so
+              many photos, letters, mails, videos, and recordings of my ex- and
+              me. My computer hard drive was essentially devoted entirely to
+              “us". And my phone was just a collection of smses and photos of my
+              ex.
+            </p>
+            <p>
+              As hard as it was for me, I put everything related to my ex- onto
+              a USB and gave it to a friend to hold for me until I recovered.
+            </p>
+            <p>
+              Another idea I’ve seen is to put it all into an encrypted folder
+              on your computer, and a friend locks it with a password which you
+              don’t know.
+            </p>
+            <p>
+              Either way, after you’ve stored all the files some place safe
+              where you can’t access them, delete it all from your computer. Be
+              sure to use a secure shred-and-delete program like{" "}
+              <a href="https://eraser.heidi.ie/">Eraser</a>,{" "}
+              <a href="https://www.ccleaner.com/">CCleaner</a> or{" "}
+              <a href="https://www.fileshredder.org/">FileShredder</a>…
+              otherwise, the files will still be on your computer and you’ll be
+              able to undelete them; trust me that at some low point, the
+              temptation will be overwhelming.
             </p>
           </>
         );
