@@ -5,9 +5,13 @@ import { Article } from "@/utils/articles";
 import { ReactNode } from "react";
 
 interface ArticleCardProps {
-  article: Article & {
+  article: {
+    id: string;
+    slug: string;
+    imageUrl: string;
     title: ReactNode;
     subtitle: ReactNode;
+    content?: ReactNode;
   };
   index: number;
 }
