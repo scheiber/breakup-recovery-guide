@@ -5,27 +5,6 @@ import { articles } from "@/utils/articles";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ReactNode } from "react";
-
-// Helper function to highlight search terms with corrected return type
-const HighlightedText = ({ text, highlight }: { text: string; highlight: string }): ReactNode => {
-  if (!highlight.trim()) {
-    return <>{text}</>;
-  }
-  
-  const regex = new RegExp(`(${highlight})`, 'gi');
-  const parts = text.split(regex);
-  
-  return (
-    <>
-      {parts.map((part, i) => 
-        regex.test(part) ? 
-          <span key={i} className="bg-yellow-200 dark:bg-yellow-800">{part}</span> : 
-          part
-      )}
-    </>
-  );
-};
 
 const Articles = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -59,18 +38,7 @@ const Articles = () => {
         {filteredArticles.length > 0 ? (
           filteredArticles.map((article, index) => (
             <div key={article.id} className="animate-scale-in" style={{ animationDelay: `${index * 0.05}s` }}>
-              <ArticleCard 
-                article={{
-                  ...article,
-                  title: searchQuery ? 
-                    HighlightedText({ text: article.title, highlight: searchQuery }) : 
-                    article.title,
-                  subtitle: searchQuery ? 
-                    HighlightedText({ text: article.subtitle, highlight: searchQuery }) : 
-                    article.subtitle
-                }} 
-                index={index} 
-              />
+              <ArticleCard article={article} index={index} />
             </div>
           ))
         ) : (
