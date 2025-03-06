@@ -5,9 +5,9 @@
 
 @layer base {
   :root {
-    --background: 350 30% 98%; /* Changed from pure white to a very light pink/cream */
+    --background: 350 30% 94%; /* Changed from pure white to a very light pink/cream */
     --foreground: 240 10% 3.9%;
-    --card: 350 30% 99%;
+    --card: 350 30% 98%;
     --card-foreground: 240 10% 3.9%;
     --popover: 350 30% 99%;
     --popover-foreground: 240 10% 3.9%;
