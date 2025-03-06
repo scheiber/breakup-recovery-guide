@@ -772,10 +772,10 @@ const Article = () => {
               Facebook stalking of your ex-, even just remaining friends with
               him/her, is negative for moving on and for your own personal
               development. Look for research by{" "}
-              <a href="http://www.brunel.ac.uk/sss/psychology/staff-profiles/tara-marshall">
+              <a href="https://experts.mcmaster.ca/display/marsht6">
                 Tara Marshall
               </a>{" "}
-              at Brunel University (
+              at McMaster University (
               <a href="http://bura.brunel.ac.uk/handle/2438/7014">
                 "Facebook surveillance of former romantic partners: Associations
                 with post-breakup recovery and personal growth"
@@ -906,9 +906,9 @@ const Article = () => {
               craving for the ex- following rejection is similar in terms of
               brain activity to cocaine addiction and you’ll literally suffer
               withdrawal symptoms (see research by{" "}
-              <a href="http://www.helenfisher.com/index.html">Helen Fisher</a>{" "}
-              of Rutgers, if you’re interested:{" "}
-              <a href="http://www.helenfisher.com/downloads/articles/Fisher-et-al-Rejection.pdf">
+              <a href="http://www.helenfisher.com/">Helen Fisher</a> of Rutgers,
+              if you’re interested:{" "}
+              <a href="https://www.helenfisher.com/downloads/articles/Fisher-et-al-Rejection.pdf">
                 Reward, Addiction, and Emotion Regulation Systems Associated
                 With Rejection in Love
               </a>
@@ -920,8 +920,8 @@ const Article = () => {
               either your own thread or very cleverly-created threads titled
               “Post here instead of contacting your ex-“; talk to friends and
               family for support; stay busy, get out and do things (see the{" "}
-              <a href="/articles/activities">Activities</a> section of this guide if you
-              want ideas of things to do). Or write to me{" "}
+              <a href="/articles/activities">Activities</a> section of this
+              guide if you want ideas of things to do). Or write to me{" "}
               <a href="/about">here</a> and share your story.
             </p>
             <p>
@@ -964,6 +964,208 @@ const Article = () => {
               resources on the internet with lots of information and personal
               experiences about how to navigate this situation.
             </p>
+          </>
+        );
+
+      case "initiating-no-contact":
+        return (
+          <>
+            <p>
+              When to initiate no-contact is easy: IMMEDIATELY. If your ex-
+              broke up with you, IMMEDIATELY go into no-contact mode. Any
+              contact you have will make it worse.
+            </p>
+            <p>
+              The longer you engage in the begging/bargaining phase, the longer
+              it’s going to take you to heal… and most likely, the less respect
+              you’ll have for yourself when it’s all over.
+            </p>
+            <p>
+              You don’t need to announce a policy of no-contact. Your ex- broke
+              up with you. That’s it. Starting from that point, everything is
+              about YOU. It’s about YOUR pain, YOUR healing, YOUR future, YOUR
+              happiness, YOUR life.
+            </p>
+            <p>
+              The only thing you can control is yourself, so the focus is on
+              YOU, not on your ex-. Your ex- isn’t in the picture anymore and
+              there’s no obligation to say that you’ve blocked him/her out of
+              your life. You don’t need to explain why you’re not in touch;
+              anyone will understand.
+            </p>
+            <h2>No contact is for you; not a strategy to get ex- back</h2>
+            <p>
+              I can’t repeat often enough: no-contact is for YOU. It’s not a
+              strategy to make your ex- miss you and beg you to be back together
+              again.
+            </p>
+            <p>
+              After a breakup, we all gain a virtually limitless ability to
+              justify craziness. Readers who've shared their stories with me
+              here often try to rationalize an announcement of no-contact
+              because they think it'll be helpful for their own personal
+              healing. Or they explain that it's to be good to the ex-: they
+              "know" that the ex- will be very worried if there's not daily
+              contact after the end of the relationship.
+            </p>
+            <p>
+              Readers themselves have written to me later to say that after a
+              few months, they realized how laughable their excuses were. No one
+              will admit it at the time, but later the truth is clear: the
+              motive of the no-contact announcement is to get a reaction from
+              the ex-, to gauge how the ex- feels, and see if the ex- is still
+              thinking about them. The poor people who actually do follow
+              through and send a no-contact announcement then spend the
+              following minutes, hours, days and weeks waiting for a response
+              from the ex-, hoping against hope that their massive and emotional
+              no-contact proclamation which they labored over so carefully will
+              trigger a grief-stricken plea from the ex- to reconcile.
+            </p>
+            <p>
+              But it never happens. You just end up wasting your time and
+              hurting yourself more. It takes two to make a relationship, but
+              just one to break it, and your ex- broke it. No-contact is not
+              going to revive your relationship; it’s going to heal YOU.
+            </p>
+            <p>
+              Announcing that you are going no-contact also has the very high
+              probability to be perceived by the ex- as game-playing.
+            </p>
+            <p>
+              Most people will see through your no-contact announcement and
+              recognize it as a way to manipulate them, hurt them and try to
+              make them miss you.
+            </p>
+            <p>
+              Even if you truly don’t have that intention, it will often be
+              perceived that way anyway. And if and when you do break your own
+              no-contact policy, you run the risk of looking pretty silly.
+            </p>
+            <h2>No announcement needed; the ex- will understand</h2>
+            <p>
+              And if you really think about, it’s kind of odd to contact someone
+              in order to announce that you’re not going to contact them.
+              Actions speak louder than words: just stop contact. Let your ex-
+              figure out that you’ve started no-contact, and let him/her deal
+              with the void that it creates.
+            </p>
+            <p>
+              But even though it's not necessary, some people feel that a
+              no-contact announcement can be helpful for your own healing. It’s
+              a way of drawing a line in the sand, to force YOURSELF to
+              recognize that it’s over, to show YOURSELF that you’re strong and
+              will begin to live YOUR life for YOU immediately.
+            </p>
+            <p>
+              And it can be particularly helpful in a situation where your ex-
+              continues to contact you after the breakup, pushing to see how
+              you’re doing and trying to be “friends". You’re still in pain and
+              recovering, and the worst thing for your healing is contact from
+              your ex-. Announcing a no-contact policy will stop the unwanted
+              contact and give you the space you need to heal.
+            </p>
+            <p>
+              So I don’t recommend it in most situations, but if you believe
+              that it's important in your case to announce no-contact for
+              yourself and for your own healing, then do it.{" "}
+            </p>
+            <p>
+              But whatever you do, don’t obsess over it: just do it quickly and
+              don’t expect a response.
+            </p>
+            <h2>Short & impersonal</h2>
+            <p>
+              So if you do reach a decision to announce to your ex- a policy of
+              no contact, then how do you do it?
+            </p>
+            <p>
+              You should be very clear to yourself that you're doing it for
+              YOURSELF, and your message should reflect that in both its content
+              and method of delivery. You don't want any response from your ex-;
+              in fact, you should make sure before you send it that there's no
+              way for the ex- to respond. There is no possible response from the
+              ex- which could help you, so it's better for your own recovery to
+              cut off in advance any possibility of a reply.
+            </p>
+            <p>
+              Your message should be very, very short and have absolutely
+              nothing personal or sweet in it. No nicknames, no inside jokes, no
+              references to things you've done together or places you've been
+              together. It should leave no options open for responses, no
+              questions, no open doors: after all, this is a message to say that
+              you don’t want contact anymore.
+            </p>
+            <p>
+              {" "}
+              And pretty obviously, it shouldn’t be in the form of a phone call;
+              either SMS or email is best, because it’s a one-way communication
+              to the ex- only.
+            </p>
+            <p>
+              An example could be: “Dear xxx. I’m going to be taking time for
+              myself now, so I won’t be contacting you for a while or responding
+              if you contact me. Best wishes."{" "}
+            </p>
+          </>
+        );
+
+      case "closure":
+        return (
+          <>
+            <p>
+              After a breakup, many people fixate on getting "closure"—a final
+              conversation or explanation that will supposedly allow them to
+              move on. However, the concept of closure as most people understand
+              it is largely a myth that can actually hinder healing.
+            </p>
+            <h2>The Closure Misconception</h2>
+            <p>We often believe we need answers to questions like:</p>
+            <ul>
+              <li>"What did I do wrong?"</li>
+              <li>"When exactly did your feelings change?"</li>
+              <li>"Is there someone else?"</li>
+              <li>"Did you ever really love me?"</li>
+            </ul>
+            <p>
+              The problem is that even when we get answers to these questions,
+              they rarely satisfy our emotional need for resolution. This is
+              because:
+            </p>
+            <ul>
+              <li>
+                Your ex's perception of what happened is subjective and may not
+                align with reality
+              </li>
+              <li>
+                People often don't fully understand their own motivations for
+                ending relationships
+              </li>
+              <li>
+                The answers you receive might be crafted to minimize guilt
+                rather than provide truth
+              </li>
+              <li>
+                Many relationship endings are complex and cannot be reduced to
+                simple explanations
+              </li>
+            </ul>
+            <h2>True Closure Comes From Within</h2>
+            <p>
+              Genuine closure is not something another person can give you—it's
+              an internal process of:
+            </p>
+            <ul>
+              <li>
+                Accepting that the relationship is over, regardless of whether
+                you understand all the reasons
+              </li>
+              <li>Processing your grief about the loss</li>
+              <li>
+                Integrating the relationship experience into your life story
+              </li>
+              <li>Creating your own meaning from what happened</li>
+              <li>Recognizing that ambiguity is part of human relationships</li>
+            </ul>
           </>
         );
 
@@ -1142,124 +1344,6 @@ const Article = () => {
                 Resist the urge to either appear "totally fine" or to show how
                 hurt you are
               </li>
-            </ul>
-          </>
-        );
-
-      case "initiating-no-contact":
-        return (
-          <>
-            <p>
-              Starting a No Contact period can be one of the most challenging
-              but crucial decisions in your breakup recovery. This article
-              outlines how to implement this strategy effectively and with
-              minimum drama.
-            </p>
-            <h2>When to Begin No Contact</h2>
-            <p>
-              The ideal time to start No Contact is immediately after the
-              breakup, but it's never too late to implement it. Many people
-              attempt to maintain friendship or regular communication before
-              realizing it's hindering their healing.
-            </p>
-            <p>Signs you should implement No Contact immediately:</p>
-            <ul>
-              <li>You feel emotional destabilization after interactions</li>
-              <li>You're constantly checking their social media</li>
-              <li>
-                You're interpreting friendly messages as signs of reconciliation
-              </li>
-              <li>
-                You find yourself crafting messages designed to elicit specific
-                responses
-              </li>
-              <li>
-                Your mood significantly depends on when/how they communicate
-                with you
-              </li>
-            </ul>
-            <h2>How to Communicate Your Decision</h2>
-            <p>
-              While some advocate for a clear explanation, others recommend
-              simply fading communication. Your approach should depend on your
-              specific situation and relationship dynamics:
-            </p>
-            <p>
-              Sample explanation message: "I've realized I need some space to
-              process the end of our relationship. I'll be taking some time
-              without contact to focus on my healing. This isn't about punishing
-              you—it's about taking care of myself. I hope you can respect this
-              boundary."
-            </p>
-            <h2>Addressing Practical Matters First</h2>
-            <p>
-              Before beginning No Contact, resolve any urgent practical matters:
-            </p>
-            <ul>
-              <li>Exchanging personal belongings</li>
-              <li>Addressing shared financial responsibilities</li>
-              <li>Clarifying arrangements for shared pets</li>
-              <li>Communicating with mutual friends about your boundaries</li>
-            </ul>
-          </>
-        );
-
-      case "closure":
-        return (
-          <>
-            <p>
-              After a breakup, many people fixate on getting "closure"—a final
-              conversation or explanation that will supposedly allow them to
-              move on. However, the concept of closure as most people understand
-              it is largely a myth that can actually hinder healing.
-            </p>
-            <h2>The Closure Misconception</h2>
-            <p>We often believe we need answers to questions like:</p>
-            <ul>
-              <li>"What did I do wrong?"</li>
-              <li>"When exactly did your feelings change?"</li>
-              <li>"Is there someone else?"</li>
-              <li>"Did you ever really love me?"</li>
-            </ul>
-            <p>
-              The problem is that even when we get answers to these questions,
-              they rarely satisfy our emotional need for resolution. This is
-              because:
-            </p>
-            <ul>
-              <li>
-                Your ex's perception of what happened is subjective and may not
-                align with reality
-              </li>
-              <li>
-                People often don't fully understand their own motivations for
-                ending relationships
-              </li>
-              <li>
-                The answers you receive might be crafted to minimize guilt
-                rather than provide truth
-              </li>
-              <li>
-                Many relationship endings are complex and cannot be reduced to
-                simple explanations
-              </li>
-            </ul>
-            <h2>True Closure Comes From Within</h2>
-            <p>
-              Genuine closure is not something another person can give you—it's
-              an internal process of:
-            </p>
-            <ul>
-              <li>
-                Accepting that the relationship is over, regardless of whether
-                you understand all the reasons
-              </li>
-              <li>Processing your grief about the loss</li>
-              <li>
-                Integrating the relationship experience into your life story
-              </li>
-              <li>Creating your own meaning from what happened</li>
-              <li>Recognizing that ambiguity is part of human relationships</li>
             </ul>
           </>
         );
