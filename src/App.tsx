@@ -25,7 +25,7 @@ const App = () => (
         <BrowserRouter>
           <ScrollToTop />
           <Header />
-          <main className="min-h-screen pt-16">
+          <main className="min-h-screen pt-2">
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/articles" element={<Articles />} />

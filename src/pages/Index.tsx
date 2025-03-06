@@ -34,7 +34,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-8 md:py-16 flex-1">
+      <section className="py-8 md:py-6 flex-1">
         <div className="container max-w-5xl">
           <h2 className="heading-md text-center mb-8">
             Honest. Real. Detailed. And 100% free.
