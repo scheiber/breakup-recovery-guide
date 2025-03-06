@@ -422,12 +422,12 @@ const Article = () => {
               There've been several studies based on MRI scans in the last
               decade showing that the areas of the brain activated when you are
               rejected are the same as when you suffer serious physical pain,
-              such as being burned or punched violently.  The stronger the
-              rejection, the worse the pain you feel.  And nothing can dampen
-              the pain: those brain areas are triggered by rejection even if you
-              get some other reward (freedom from your ex-, a new partner,
-              money) or even if you don't/didn't even really like the person who
-              has rejected you.
+              such as being burned or punched violently. The stronger the
+              rejection, the worse the pain you feel. And nothing can dampen the
+              pain: those brain areas are triggered by rejection even if you get
+              some other reward (freedom from your ex-, a new partner, money) or
+              even if you don't/didn't even really like the person who has
+              rejected you.
             </p>
             <p>
               [If you're interested in the science research, a good place to
@@ -603,49 +603,68 @@ const Article = () => {
       case "time-to-recover":
         return (
           <>
+            <h2>
+              One of the biggest questions on the mind of every dumpee is: “How
+              much time will it take until I recover?"
+            </h2>
             <p>
-              One of the most common questions after a breakup is "How long will
-              it take me to get over this?" While there's no universal timetable
-              for recovery, research and experience suggest some general
-              patterns and factors that influence healing time.
-            </p>
-            <h2>Factors That Affect Recovery Time</h2>
-            <p>
-              The duration of your recovery period depends on several variables
-              unique to your situation:
-            </p>
-            <ul>
-              <li>
-                Length of the relationship: Generally, longer relationships take
-                longer to recover from
-              </li>
-              <li>
-                Intensity of the connection: Deep emotional investment can
-                extend healing time
-              </li>
-              <li>
-                Circumstances of the breakup: Sudden or traumatic endings may
-                require more processing
-              </li>
-              <li>
-                Your support system: Strong social support can accelerate
-                healing
-              </li>
-              <li>
-                Previous relationship patterns: Recurring relationship issues
-                may extend recovery
-              </li>
-            </ul>
-            <h2>General Timeframes</h2>
-            <p>
-              While everyone is different, research suggests that significant
-              emotional recovery often occurs within the following ranges:
+              There’s no definite answer. I’ve seen lots of methods of
+              estimating. The most common is to say that it will take half the
+              length of the relationship. Other ways try to calculate based on
+              the length of the relationship, how much time you spent together
+              with your ex- in any given week, how much you knew in advance
+              whether you were about to be dumped or not, how important
+              everything else in your life is to you, etc.
             </p>
             <p>
-              Recent studies indicate that most people see substantial
-              improvement in their emotional state between 3-6 months
-              post-breakup, with more complete recovery taking about a year for
-              relationships that lasted more than a year.
+              Obviously the closer you were, the longer you were together, and
+              the more connections you had/have to the ex-, the longer it’s
+              going to take to get over everything.
+            </p>
+            <p>
+              But after following the stories of hundreds of people in the last
+              year, I think the answer is not clear: it really depends on you,
+              the details of your situation, and the steps you take in the
+              post-breakup period.
+            </p>
+            <p>
+              After being dumped in a serious relationship, no one is going to
+              feel fine in a week or two. A month is also pretty unrealistic to
+              be truly healed.
+            </p>
+            <p>
+              The majority I’ve seen fall in the range of 3-6 months for shorter
+              relationships, 6-12 months for serious relationships, and a year
+              or more for very long-term relationships and/or people (like me)
+              who make it worse for themselves by subjecting themselves to more
+              and more pain.
+            </p>
+            <h2>
+              It really does depends on you. What you do and how you manage
+              yourself really can affect your recovery process.
+            </h2>
+            <p>
+              There's a limit to how much you can really speed up the recovery,
+              since the brain needs time to heal after the blow it's received.
+              It’s true that time really is the greatest healer. So you have to
+              suffer through the pain to some extent no matter what you do.
+            </p>
+            <p>
+              But there’s no question that you can really, really make it worse
+              for yourself, magnify the pain and delay the recovery if you do
+              things the wrong way. Randy Pausch, in his (extremely!) poignant
+              Last Lecture, put it well: "no matter how bad things are, you can
+              always make things worse." It applies perfectly to the situation
+              after a breakup. All your emotions, pain, anger, sadness, it hurts
+              so much. But there are definitely many ways to make your bad
+              situation much, much worse: wallowing in your pain, stalking your
+              ex (in real life or virtually), endlessly re-living every moment
+              in the relationship, constantly flipping through mementos of the
+              relationship such as photos and videos...{" "}
+            </p>
+            <p>
+              So let’s look at what to do in order to make your recovery as fast
+              and clean as possible.{" "}
             </p>
           </>
         );
