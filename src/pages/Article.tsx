@@ -1112,60 +1112,111 @@ const Article = () => {
       case "closure":
         return (
           <>
+            <p>Getting “closure" from your ex- is not important.</p>
             <p>
-              After a breakup, many people fixate on getting "closure"—a final
-              conversation or explanation that will supposedly allow them to
-              move on. However, the concept of closure as most people understand
-              it is largely a myth that can actually hinder healing.
+              I know, I know. I’ve been there. I know you’re screaming in your
+              head that you “NEED TO UNDERSTAND BETTER WHAT HAPPENED."
             </p>
-            <h2>The Closure Misconception</h2>
-            <p>We often believe we need answers to questions like:</p>
-            <ul>
-              <li>"What did I do wrong?"</li>
-              <li>"When exactly did your feelings change?"</li>
-              <li>"Is there someone else?"</li>
-              <li>"Did you ever really love me?"</li>
-            </ul>
             <p>
-              The problem is that even when we get answers to these questions,
-              they rarely satisfy our emotional need for resolution. This is
-              because:
+              Maybe a “closure talk" can be helpful for you in your personal
+              development, maybe it’s worthless.
             </p>
-            <ul>
-              <li>
-                Your ex's perception of what happened is subjective and may not
-                align with reality
-              </li>
-              <li>
-                People often don't fully understand their own motivations for
-                ending relationships
-              </li>
-              <li>
-                The answers you receive might be crafted to minimize guilt
-                rather than provide truth
-              </li>
-              <li>
-                Many relationship endings are complex and cannot be reduced to
-                simple explanations
-              </li>
-            </ul>
-            <h2>True Closure Comes From Within</h2>
             <p>
-              Genuine closure is not something another person can give you—it's
-              an internal process of:
+              But what’s clear is that it isn’t the most important thing you
+              need after you’ve been dumped.
             </p>
-            <ul>
-              <li>
-                Accepting that the relationship is over, regardless of whether
-                you understand all the reasons
-              </li>
-              <li>Processing your grief about the loss</li>
-              <li>
-                Integrating the relationship experience into your life story
-              </li>
-              <li>Creating your own meaning from what happened</li>
-              <li>Recognizing that ambiguity is part of human relationships</li>
-            </ul>
+            <p>
+              You need to focus on yourself. Everything is about YOU. YOUR pain,
+              YOUR healing, YOUR recovery.
+            </p>
+            <p>
+              By making “closure" so important, you give back the focus – and
+              the power – too much to your ex-. It might be helpful to speak a
+              few days or weeks after the breakup in order to learn what your
+              ex- “really thought", but be honest with yourself: is there
+              anything s/he is going to say that matters for your future?
+            </p>
+            <h2>It's over.</h2>
+            <p>
+              Your ex- broke up with you. S/he doesn’t want to be in a
+              relationship with you. That’s the only fact that matters. All the
+              reasons in the world that they give you won’t change that. You
+              need to focus only on YOU and YOUR future.
+            </p>
+            <p>
+              It’s hard to accept, but you have to face the reality: not all
+              your questions will ever be answered. You will never really know
+              everything you want to know.{" "}
+            </p>
+            <p>But it doesn’t matter.</p>
+            <p>
+              Think about it. You know how the relationship was. You know your
+              ex-. You know what happened. You know what the ex- said when s/he
+              broke up. You don’t need any more in order to move forward with
+              your life.
+            </p>
+            <p>It doesn’t matter.</p>
+            <h2>The goal is to accept & move on</h2>
+            <p>
+              One of the greatest lessons I’ve learned from the thousands of
+              breakup stories I've read since creating this site is to not
+              obsess about the ex- and the relationship because it never, never,
+              never will help you heal and move on.
+            </p>
+            <p>
+              Repeat it over and over and over: it doesn’t matter. Ask yourself
+              what you’re going to get out of a “closure talk" that will really
+              help you.
+            </p>
+            <h2>
+              By trying to get “reasons" from a “closure", you elevate the ex-
+              to a position s/he shouldn’t be in: the judge of your character.
+            </h2>
+            <p>
+              You’re grieving, you’re hurt, you’ve been rejected. You really
+              aren’t going to be helped by hearing your ex- delicately – or
+              brutally - explaining why you aren’t good enough for him/her.
+            </p>
+            <p>
+              No reason from your ex- at this point will help: either it will
+              drive you crazy, or you’ll disagree and try to fight pointlessly,
+              or you won’t believe it, or it could rip you apart even more.
+            </p>
+            <p>And you don't want to be reduced to a position of pleading.</p>
+            <h2>You will always have unanswered questions</h2>
+            <p>
+              And in many cases, the ex- might not even tell you the full truth;
+              after all, s/he feels massive guilt, doesn’t want to hurt you
+              more, probably hates to even have to talk to you about it and hear
+              your pain, and the last thing s/he wants to do is present a
+              detailed explanation of all the reasons for the decision to break
+              up.
+            </p>
+            <p>
+              So I really don’t recommend trying. I’ve seen dozens of “closure"
+              conversations described by posters that turned into complete
+              disaster.
+            </p>
+            <h2>Self-respect</h2>
+            <p>
+              But if you absolutely must do it, or if you somehow get into a
+              situation where it’s going to happen, promise yourself that you
+              will only hear out your ex- silently, make no comments at all, no
+              arguments, no discussions, no faces, no gestures, no crying,
+              nothing. Poker face only.
+            </p>
+            <p>
+              Remember that you are just as valuable and worthy of respect now
+              after the breakup as you were before. Thank him/her for the time
+              and get out of there fast.
+            </p>
+            <p>
+              Trust me that ANYTHING you say or do is going to be a disaster
+              when you’re so hurt and rejected, incredibly emotional, and in a
+              confrontational situation with the person who caused you all this
+              pain. NO ONE is capable of rational thought in that situation… so
+              don’t try to say or do anything.
+            </p>
           </>
         );
 

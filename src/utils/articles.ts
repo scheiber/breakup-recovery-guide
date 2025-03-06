@@ -57,7 +57,7 @@ export const articles: Article[] = [
     id: "closure",
     title: "Closure",
     subtitle:
-      "Everyone wants closure after a breakup. Why did it happen? Why? Why, why, why? But closure is not important for your healing. Understand why it doesn't matter... and how to do it right, if you still feel it's necessary.",
+      "Everyone wants closure after a breakup. Why did it happen? Why? Why, why, why? But closure is not important for your healing. Understand why it doesn't matter… and how to do it right, if you still feel it's necessary.",
     slug: "closure",
     imageUrl: "/images/closure.jpg",
   },
