@@ -5,9 +5,10 @@ import { articles } from "@/utils/articles";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ReactNode } from "react";
 
-// Helper function to highlight search terms
-const HighlightedText = ({ text, highlight }: { text: string; highlight: string }) => {
+// Helper function to highlight search terms with corrected return type
+const HighlightedText = ({ text, highlight }: { text: string; highlight: string }): ReactNode => {
   if (!highlight.trim()) {
     return <>{text}</>;
   }
@@ -62,10 +63,10 @@ const Articles = () => {
                 article={{
                   ...article,
                   title: searchQuery ? 
-                    <HighlightedText text={article.title} highlight={searchQuery} /> : 
+                    HighlightedText({ text: article.title, highlight: searchQuery }) : 
                     article.title,
                   subtitle: searchQuery ? 
-                    <HighlightedText text={article.subtitle} highlight={searchQuery} /> : 
+                    HighlightedText({ text: article.subtitle, highlight: searchQuery }) : 
                     article.subtitle
                 }} 
                 index={index} 

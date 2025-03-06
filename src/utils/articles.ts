@@ -4,6 +4,7 @@ export interface Article {
   subtitle: string;
   slug: string;
   imageUrl: string;
+  content: React.ReactNode; // Adding content property
 }
 
 export const articles: Article[] = [
