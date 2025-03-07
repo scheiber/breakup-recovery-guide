@@ -1,9 +1,12 @@
+import React from 'react';
+
 export interface Article {
   id: string;
   title: string;
   subtitle: string;
   slug: string;
   imageUrl: string;
+  content?: React.ReactNode;
 }
 
 export const articles: Article[] = [

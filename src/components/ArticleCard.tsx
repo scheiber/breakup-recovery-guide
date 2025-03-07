@@ -2,9 +2,16 @@
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Article } from "@/utils/articles";
+import React from "react";
 
 interface ArticleCardProps {
-  article: Article;
+  article: {
+    id: string;
+    slug: string;
+    imageUrl: string;
+    title: React.ReactNode;
+    subtitle: React.ReactNode;
+  };
   index: number;
 }
 
@@ -20,7 +27,7 @@ export function ArticleCard({ article, index }: ArticleCardProps) {
         <div className="aspect-w-16 aspect-h-9 overflow-hidden">
           <img 
             src={`${article.imageUrl}?auto=format&fit=crop&w=500&q=80`}
-            alt={article.title}
+            alt={typeof article.title === 'string' ? article.title : 'Article thumbnail'}
             className="object-cover w-full h-full transition-transform duration-500 hover:scale-105"
           />
         </div>
