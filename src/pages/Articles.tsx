@@ -5,6 +5,7 @@ import { articles } from "@/utils/articles";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { HighlightedText } from "@/components/HighlightedText";
 
 const Articles = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -38,7 +39,18 @@ const Articles = () => {
         {filteredArticles.length > 0 ? (
           filteredArticles.map((article, index) => (
             <div key={article.id} className="animate-scale-in" style={{ animationDelay: `${index * 0.05}s` }}>
-              <ArticleCard article={article} index={index} />
+              <ArticleCard 
+                article={{
+                  ...article,
+                  title: searchQuery ? 
+                    <HighlightedText text={article.title} highlight={searchQuery} /> : 
+                    article.title,
+                  subtitle: searchQuery ? 
+                    <HighlightedText text={article.subtitle} highlight={searchQuery} /> : 
+                    article.subtitle
+                }} 
+                index={index} 
+              />
             </div>
           ))
         ) : (
