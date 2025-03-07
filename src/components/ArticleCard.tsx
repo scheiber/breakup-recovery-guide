@@ -2,13 +2,15 @@
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Article } from "@/utils/articles";
+import { HighlightedText } from "@/components/HighlightedText";
 
 interface ArticleCardProps {
   article: Article;
   index: number;
+  searchQuery?: string;
 }
 
-export function ArticleCard({ article, index }: ArticleCardProps) {
+export function ArticleCard({ article, index, searchQuery = "" }: ArticleCardProps) {
   const animationDelay = `${index * 0.05}s`;
   
   return (
@@ -25,11 +27,13 @@ export function ArticleCard({ article, index }: ArticleCardProps) {
           />
         </div>
         <CardHeader className="p-4 md:p-6">
-          <CardTitle className="text-lg md:text-xl">{article.title}</CardTitle>
+          <CardTitle className="text-lg md:text-xl">
+            <HighlightedText text={article.title} highlight={searchQuery} />
+          </CardTitle>
         </CardHeader>
         <CardContent className="p-4 md:p-6 pt-0">
           <p className="text-sm text-muted-foreground">
-            {article.subtitle}
+            <HighlightedText text={article.subtitle} highlight={searchQuery} />
           </p>
         </CardContent>
       </Card>

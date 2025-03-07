@@ -1,9 +1,18 @@
 
 import { Link, useLocation } from "react-router-dom";
-import { HeartCrack } from "lucide-react";
+import { HeartCrack, Menu, X } from "lucide-react";
+import { useState } from "react";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 export function Header() {
   const location = useLocation();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
+  const navLinks = [
+    { to: "/", label: "Home" },
+    { to: "/articles", label: "Articles" },
+    { to: "/about", label: "About" }
+  ];
   
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-lg">
@@ -19,34 +28,59 @@ export function Header() {
             </span>
           </Link>
         </div>
+        
+        {/* Desktop Navigation */}
         <nav className="flex items-center gap-6">
           <div className="hidden md:flex gap-4">
-            <Link 
-              to="/" 
-              className={`text-sm font-medium smooth-transition hover:text-primary ${
-                location.pathname === "/" ? "text-primary" : "text-muted-foreground"
-              }`}
-            >
-              Home
-            </Link>
-            <Link 
-              to="/articles" 
-              className={`text-sm font-medium smooth-transition hover:text-primary ${
-                location.pathname.includes("/articles") ? "text-primary" : "text-muted-foreground"
-              }`}
-            >
-              Articles
-            </Link>
-            <Link 
-              to="/about" 
-              className={`text-sm font-medium smooth-transition hover:text-primary ${
-                location.pathname === "/about" ? "text-primary" : "text-muted-foreground"
-              }`}
-            >
-              About
-            </Link>
+            {navLinks.map((link) => (
+              <Link 
+                key={link.to}
+                to={link.to} 
+                className={`text-sm font-medium smooth-transition hover:text-primary ${
+                  (link.to === "/" && location.pathname === "/") || 
+                  (link.to !== "/" && location.pathname.includes(link.to)) 
+                    ? "text-primary" 
+                    : "text-muted-foreground"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
           </div>
         </nav>
+        
+        {/* Mobile Menu */}
+        <div className="md:hidden">
+          <Sheet>
+            <SheetTrigger asChild>
+              <button 
+                className="flex items-center justify-center p-2 rounded-md text-muted-foreground hover:text-primary smooth-transition"
+                aria-label="Toggle menu"
+              >
+                <Menu className="h-5 w-5" />
+              </button>
+            </SheetTrigger>
+            <SheetContent side="right" className="pt-12">
+              <nav className="flex flex-col space-y-4">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.to}
+                    to={link.to}
+                    className={`text-base font-medium smooth-transition hover:text-primary ${
+                      (link.to === "/" && location.pathname === "/") || 
+                      (link.to !== "/" && location.pathname.includes(link.to)) 
+                        ? "text-primary" 
+                        : "text-muted-foreground"
+                    }`}
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </nav>
+            </SheetContent>
+          </Sheet>
+        </div>
       </div>
     </header>
   );

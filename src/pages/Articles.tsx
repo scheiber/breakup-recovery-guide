@@ -38,7 +38,11 @@ const Articles = () => {
         {filteredArticles.length > 0 ? (
           filteredArticles.map((article, index) => (
             <div key={article.id} className="animate-scale-in" style={{ animationDelay: `${index * 0.05}s` }}>
-              <ArticleCard article={article} index={index} />
+              <ArticleCard 
+                article={article} 
+                index={index} 
+                searchQuery={searchQuery}
+              />
             </div>
           ))
         ) : (
