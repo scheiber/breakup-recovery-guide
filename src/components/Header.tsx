@@ -1,8 +1,9 @@
 
 import { Link, useLocation } from "react-router-dom";
-import { HeartCrack, Menu, X } from "lucide-react";
+import { HeartCrack, Menu } from "lucide-react";
 import { useState } from "react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 
 export function Header() {
   const location = useLocation();
@@ -47,6 +48,9 @@ export function Header() {
               </Link>
             ))}
           </div>
+          
+          {/* Theme Switcher */}
+          <ThemeSwitcher />
         </nav>
         
         {/* Mobile Menu */}
