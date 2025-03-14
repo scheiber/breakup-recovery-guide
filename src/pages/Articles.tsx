@@ -5,9 +5,11 @@ import { articles } from "@/utils/articles";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const Articles = () => {
   const [searchQuery, setSearchQuery] = useState("");
+  const isMobile = useIsMobile();
   
   const filteredArticles = articles.filter(article => 
     article.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
@@ -34,7 +36,7 @@ const Articles = () => {
         />
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
+      <div className="grid grid-cols-1 landscape:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
         {filteredArticles.length > 0 ? (
           filteredArticles.map((article, index) => (
             <div key={article.id} className="animate-scale-in" style={{ animationDelay: `${index * 0.05}s` }}>

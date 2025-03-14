@@ -15,6 +15,10 @@ export function Header() {
     { to: "/about", label: "About" }
   ];
   
+  const handleNavClick = () => {
+    setIsMenuOpen(false);
+  };
+  
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-lg">
       <div className="container flex h-16 items-center justify-between">
@@ -24,7 +28,7 @@ export function Header() {
             className="flex items-center gap-2 smooth-transition hover:opacity-80"
           >
             <HeartCrack className="h-6 w-6 text-primary" />
-            <span className="text-xl font-semibold tracking-tight">
+            <span className="text-xl md:text-xl font-semibold tracking-tight text-sm sm:text-base md:text-xl">
               Breakup Recovery Guide
             </span>
           </Link>
@@ -55,7 +59,7 @@ export function Header() {
         
         {/* Mobile Menu */}
         <div className="md:hidden">
-          <Sheet>
+          <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
             <SheetTrigger asChild>
               <button 
                 className="flex items-center justify-center p-2 rounded-md text-muted-foreground hover:text-primary smooth-transition"
@@ -76,7 +80,7 @@ export function Header() {
                         ? "text-primary" 
                         : "text-muted-foreground"
                     }`}
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleNavClick}
                   >
                     {link.label}
                   </Link>
