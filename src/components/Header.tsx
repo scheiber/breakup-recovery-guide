@@ -22,13 +22,13 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-lg">
       <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1 sm:gap-2">
           <Link 
             to="/" 
-            className="flex items-center gap-2 smooth-transition hover:opacity-80"
+            className="flex items-center gap-1 sm:gap-2 smooth-transition hover:opacity-80 whitespace-nowrap"
           >
-            <HeartCrack className="h-6 w-6 text-primary" />
-            <span className="text-xl md:text-xl font-semibold tracking-tight text-sm sm:text-base md:text-xl">
+            <HeartCrack className="h-5 w-5 sm:h-6 sm:w-6 text-primary flex-shrink-0" />
+            <span className="text-xs sm:text-sm md:text-lg lg:text-xl font-semibold tracking-tight leading-none">
               Breakup Recovery Guide
             </span>
           </Link>
