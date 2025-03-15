@@ -1,31 +1,28 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Award, Book, ThumbsUp, ArrowRight } from "lucide-react";
+import { Heart, Award, Book, ThumbsUp } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <section className="py-12 md:py-20 bg-gradient-to-b from-background to-secondary/30">
-        <div className="container max-w-4xl text-center space-y-6 animate-fade-in">
-          <h1 className="heading-xl text-gradient bg-gradient-to-r from-primary to-primary/80">
-            Surviving the End of a Relationship
-          </h1>
+      <section className="py-12 md:py-20">
+        <div className="container max-w-4xl text-center space-y-4 animate-fade-in">
+          <h1 className="heading-xl">Surviving the End of a Relationship</h1>
           <p
             className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto animate-slide-down"
             style={{ animationDelay: "0.2s" }}
           >
-            A compassionate guide to help you navigate the pain and rebuild your life after a breakup.
+            This is a comprehensive resource to help you navigate through the
+            pain and rebuilding process after a relationship ends.
           </p>
           <div
-            className="flex flex-col sm:flex-row gap-4 justify-center pt-6 animate-slide-down"
+            className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-slide-down"
             style={{ animationDelay: "0.4s" }}
           >
             <Link to="/articles/immediate-aftermath">
-              <Button size="lg" className="w-full sm:w-auto group">
-                Start Healing Now
-                <ArrowRight className="ml-1 group-hover:translate-x-1 transition-transform" />
+              <Button size="lg" className="w-full sm:w-auto animate-pulse">
+                Immediate Aftermath
               </Button>
             </Link>
             <Link to="/articles">
@@ -37,14 +34,14 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-8 md:py-12 flex-1">
+      <section className="py-8 md:py-6 flex-1">
         <div className="container max-w-5xl">
-          <h2 className="heading-md text-center mb-10">
+          <h2 className="heading-md text-center mb-8">
             Honest. Real. Detailed. And 100% free.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card
-              className="animate-scale-in hover:shadow-md transition-all border-transparent hover:border-primary/20"
+              className="animate-scale-in"
               style={{ animationDelay: "0.1s" }}
             >
               <CardContent className="pt-6 flex flex-col items-center text-center">
@@ -60,7 +57,7 @@ const Index = () => {
             </Card>
 
             <Card
-              className="animate-scale-in hover:shadow-md transition-all border-transparent hover:border-primary/20"
+              className="animate-scale-in"
               style={{ animationDelay: "0.2s" }}
             >
               <CardContent className="pt-6 flex flex-col items-center text-center">
@@ -76,7 +73,7 @@ const Index = () => {
             </Card>
 
             <Card
-              className="animate-scale-in hover:shadow-md transition-all border-transparent hover:border-primary/20"
+              className="animate-scale-in"
               style={{ animationDelay: "0.3s" }}
             >
               <CardContent className="pt-6 flex flex-col items-center text-center">
@@ -92,7 +89,7 @@ const Index = () => {
             </Card>
 
             <Card
-              className="animate-scale-in hover:shadow-md transition-all border-transparent hover:border-primary/20"
+              className="animate-scale-in"
               style={{ animationDelay: "0.4s" }}
             >
               <CardContent className="pt-6 flex flex-col items-center text-center">
@@ -110,7 +107,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-10 md:py-16 bg-secondary/50 rounded-lg mx-4 my-8">
+      <section className="py-8 md:py-16 bg-secondary/50">
         <div className="container max-w-4xl text-center">
           <h2 className="heading-md mb-6">Begin Your Healing Journey Today</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
@@ -118,9 +115,8 @@ const Index = () => {
             recovery, helping you transform pain into personal growth.
           </p>
           <Link to="/articles/intro">
-            <Button size="lg" className="group">
+            <Button size="lg" className="animate-pulse">
               Start Your Recovery
-              <ArrowRight className="ml-1 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
         </div>
