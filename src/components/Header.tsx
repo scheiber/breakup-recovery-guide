@@ -28,7 +28,7 @@ export function Header() {
             className="flex items-center gap-2 smooth-transition hover:opacity-80"
           >
             <HeartCrack className="h-6 w-6 text-primary" />
-            <span className="text-xl md:text-xl font-semibold tracking-tight text-sm sm:text-base md:text-xl">
+            <span className="text-sm xs:text-base sm:text-lg md:text-xl font-semibold tracking-tight whitespace-nowrap">
               Breakup Recovery Guide
             </span>
           </Link>
@@ -53,8 +53,10 @@ export function Header() {
             ))}
           </div>
           
-          {/* Theme Switcher */}
-          <ThemeSwitcher />
+          {/* Theme Switcher - Desktop only */}
+          <div className="hidden md:block">
+            <ThemeSwitcher />
+          </div>
         </nav>
         
         {/* Mobile Menu */}
@@ -85,6 +87,14 @@ export function Header() {
                     {link.label}
                   </Link>
                 ))}
+                
+                {/* Theme Switcher - Mobile only (inside menu) */}
+                <div className="pt-4 border-t">
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm font-medium">Theme</span>
+                    <ThemeSwitcher />
+                  </div>
+                </div>
               </nav>
             </SheetContent>
           </Sheet>
