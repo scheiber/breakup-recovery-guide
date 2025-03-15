@@ -28,7 +28,7 @@ export function Header() {
             className="flex items-center gap-1 sm:gap-2 smooth-transition hover:opacity-80 whitespace-nowrap"
           >
             <HeartCrack className="h-5 w-5 sm:h-6 sm:w-6 text-primary flex-shrink-0" />
-            <span className="text-xs sm:text-sm md:text-lg lg:text-xl font-semibold tracking-tight leading-none">
+            <span className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold tracking-tight leading-none">
               Breakup Recovery Guide
             </span>
           </Link>
