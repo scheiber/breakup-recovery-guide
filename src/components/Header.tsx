@@ -23,28 +23,28 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-lg">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
-          <Link 
-            to="/" 
+          <Link
+            to="/"
             className="flex items-center gap-2 smooth-transition hover:opacity-80"
           >
             <HeartCrack className="h-6 w-6 text-primary" />
-            <span className="text-sm xs:text-base sm:text-lg md:text-xl font-semibold tracking-tight whitespace-nowrap">
+            <span className="text-xl md:text-xl font-semibold tracking-tight text-sm sm:text-base md:text-xl">
               Breakup Recovery Guide
             </span>
           </Link>
         </div>
-        
+
         {/* Desktop Navigation */}
         <nav className="flex items-center gap-6">
           <div className="hidden md:flex gap-4">
             {navLinks.map((link) => (
-              <Link 
+              <Link
                 key={link.to}
-                to={link.to} 
+                to={link.to}
                 className={`text-sm font-medium smooth-transition hover:text-primary ${
-                  (link.to === "/" && location.pathname === "/") || 
-                  (link.to !== "/" && location.pathname.includes(link.to)) 
-                    ? "text-primary" 
+                  (link.to === "/" && location.pathname === "/") ||
+                  (link.to !== "/" && location.pathname.includes(link.to))
+                    ? "text-primary"
                     : "text-muted-foreground"
                 }`}
               >
@@ -52,18 +52,18 @@ export function Header() {
               </Link>
             ))}
           </div>
-          
+
           {/* Theme Switcher - Desktop only */}
           <div className="hidden md:block">
             <ThemeSwitcher />
           </div>
         </nav>
-        
+
         {/* Mobile Menu */}
         <div className="md:hidden">
           <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
             <SheetTrigger asChild>
-              <button 
+              <button
                 className="flex items-center justify-center p-2 rounded-md text-muted-foreground hover:text-primary smooth-transition"
                 aria-label="Toggle menu"
               >
@@ -77,9 +77,9 @@ export function Header() {
                     key={link.to}
                     to={link.to}
                     className={`text-base font-medium smooth-transition hover:text-primary ${
-                      (link.to === "/" && location.pathname === "/") || 
-                      (link.to !== "/" && location.pathname.includes(link.to)) 
-                        ? "text-primary" 
+                      (link.to === "/" && location.pathname === "/") ||
+                      (link.to !== "/" && location.pathname.includes(link.to))
+                        ? "text-primary"
                         : "text-muted-foreground"
                     }`}
                     onClick={handleNavClick}
@@ -87,7 +87,7 @@ export function Header() {
                     {link.label}
                   </Link>
                 ))}
-                
+
                 {/* Theme Switcher - Mobile only (inside menu) */}
                 <div className="pt-4 border-t">
                   <div className="flex items-center justify-between">
