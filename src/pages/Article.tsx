@@ -47,7 +47,7 @@ const Article = () => {
               can benefit from all the detail of each article.
             </p>
             <p>
-              But in the first hours after the breakup, I know that you’re in
+              But in the first hours after the breakup, I know that you're in
               shock and can barely think straight. So this is a very short
               emergency plan of what you should do immediately, starting now.
               The closer you follow this plan now, the better your life will be
@@ -56,7 +56,7 @@ const Article = () => {
             <h2>Cut off all contact with your partner.</h2>
             <p>
               This is urgent. Any contact you have with him or her right now is
-              going to be bad. You’re so emotional that anything you say or do
+              going to be bad. You're so emotional that anything you say or do
               will just make things worse.{" "}
             </p>
             <p>
@@ -65,9 +65,9 @@ const Article = () => {
             </p>
             <p>Again: nothing. No contact, not a word. </p>
             <p>
-              If s/he is trying to call you, don’t answer. Just send a very
-              short text message: “I’m sorry, but I really can’t talk now. I’ll
-              contact you when I’m ready." No more than that; nothing personal,
+              If s/he is trying to call you, don't answer. Just send a very
+              short text message: “I'm sorry, but I really can't talk now. I'll
+              contact you when I'm ready." No more than that; nothing personal,
               nothing about your feelings, no questions. Nothing.
             </p>
             <p>And then turn off your phone or block his/her number.</p>
@@ -76,34 +76,34 @@ const Article = () => {
               with you. You have no obligation towards him/her anymore.
             </p>
             <p>
-              And to the extent that there’s any chance for reconiciliation,
+              And to the extent that there's any chance for reconiciliation,
               cutting off contact now will significantly help you and prevent
-              you from doing anything you’ll very much regret later.
+              you from doing anything you'll very much regret later.
             </p>
             <h2>Call friends or family and ask for help.</h2>
             <p>
-              You shouldn’t be alone. Don’t be anywhere near your partner. If
+              You shouldn't be alone. Don't be anywhere near your partner. If
               you live with your partner, pack a bag and go stay with your
               family or friends. If you work with your partner, take a day off
               and leave immediately.{" "}
             </p>
             <h2>Stay put.</h2>
             <p>
-              If you’re going to meet with or stay with friends or family,
-              definitely go. Go for a walk if you’d like. But no pointless
-              driving; you’re in no state to drive a car. And no spontaneous
-              trips to nowhere; it’ll just complicate your life even more.
+              If you're going to meet with or stay with friends or family,
+              definitely go. Go for a walk if you'd like. But no pointless
+              driving; you're in no state to drive a car. And no spontaneous
+              trips to nowhere; it'll just complicate your life even more.
             </p>
             <h2>No violence.</h2>
             <p>
-              Not against your ex-, not against yourself. If you’re thinking of
+              Not against your ex-, not against yourself. If you're thinking of
               suicide, I understand, I went through it too. Please read through
               this site from beginning to end, though; I think it will help you
-              understand better what’s happening to you.
+              understand better what's happening to you.
             </p>
-            <h2>Don’t jump straight into the arms of another person.</h2>
+            <h2>Don't jump straight into the arms of another person.</h2>
             <p>
-              You won’t get any comfort, it serves no purpose for you or as
+              You won't get any comfort, it serves no purpose for you or as
               revenge, and it could cause serious problems for you, your
               partner, and the new person. You can think about rebound
               relationships later, but it will only be a disaster if you start
@@ -113,24 +113,24 @@ const Article = () => {
             <h2>Alcohol, drugs, food.</h2>
             <p>
               Everyone has their escape of choice. Later down the road, you
-              shouldn’t do any of this. But in the first hours or day after a
-              breakup, it’d be unrealistic and counter-productive to lecture you
-              that you shouldn’t. So just use moderation. No driving. And stay
+              shouldn't do any of this. But in the first hours or day after a
+              breakup, it'd be unrealistic and counter-productive to lecture you
+              that you shouldn't. So just use moderation. No driving. And stay
               with a friend.
             </p>
             <p>
-              If you’re following all these steps now, congratulations. You’re
+              If you're following all these steps now, congratulations. You're
               already doing much better than 99% of people following a breakup.
               It will help a lot.
             </p>
             <p>
               When I was dumped, I hated all the platitudes and clichés people
-              told me that I’ll be ok and everything will be great. So I won’t
+              told me that I'll be ok and everything will be great. So I won't
               bother telling you that.
             </p>
             <p>
               Instead, I simply suggest you take a look through this site when
-              you’re ready and learn about the physiology of what you’re
+              you're ready and learn about the physiology of what you're
               suffering, how to deal with the pain, and steps to feel better.
               Use the navigation to go to the main{" "}
               <a href="/articles">article list</a> for this site, or jump
@@ -158,7 +158,7 @@ const Article = () => {
               hurt by the rejection, then be pulled back and forth by my ex-
               only to be rejected over and over again (I found out later that my
               ex- had been cheating on me, broke up out of guilt but despised
-              the new partner and passionately wanted me back, but couldn’t bear
+              the new partner and passionately wanted me back, but couldn't bear
               to hurt me more, so kept pulling me back only to reject me again
               and again thinking it'd be best for me to never know the truth… a
               complete mess, no?).{" "}
@@ -170,8 +170,8 @@ const Article = () => {
             <p>
               It was incomprehensible to me how I was expected to keep going as
               if nothing had happened. Pregnancy, death in the family, serious
-              illness… you’re allowed to take time off from work or school. But
-              when your heart is broken, you’re supposed to keep on keeping on
+              illness… you're allowed to take time off from work or school. But
+              when your heart is broken, you're supposed to keep on keeping on
               as if nothing happened.
             </p>
             <h2>Endless Sorrow</h2>
@@ -181,7 +181,7 @@ const Article = () => {
               totally dead inside. Utter loneliness and isolation.
             </p>
             <p>
-              As I aimlessly walked street after street, I couldn’t understand
+              As I aimlessly walked street after street, I couldn't understand
               how any person near me could be happy when the world was so
               obviously miserable and life was so pointless. People passed me,
               touched me, but I felt they lived in a different universe from my
@@ -200,19 +200,19 @@ const Article = () => {
               (my poor poor friends, sigh...).
             </p>
             <p>
-              And the irony is that I’ve always been cheerful and active. Just
+              And the irony is that I've always been cheerful and active. Just
               goes to show that a bad break-up can destroy anyone.
             </p>
             <h2>No Idea How To Heal</h2>
             <p>
               Nothing in life teaches you what really is happening to you, why
-              it's happening to you and what you’re supposed to do when you’ve
+              it's happening to you and what you're supposed to do when you've
               been dumped.
             </p>
             <p>
               A lot of the clichés and platitudes are true (“time heals all
-              wounds", “big ocean, lots of fish", “someday you’ll barely
-              remember what all the fuss was about"), but they don’t help much
+              wounds", “big ocean, lots of fish", “someday you'll barely
+              remember what all the fuss was about"), but they don't help much
               while you're actually going through it.
             </p>
             <p>
@@ -237,7 +237,7 @@ const Article = () => {
             </p>
             <p>
               And the traditional academic explanations of what I was going
-              through didn’t seem to apply to my situation at all. For example,
+              through didn't seem to apply to my situation at all. For example,
               I looked at the{" "}
               <a href="https://en.wikipedia.org/wiki/Five_stages_of_grief">
                 Kübler-Ross model
@@ -252,11 +252,11 @@ const Article = () => {
             </p>
             <h2>Recovery Started After Following Good Advice</h2>
             <p>
-              I’m embarrassed to admit now how much time I spent on the internet
+              I'm embarrassed to admit now how much time I spent on the internet
               reading about break-ups: scientific models of break-up theories,
               break-up and relationship forums, stories and advice. I must have
               spent hundreds of hours on forums engrossed in thousands (tens of
-              thousands??) of stories of people who’ve been dumped. I went
+              thousands??) of stories of people who've been dumped. I went
               through dozens of academic papers on the topic. Plus I spent lots
               more time on all the psychology magazines, relationship blogs,
               sites by “professionals" who offer paid-for services to help you…
@@ -276,39 +276,39 @@ const Article = () => {
               recovery.
             </p>
             <p>
-              It’s true that every relationship is different and your situation
-              is truly unique. But it’s also true that it's for the same reasons
+              It's true that every relationship is different and your situation
+              is truly unique. But it's also true that it's for the same reasons
               that every one of us suffers the pain of being rejected, and every
               recovery can be helped by the same ideas and strategies.
             </p>
             <p>
-              This guide doesn’t have any magic tips; the recovery process is
+              This guide doesn't have any magic tips; the recovery process is
               going to be painful no matter what you do and how perfectly you
               manage yourself. And no matter what any self-help guide tries to
-              sell you, it’s going to take a while, it’s going to hurt, and the
+              sell you, it's going to take a while, it's going to hurt, and the
               one thing you think that you most want – to get back together with
               your ex- - is very, very unlikely to happen.
             </p>
             <h2>The Guide: Honest, No nonsense</h2>
             <p>
-              In this guide, I try to explain what’s really going on with you
+              In this guide, I try to explain what's really going on with you
               after a divorce or end of a relationship, describe the best
               strategies to recover as quickly and strongly as possible, show
               what pitfalls to avoid and describe what to do in the common
               tricky situations that come up.
             </p>
-            <p>It’s the guide I wish I’d had when I was dumped.</p>
+            <p>It's the guide I wish I'd had when I was dumped.</p>
             <h2>Regret For Time Wasted</h2>
             <p>
-              Everyone’s memory of their relationship and their break-up will be
+              Everyone's memory of their relationship and their break-up will be
               different, obviously. But what will be the same is this: enormous
               regret at how much time following the break-up that you wasted
               wallowing in your own misery. I lost more than one year of my
               life. I am more angry about this than about anything having to do
               with the relationship or the break-up. Being dumped hurts so much,
               but you will heal. Everyone does eventually. The real question is
-              how much time you’re going to waste before you do… and how many
-              other important things you’ll destroy in the process, like
+              how much time you're going to waste before you do… and how many
+              other important things you'll destroy in the process, like
               friendships, family ties, school/career, your health, and more.
             </p>
             <h2>Control Your Recovery</h2>
@@ -317,18 +317,18 @@ const Article = () => {
               speed up your recovery. Everyone makes mistakes in the recovery
               process, everyone goes through the begging and pleading stages,
               everyone wallows and feels self-pity and self-hatred. But the
-              sooner you can understand what’s happening to you and really stick
-              to the basic ideas I describe here, the sooner you’re going to
+              sooner you can understand what's happening to you and really stick
+              to the basic ideas I describe here, the sooner you're going to
               heal and be back to yourself.
             </p>
             <p>
-              The good news is that when your recovery is over, you’ll end up as
+              The good news is that when your recovery is over, you'll end up as
               a better version of yourself than you were before.
             </p>
             <p>
-              I know that for me, I’ve grown so much. I looked into the abyss of
+              I know that for me, I've grown so much. I looked into the abyss of
               sadness, betrayal and loneliness, and I realized that I can
-              survive, grow and thrive. I’m proud that I went through such a
+              survive, grow and thrive. I'm proud that I went through such a
               difficult ordeal and came out of it stronger, more confident of
               myself, and a better, deeper, and more empathetic person.
             </p>
@@ -355,7 +355,7 @@ const Article = () => {
             <p>
               Because of not just my own experience, but more importantly the
               incredible depth and range of experiences I've been exposed to
-              through this site, I’m positive that you'll also get through it
+              through this site, I'm positive that you'll also get through it
               and come out as a better person. Bad moments and setbacks will
               inevitably occur, but little by little you will emerge from the
               pain of this breakup to find that you've become a stronger, more
@@ -370,8 +370,8 @@ const Article = () => {
               way you want.
             </p>
             <p>
-              But no commercial use, please. I’m so outraged by the numerous
-              commercial sites selling miracle break-up solutions that it’d be
+              But no commercial use, please. I'm so outraged by the numerous
+              commercial sites selling miracle break-up solutions that it'd be
               particularly grating to me if my own words are used to take
               advantage of people suffering from a break-up. If you do see it
               copied and used in any commercial way, please let me know.
@@ -412,7 +412,7 @@ const Article = () => {
         return (
           <>
             <p>
-              The first step is to realize that the pain you feel is real. It’s
+              The first step is to realize that the pain you feel is real. It's
               not just “in your mind". Rejection is a traumatic event as strong
               as any physical pain you can receive. In fact, the pain of
               rejection activates some of the same areas of the brain as
@@ -608,7 +608,7 @@ const Article = () => {
               much time will it take until I recover?"
             </h2>
             <p>
-              There’s no definite answer. I’ve seen lots of methods of
+              There's no definite answer. I've seen lots of methods of
               estimating. The most common is to say that it will take half the
               length of the relationship. Other ways try to calculate based on
               the length of the relationship, how much time you spent together
@@ -618,7 +618,7 @@ const Article = () => {
             </p>
             <p>
               Obviously the closer you were, the longer you were together, and
-              the more connections you had/have to the ex-, the longer it’s
+              the more connections you had/have to the ex-, the longer it's
               going to take to get over everything.
             </p>
             <p>
@@ -633,7 +633,7 @@ const Article = () => {
               be truly healed.
             </p>
             <p>
-              The majority I’ve seen fall in the range of 3-6 months for shorter
+              The majority I've seen fall in the range of 3-6 months for shorter
               relationships, 6-12 months for serious relationships, and a year
               or more for very long-term relationships and/or people (like me)
               who make it worse for themselves by subjecting themselves to more
@@ -646,11 +646,11 @@ const Article = () => {
             <p>
               There's a limit to how much you can really speed up the recovery,
               since the brain needs time to heal after the blow it's received.
-              It’s true that time really is the greatest healer. So you have to
+              It's true that time really is the greatest healer. So you have to
               suffer through the pain to some extent no matter what you do.
             </p>
             <p>
-              But there’s no question that you can really, really make it worse
+              But there's no question that you can really, really make it worse
               for yourself, magnify the pain and delay the recovery if you do
               things the wrong way. Randy Pausch, in his (extremely!) poignant
               Last Lecture, put it well: "no matter how bad things are, you can
@@ -663,7 +663,7 @@ const Article = () => {
               relationship such as photos and videos...{" "}
             </p>
             <p>
-              So let’s look at what to do in order to make your recovery as fast
+              So let's look at what to do in order to make your recovery as fast
               and clean as possible.{" "}
             </p>
           </>
@@ -745,7 +745,7 @@ const Article = () => {
               incredible emotional pain.{" "}
             </p>
             <p>
-              When you have any contact with your ex-, you can’t control what
+              When you have any contact with your ex-, you can't control what
               s/he will say to you… or even if s/he will say anything back to
               you at all. The reaction you expect from the ex- is almost never
               what happens. And whatever does happen only leads to further
@@ -753,22 +753,22 @@ const Article = () => {
             </p>
             <h2>No contact is for you; not a strategy to get ex- back</h2>
             <p>
-              It’s vital to understand that no contact is for YOU. It’s not to
-              make your ex- miss you, it’s not a strategy to get the ex- back.
-              It’s for YOU and YOUR healing. Your ex- broke the partnership that
-              you had, so there is no more team. It’s all about YOU. And no
+              It's vital to understand that no contact is for YOU. It's not to
+              make your ex- miss you, it's not a strategy to get the ex- back.
+              It's for YOU and YOUR healing. Your ex- broke the partnership that
+              you had, so there is no more team. It's all about YOU. And no
               contact is to help YOU heal.
             </p>
             <p>
               No contact rules are easy to say, but hard to do. No contact means
-              – literally – no contact. No calls, no smses. Delete the ex’s
+              – literally – no contact. No calls, no smses. Delete the ex's
               number in your phone (yes, do it). Block the ex- in every place
               you have him/her: Facebook, Skype, Twitter, Whatsapp, etc., etc.,
               etc. Block all possibilities of getting updates on your ex- from
               any social media.
             </p>
             <p>
-              [For what it’s worth, there’s even academic research showing that
+              [For what it's worth, there's even academic research showing that
               Facebook stalking of your ex-, even just remaining friends with
               him/her, is negative for moving on and for your own personal
               development. Look for research by{" "}
@@ -780,7 +780,7 @@ const Article = () => {
                 "Facebook surveillance of former romantic partners: Associations
                 with post-breakup recovery and personal growth"
               </a>
-              ) if you’re interested in the details.]
+              ) if you're interested in the details.]
             </p>
             <p>
               No stalking: no virtual stalking, and (please!) no real-life
@@ -798,9 +798,9 @@ const Article = () => {
             <p>
               Avoid any places where you think your ex- might be (and if it
               means giving up some of your favorite places for a while, then do
-              it… if there’s a big risk of bumping into the ex-, it’s never
+              it… if there's a big risk of bumping into the ex-, it's never
               worth it). And no hidden messages. Your profile pictures or status
-              updates on FB or other social media shouldn’t be about your ex- or
+              updates on FB or other social media shouldn't be about your ex- or
               be covert ways to send messages to the ex-. The ex- wanted out of
               your life, so neither your real life nor your social-media life
               should any longer be about the ex-.{" "}
@@ -810,21 +810,21 @@ const Article = () => {
               Readers have described to me situations where the dumper and the
               dumpee agree to “help each other heal." Usually, they were best
               friends as well as a couple – at least the dumpee thinks so – and
-              they agree they’re such good friends that they need to help each
+              they agree they're such good friends that they need to help each
               other get through the pain.
             </p>
             <p>
               This is so wrong on so many levels. Remember, your roles are
               totally different. Your ex- dumped you. Of course the ex- feels
-              sad, unhappy, guilty for the pain it’s causing you, and many other
+              sad, unhappy, guilty for the pain it's causing you, and many other
               emotions, but the ex- is the one who wanted the breakup, not you.
               You were rejected, and that pain is incomparable; what the ex-
               feels is just a fraction of how much you hurt. There is no chance
               that the dumper can “heal together" with you because the dumper
-              doesn’t feel nearly as bad.
+              doesn't feel nearly as bad.
             </p>
             <p>
-              And although it's obvious to say, it’s your ex- who caused you
+              And although it's obvious to say, it's your ex- who caused you
               this pain, so your ex- is precisely the worst person in the world
               to help you heal from it. We all lose perspective in the aftermath
               of a breakup, we all have trouble seeing clearly; that's why this
@@ -837,8 +837,8 @@ const Article = () => {
               reacts to a breakup in the same way as all of us. Your ex- might
               truly have great intentions to help you, but the only truth that
               matters is that s/he dumped you. The nicest thing your ex- can do
-              for you is to stay away. If s/he doesn’t want to be with you in a
-              relationship, any additional contact until you’re healed will only
+              for you is to stay away. If s/he doesn't want to be with you in a
+              relationship, any additional contact until you're healed will only
               make you hurt more and prolong your recovery.
             </p>
             <p>
@@ -853,8 +853,8 @@ const Article = () => {
             </p>
             <p>I've seen so many cringe-worthy examples of what people say:</p>
             <p>
-              “You wanna break up because we’re not compatible? Tell me what it
-              is. I’ll change anything about myself!"
+              “You wanna break up because we're not compatible? Tell me what it
+              is. I'll change anything about myself!"
             </p>
             <p>
               “You wanna break up with me cuz you wanna see someone else? No
@@ -862,7 +862,7 @@ const Article = () => {
             </p>
             <p>
               Your ability to justify crazy actions after you've been dumped is
-              limitless. I’ve seen people who've been dumped do things which
+              limitless. I've seen people who've been dumped do things which
               they truly believe are eminently rational, but are so sad - very
               obviously sad - when seen from the outside. Call the parents of
               the ex- and offer to paint their house. Start driving the ex's
@@ -879,7 +879,7 @@ const Article = () => {
             </p>
             <p>
               Starting no-contact immediately will stop you from this begging
-              phase: if you have no contact with the ex-, you won’t be able to
+              phase: if you have no contact with the ex-, you won't be able to
               try to sell your self-respect for another chance.
             </p>
             <h2>How long to maintain no contact?</h2>
@@ -904,10 +904,10 @@ const Article = () => {
               The urge to contact your ex- can be overwhelming at times,
               especially in the first weeks and months after the breakup. Your
               craving for the ex- following rejection is similar in terms of
-              brain activity to cocaine addiction and you’ll literally suffer
+              brain activity to cocaine addiction and you'll literally suffer
               withdrawal symptoms (see research by{" "}
               <a href="http://www.helenfisher.com/">Helen Fisher</a> of Rutgers,
-              if you’re interested:{" "}
+              if you're interested:{" "}
               <a href="https://www.helenfisher.com/downloads/articles/Fisher-et-al-Rejection.pdf">
                 Reward, Addiction, and Emotion Regulation Systems Associated
                 With Rejection in Love
@@ -925,7 +925,7 @@ const Article = () => {
               <a href="/about">here</a> and share your story.
             </p>
             <p>
-              The only reasons to ever have contact with your ex- until you’re
+              The only reasons to ever have contact with your ex- until you're
               in a better, healed state are 1) the very basic breakup logistics,
               especially if you live together, such as moving out, papers,
               financial arrangements, etc.; 2) if you work with the ex-, and 3)
@@ -941,10 +941,10 @@ const Article = () => {
               and your work will suffer.
             </p>
             <p>
-              Any boss or HR person will understand – they’re people too, and
+              Any boss or HR person will understand – they're people too, and
               they also want the best for, and from, their workers. A recently
-              broken-up couple obviously won’t work well together, plus it’ll
-              really, really bother other workers as well, so it’s in the
+              broken-up couple obviously won't work well together, plus it'll
+              really, really bother other workers as well, so it's in the
               interests of the company and the bosses to help you out.
             </p>
             <p>
@@ -958,7 +958,7 @@ const Article = () => {
             <p>
               How to handle communication with the ex- if you have children
               together is an enormous and potentially very complicated topic and
-              I won’t try to address it here. But the main idea is the same as
+              I won't try to address it here. But the main idea is the same as
               if you work with your ex-: keep communication limited only to
               topics about the children, visiting times, etc. There are lots of
               resources on the internet with lots of information and personal
@@ -977,25 +977,25 @@ const Article = () => {
             </p>
             <p>
               The longer you engage in the begging/bargaining phase, the longer
-              it’s going to take you to heal… and most likely, the less respect
-              you’ll have for yourself when it’s all over.
+              it's going to take you to heal… and most likely, the less respect
+              you'll have for yourself when it's all over.
             </p>
             <p>
-              You don’t need to announce a policy of no-contact. Your ex- broke
-              up with you. That’s it. Starting from that point, everything is
-              about YOU. It’s about YOUR pain, YOUR healing, YOUR future, YOUR
+              You don't need to announce a policy of no-contact. Your ex- broke
+              up with you. That's it. Starting from that point, everything is
+              about YOU. It's about YOUR pain, YOUR healing, YOUR future, YOUR
               happiness, YOUR life.
             </p>
             <p>
               The only thing you can control is yourself, so the focus is on
-              YOU, not on your ex-. Your ex- isn’t in the picture anymore and
-              there’s no obligation to say that you’ve blocked him/her out of
-              your life. You don’t need to explain why you’re not in touch;
+              YOU, not on your ex-. Your ex- isn't in the picture anymore and
+              there's no obligation to say that you've blocked him/her out of
+              your life. You don't need to explain why you're not in touch;
               anyone will understand.
             </p>
             <h2>No contact is for you; not a strategy to get ex- back</h2>
             <p>
-              I can’t repeat often enough: no-contact is for YOU. It’s not a
+              I can't repeat often enough: no-contact is for YOU. It's not a
               strategy to make your ex- miss you and beg you to be back together
               again.
             </p>
@@ -1025,7 +1025,7 @@ const Article = () => {
               But it never happens. You just end up wasting your time and
               hurting yourself more. It takes two to make a relationship, but
               just one to break it, and your ex- broke it. No-contact is not
-              going to revive your relationship; it’s going to heal YOU.
+              going to revive your relationship; it's going to heal YOU.
             </p>
             <p>
               Announcing that you are going no-contact also has the very high
@@ -1037,41 +1037,41 @@ const Article = () => {
               make them miss you.
             </p>
             <p>
-              Even if you truly don’t have that intention, it will often be
+              Even if you truly don't have that intention, it will often be
               perceived that way anyway. And if and when you do break your own
               no-contact policy, you run the risk of looking pretty silly.
             </p>
             <h2>No announcement needed; the ex- will understand</h2>
             <p>
-              And if you really think about, it’s kind of odd to contact someone
-              in order to announce that you’re not going to contact them.
+              And if you really think about, it's kind of odd to contact someone
+              in order to announce that you're not going to contact them.
               Actions speak louder than words: just stop contact. Let your ex-
-              figure out that you’ve started no-contact, and let him/her deal
+              figure out that you've started no-contact, and let him/her deal
               with the void that it creates.
             </p>
             <p>
               But even though it's not necessary, some people feel that a
-              no-contact announcement can be helpful for your own healing. It’s
+              no-contact announcement can be helpful for your own healing. It's
               a way of drawing a line in the sand, to force YOURSELF to
-              recognize that it’s over, to show YOURSELF that you’re strong and
+              recognize that it's over, to show YOURSELF that you're strong and
               will begin to live YOUR life for YOU immediately.
             </p>
             <p>
               And it can be particularly helpful in a situation where your ex-
               continues to contact you after the breakup, pushing to see how
-              you’re doing and trying to be “friends". You’re still in pain and
+              you're doing and trying to be “friends". You're still in pain and
               recovering, and the worst thing for your healing is contact from
               your ex-. Announcing a no-contact policy will stop the unwanted
               contact and give you the space you need to heal.
             </p>
             <p>
-              So I don’t recommend it in most situations, but if you believe
+              So I don't recommend it in most situations, but if you believe
               that it's important in your case to announce no-contact for
               yourself and for your own healing, then do it.{" "}
             </p>
             <p>
-              But whatever you do, don’t obsess over it: just do it quickly and
-              don’t expect a response.
+              But whatever you do, don't obsess over it: just do it quickly and
+              don't expect a response.
             </p>
             <h2>Short & impersonal</h2>
             <p>
@@ -1093,17 +1093,17 @@ const Article = () => {
               references to things you've done together or places you've been
               together. It should leave no options open for responses, no
               questions, no open doors: after all, this is a message to say that
-              you don’t want contact anymore.
+              you don't want contact anymore.
             </p>
             <p>
               {" "}
-              And pretty obviously, it shouldn’t be in the form of a phone call;
-              either SMS or email is best, because it’s a one-way communication
+              And pretty obviously, it shouldn't be in the form of a phone call;
+              either SMS or email is best, because it's a one-way communication
               to the ex- only.
             </p>
             <p>
-              An example could be: “Dear xxx. I’m going to be taking time for
-              myself now, so I won’t be contacting you for a while or responding
+              An example could be: “Dear xxx. I'm going to be taking time for
+              myself now, so I won't be contacting you for a while or responding
               if you contact me. Best wishes."{" "}
             </p>
           </>
@@ -1114,16 +1114,16 @@ const Article = () => {
           <>
             <p>Getting “closure" from your ex- is not important.</p>
             <p>
-              I know, I know. I’ve been there. I know you’re screaming in your
+              I know, I know. I've been there. I know you're screaming in your
               head that you “NEED TO UNDERSTAND BETTER WHAT HAPPENED."
             </p>
             <p>
               Maybe a “closure talk" can be helpful for you in your personal
-              development, maybe it’s worthless.
+              development, maybe it's worthless.
             </p>
             <p>
-              But what’s clear is that it isn’t the most important thing you
-              need after you’ve been dumped.
+              But what's clear is that it isn't the most important thing you
+              need after you've been dumped.
             </p>
             <p>
               You need to focus on yourself. Everything is about YOU. YOUR pain,
@@ -1138,69 +1138,69 @@ const Article = () => {
             </p>
             <h2>It's over.</h2>
             <p>
-              Your ex- broke up with you. S/he doesn’t want to be in a
-              relationship with you. That’s the only fact that matters. All the
-              reasons in the world that they give you won’t change that. You
+              Your ex- broke up with you. S/he doesn't want to be in a
+              relationship with you. That's the only fact that matters. All the
+              reasons in the world that they give you won't change that. You
               need to focus only on YOU and YOUR future.
             </p>
             <p>
-              It’s hard to accept, but you have to face the reality: not all
+              It's hard to accept, but you have to face the reality: not all
               your questions will ever be answered. You will never really know
               everything you want to know.{" "}
             </p>
-            <p>But it doesn’t matter.</p>
+            <p>But it doesn't matter.</p>
             <p>
               Think about it. You know how the relationship was. You know your
               ex-. You know what happened. You know what the ex- said when s/he
-              broke up. You don’t need any more in order to move forward with
+              broke up. You don't need any more in order to move forward with
               your life.
             </p>
-            <p>It doesn’t matter.</p>
+            <p>It doesn't matter.</p>
             <h2>The goal is to accept & move on</h2>
             <p>
-              One of the greatest lessons I’ve learned from the thousands of
+              One of the greatest lessons I've learned from the thousands of
               breakup stories I've read since creating this site is to not
               obsess about the ex- and the relationship because it never, never,
               never will help you heal and move on.
             </p>
             <p>
-              Repeat it over and over and over: it doesn’t matter. Ask yourself
-              what you’re going to get out of a “closure talk" that will really
+              Repeat it over and over and over: it doesn't matter. Ask yourself
+              what you're going to get out of a “closure talk" that will really
               help you.
             </p>
             <h2>
               By trying to get “reasons" from a “closure", you elevate the ex-
-              to a position s/he shouldn’t be in: the judge of your character.
+              to a position s/he shouldn't be in: the judge of your character.
             </h2>
             <p>
-              You’re grieving, you’re hurt, you’ve been rejected. You really
-              aren’t going to be helped by hearing your ex- delicately – or
-              brutally - explaining why you aren’t good enough for him/her.
+              You're grieving, you're hurt, you've been rejected. You really
+              aren't going to be helped by hearing your ex- delicately – or
+              brutally - explaining why you aren't good enough for him/her.
             </p>
             <p>
               No reason from your ex- at this point will help: either it will
-              drive you crazy, or you’ll disagree and try to fight pointlessly,
-              or you won’t believe it, or it could rip you apart even more.
+              drive you crazy, or you'll disagree and try to fight pointlessly,
+              or you won't believe it, or it could rip you apart even more.
             </p>
             <p>And you don't want to be reduced to a position of pleading.</p>
             <h2>You will always have unanswered questions</h2>
             <p>
               And in many cases, the ex- might not even tell you the full truth;
-              after all, s/he feels massive guilt, doesn’t want to hurt you
+              after all, s/he feels massive guilt, doesn't want to hurt you
               more, probably hates to even have to talk to you about it and hear
               your pain, and the last thing s/he wants to do is present a
               detailed explanation of all the reasons for the decision to break
               up.
             </p>
             <p>
-              So I really don’t recommend trying. I’ve seen dozens of “closure"
+              So I really don't recommend trying. I've seen dozens of “closure"
               conversations described by posters that turned into complete
               disaster.
             </p>
             <h2>Self-respect</h2>
             <p>
               But if you absolutely must do it, or if you somehow get into a
-              situation where it’s going to happen, promise yourself that you
+              situation where it's going to happen, promise yourself that you
               will only hear out your ex- silently, make no comments at all, no
               arguments, no discussions, no faces, no gestures, no crying,
               nothing. Poker face only.
@@ -1212,10 +1212,10 @@ const Article = () => {
             </p>
             <p>
               Trust me that ANYTHING you say or do is going to be a disaster
-              when you’re so hurt and rejected, incredibly emotional, and in a
+              when you're so hurt and rejected, incredibly emotional, and in a
               confrontational situation with the person who caused you all this
               pain. NO ONE is capable of rational thought in that situation… so
-              don’t try to say or do anything.
+              don't try to say or do anything.
             </p>
           </>
         );
@@ -1224,13 +1224,13 @@ const Article = () => {
         return (
           <>
             <p>
-              It’s really obvious, but it’s so hard to do: you have to get rid
+              It's really obvious, but it's so hard to do: you have to get rid
               of anything and everything that reminds you of your ex-. Pictures,
               letters, presents, clothes you bought with him/her, that “special
               pillow" that reminds you of him/her, etc.
             </p>
             <p>
-              I know how hard it is. But it’s very important. Anything which
+              I know how hard it is. But it's very important. Anything which
               triggers memories of your ex- is harmful to you. As MRI brain
               scans show, reminders of your ex- activate the same areas of your
               brain as physical pain does, so looking at any keepsakes from the
@@ -1250,9 +1250,9 @@ const Article = () => {
             <h2>Don't meet your ex-</h2>
             <p>
               If you have stuff of your ex- which you need to return, pack it up
-              and ask a friend to deliver it so you don’t have to see the ex-.
-              It’s really important to not deliver it yourself or allow your ex-
-              to pick it up personally. You don’t want any contact with the ex-,
+              and ask a friend to deliver it so you don't have to see the ex-.
+              It's really important to not deliver it yourself or allow your ex-
+              to pick it up personally. You don't want any contact with the ex-,
               and especially not contact involving returning stuff: it will only
               lead to horrible situations and much more grief and heartache for
               you.
@@ -1260,16 +1260,16 @@ const Article = () => {
             <p>
               {" "}
               (And be a good person: if you have stuff of your ex- which you
-              know s/he wants back, don’t keep it or throw it away just in spite
+              know s/he wants back, don't keep it or throw it away just in spite
               no matter how upset you are.)
             </p>
             <p>
               I like to keep memories, so throwing away some of the stuff I had
-              related to “us" just wasn’t an option.
+              related to “us" just wasn't an option.
             </p>
             <p>
               Instead, I put everything in a box. Then, knowing that there was
-              no way I’d be strong enough to resist looking, I gave the box to a
+              no way I'd be strong enough to resist looking, I gave the box to a
               friend for safe keeping, with the instructions to not give it back
               until I was 100%, completely and totally recovered… no matter how
               much I beg.
@@ -1287,18 +1287,18 @@ const Article = () => {
               a USB and gave it to a friend to hold for me until I recovered.
             </p>
             <p>
-              Another idea I’ve seen is to put it all into an encrypted folder
+              Another idea I've seen is to put it all into an encrypted folder
               on your computer, and a friend locks it with a password which you
-              don’t know.
+              don't know.
             </p>
             <p>
-              Either way, after you’ve stored all the files some place safe
-              where you can’t access them, delete it all from your computer. Be
+              Either way, after you've stored all the files some place safe
+              where you can't access them, delete it all from your computer. Be
               sure to use a secure shred-and-delete program like{" "}
               <a href="https://eraser.heidi.ie/">Eraser</a>,{" "}
               <a href="https://www.ccleaner.com/">CCleaner</a> or{" "}
               <a href="https://www.fileshredder.org/">FileShredder</a>…
-              otherwise, the files will still be on your computer and you’ll be
+              otherwise, the files will still be on your computer and you'll be
               able to undelete them; trust me that at some low point, the
               temptation will be overwhelming.
             </p>
@@ -1309,56 +1309,186 @@ const Article = () => {
         return (
           <>
             <p>
-              When your ex reaches out to you during the healing process, it can
-              trigger intense confusion and emotional turbulence. Understanding
-              how to handle this situation is crucial for maintaining your
-              recovery progress.
+              Let's say you're doing a great job with no-contact. But then out
+              ofowhere, your ex- breaks through all the barriers you've created
+              and somehow manages to contact you. What do you do?
             </p>
-            <h2>Common Reasons Exes Make Contact</h2>
             <p>
-              Before responding, it's helpful to understand the typical
-              motivations behind an ex's outreach:
+              In the years of this site, I've gotten hundreds of questions on
+              this topic. So much energy is put into analyzing every phrase,
+              every word used, even every word not used.
             </p>
-            <ul>
-              <li>Genuine concern about your wellbeing</li>
-              <li>Lingering guilt about how things ended</li>
-              <li>Testing the waters to see if reconciliation is possible</li>
-              <li>Seeking validation or ego gratification</li>
-              <li>
-                Habit and familiarity (you were their go-to person for so long)
-              </li>
-              <li>Practical matters that need resolution</li>
-            </ul>
-            <h2>Interpreting Their Messages</h2>
             <p>
-              Be careful not to over-interpret neutral messages as signs they
-              want to reconcile. "How are you doing?" rarely means "I want you
-              back." People who genuinely want reconciliation typically
-              communicate that intention clearly.
+              <b>But it's all such an incredible waste of time.</b>
             </p>
-            <h2>Responding Strategies</h2>
             <p>
-              Consider these approaches based on where you are in your healing:
+              The most important point is very basic: the only communication
+              that really counts is a very clear statement from the ex- that
+              s/he wants to get back together.
             </p>
-            <ul>
-              <li>
-                No response: Perfectly acceptable if you're still vulnerable
-              </li>
-              <li>
-                Delayed response: Wait 24-48 hours to respond to break automatic
-                patterns
-              </li>
-              <li>
-                Brief, neutral response: Keep it factual and emotionally
-                detached
-              </li>
-              <li>
-                Boundaries statement: Clearly communicate your need for space
-              </li>
-            </ul>
+
             <p>
-              Remember that protecting your healing process takes priority over
-              being polite or responsive to your ex.
+              All other communication from the ex- is just meaningless chatter:
+              Waffling statements about missing you but not being sure. Cute
+              little messages. Links to things of interest. Updates about things
+              going on in his/her life. Questioning about how you're doing.
+            </p>
+            <p>
+              <b>All of it is meaningless.</b>
+            </p>
+            <p>
+              How you deal with the meaningless communication depends on you,
+              your relationship, and all the other little details that exist
+              between two people.
+            </p>
+            <p>
+              When YOU are healed and ready, you can work on creating a
+              friendship with your ex-. But that's a long, long time down the
+              road after a breakup. Until you're ready, you're no longer the
+              ex-'s cheerleader, biggest fan, emotional support, shoulder to cry
+              on, or pal.
+            </p>
+            <p>They broke up with you. They're on their own now.</p>
+            <h2>Ignoring the ex- is ok</h2>
+            <p>
+              If you want to ignore the communication from the ex-, that's
+              completely your right and you shouldn't feel the least bit bad
+              about it; this person broke your heart, and you need to heal.
+              Responding in any way just puts yourself out on the firing line
+              again and can (and will) drive you to insanity in guessing
+              if/how/when s/he will respond.
+            </p>
+            <p>
+              I know that ignoring someone is hard for a lot of people. I'm
+              definitely that way. No matter how much I've been hurt, I'm the
+              type of person who hates to ignore anyone.
+            </p>
+            <p>
+              So for me, I worked out a compromise. When my ex- contacted me
+              (after I finally got my head straight enough to realize that I
+              needed to heal myself and stop begging), I took my sweet time and
+              then eventually responded with very brief statements, no personal
+              information, and never, never, never a question or anything that
+              would put myself in danger of getting shot down.
+            </p>
+            <p>
+              Some examples of responses I used which really helped me: “Nice to
+              hear from you. I'm fine. Take care", “Good for you. Best wishes"
+              and (my personal favorite) “Ok."
+            </p>
+            <p>
+              It was bizarre for me to send such impersonal, short (and
+              borderline rude) messages to someone who had meant so much to me.
+              But it was the best thing I could have done (other than flat-out
+              ignoring the ex-'s messages) to protect my grieving heart and not
+              set myself up for false hope and more disappointment.
+            </p>
+            <p>
+              Responding in any way that puts yourself out there will just
+              prolong your pain and make the recovery take even longer.
+            </p>
+            <p>
+              To your ex, it seems perfectly natural to send you a text about
+              something that's happened, or a link to something of mutual
+              interest, or even a simple “Hey, what's up."{" "}
+            </p>
+            <p>
+              But after answering hundreds of messages from readers on this
+              exact topic, I've learned that everyone who's been dumped reacts
+              in the same way: they think it's a sign their ex- wants to
+              reconcile.
+            </p>
+            <p>
+              Of course it's not true: the only "sign" of wanting to reconcile
+              is a clear and direct statement that the ex- understands the
+              situation now, understands the pain you've been suffering, and has
+              a plan to reconcile successfully.
+            </p>
+            <p>
+              So instead, you end up experiencing false hope which increases
+              both the intensity and the length of the time you spend wallowing
+              in the pain, praying and hoping and crying that there will be a
+              miracle... only to be so brutally disappointed every time you're
+              confronted by the reality that it's over.
+            </p>
+            <p>
+              And of course, your ex- has no idea of any of this, because to
+              him/her, a simple "Hey, what's up" is a sign of nothing other than
+              boredom, maybe a little guilt, and some vague curiosity about
+              someone from the past. The ex- has absolutely no idea how much
+              pain contact causes you.
+            </p>
+            <p>
+              Don't let it happen to you. There's nothing, absolutely nothing,
+              from your ex that can help you right now other than no contact.
+            </p>
+            <h2>So what DOES the communication from the ex mean then?</h2>
+            <p>
+              So many times I've read stories of dumpees breathless at receiving
+              contact from the ex-, wanting help in understanding and
+              interpreting the contact, thinking about which parts carry deep
+              significance, plotting if and when and how to respond.
+            </p>
+
+            <p>
+              But again, the answer is always the same: the only thing that
+              matters is clear words and direct actions showing your ex- wants
+              you back. Everything else is meaningless.
+            </p>
+            <p>
+              Most people - including my ex- and probably yours, as well - are
+              good people and have no bad intentions at all. But the dumper is
+              over things much, much faster than the dumpee. The person who
+              initiates the breakup feels emotions as well, but they're usually
+              nowhere near the pain and intensity of the person who has been
+              rejected. It's simply how our brains react; the rejection suffered
+              by the dumpee is felt on a massively more painful level than the
+              guilt and/or sadness which the dumper feels.
+            </p>
+            <p>
+              Your ex- certainly feels horrible about the pain s/he's caused
+              you. So for both conscious and unconscious reasons, your ex- is
+              both alleviating his/her own guilt and making him/herself feel
+              better by "helping you through it".
+            </p>
+            <p>
+              So much effort is put into analyzing contact from the ex-. I've
+              received messages from people who analyze a 10-word text from
+              their ex- using detail, imagery and symbolism as complicated,
+              theoretical and bizarrely disconnected from reality as if they're
+              writing a doctoral dissertation about 19th-century literature
+              while high on drugs.
+            </p>
+            <p>
+              It's crazy, of course, but it's also natural. As described in the
+              section <a href="/articles/pain-is-real/">"The Pain Is Real,"</a>{" "}
+              a breakup triggers in all of us a range of bio-behavioral
+              responses from massive stress reactions to physical disturbances
+              that affect sleep, hunger and energy levels. We can't see clearly,
+              we can't think clearly. And it convinces us that a meaningless
+              text somehow is a sign that our ex- wants to get back together.
+            </p>
+            <p>
+              But false hope is cruel, and the cruelest of all is
+              self-deception.
+            </p>
+
+            <h2>
+              The only contact which matters is a clear desire to reconcile
+            </h2>
+            <p>
+              It takes two to make a relationship, but only one to break it.
+              Your ex- broke it and crushed your heart. The only communication
+              which can salvage that is if your ex- shows very clearly through
+              words and actions that s/he wants to get back together,
+              acknowledges whatever problems caused the breakup and recognizes
+              the enormous pain the breakup itself has caused you.{" "}
+            </p>
+            <p>
+              Anything short of that is just meaningless chatter, and you're
+              just deceiving yourself and prolonging your own suffering by
+              thinking about it, analyzing it, and giving yourself the false
+              hope that it's a signal of getting back together.{" "}
             </p>
           </>
         );
