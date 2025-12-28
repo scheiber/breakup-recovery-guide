@@ -1497,62 +1497,40 @@ const Article = () => {
         return (
           <>
             <p>
-              Unexpectedly encountering your ex in public can trigger an intense
-              stress response, regardless of how much healing you've done.
-              Preparing for this possibility can help you handle the situation
-              with dignity and minimize emotional setbacks.
+              I must have read thousands of posts about bumping into the ex-,
+              thinking there might be an encounter with the ex- coming up, and
+              so on.
             </p>
-            <h2>Physiological Reactions</h2>
             <p>
-              When you see your ex unexpectedly, your body often reacts before
-              your conscious mind does. Common physiological responses include:
+              It's a difficult and stressful situation to bump into the ex- when
+              you're still recovering from the breakup, so it's worth thinking
+              in advance about how to handle it.
             </p>
-            <ul>
-              <li>Elevated heart rate and blood pressure</li>
-              <li>Shallow breathing or feeling like you can't breathe</li>
-              <li>Stomach churning or nausea</li>
-              <li>Flushing or sudden sweating</li>
-              <li>Fight-or-flight response activation</li>
-            </ul>
             <p>
-              These reactions are normal and don't indicate a setback in your
-              healing—they're just your body's protective mechanisms at work.
+              The best solution is to take all reasonable measures to make sure
+              you don't bump into the ex-. Don't go to places you know s/he will
+              be, avoid events that could lead to a chance meeting, and so on.
+              You might be annoyed (“that's MY place, not my ex's, why do I have
+              to be the one to avoid it?"). But claiming the post-breakup rights
+              to a place or event isn't worth the stress of bumping into the ex-
+              and the inevitable setback in your recovering which you'll suffer.
             </p>
-            <h2>Preparation Strategies</h2>
+            <h2>See the ex-? Leave asap</h2>
             <p>
-              If you know you might encounter your ex in certain locations, try
-              these preemptive approaches:
+              If despite your caution you still bump into the ex-, the best
+              solution is to leave as soon as possible. A simple greeting of
+              “Hi, nice to see you" is more than adequate, and then get out of
+              there. Don't stay, don't chat. Small talk will be excruciating.
+              You'll be stressed, the ex- will be stressed, nothing will feel
+              right, and you'll end up spending hours with friends (or dozens of
+              postings on internet forums!) analyzing “what it meant" when it
+              really didn't mean anything.
             </p>
-            <ul>
-              <li>Mentally rehearse brief, neutral exchanges</li>
-              <li>Plan alternate routes or timing for shared locations</li>
-              <li>
-                Bring a supportive friend if you know your ex might be at an
-                event
-              </li>
-              <li>
-                Practice grounding techniques for managing anxiety in the moment
-              </li>
-            </ul>
-            <h2>In-the-Moment Tactics</h2>
             <p>
-              If you do encounter them unexpectedly, remember these tactics:
+              Stick to the same policy even if the ex- wants to talk. “Hi, nice
+              to see you, but I have to go" is a polite enough way to cut the
+              ex- off and excuse yourself gracefully.{" "}
             </p>
-            <ul>
-              <li>
-                Brief acknowledgment is sufficient—you don't owe them a
-                conversation
-              </li>
-              <li>Focus on your breathing to stay calm</li>
-              <li>
-                Keep the interaction time-limited ("Nice to see you, but I need
-                to get going")
-              </li>
-              <li>
-                Resist the urge to either appear "totally fine" or to show how
-                hurt you are
-              </li>
-            </ul>
           </>
         );
 
