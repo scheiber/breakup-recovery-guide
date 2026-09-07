@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Article } from "@/utils/articles";
@@ -11,18 +10,17 @@ interface ArticleCardProps {
 }
 
 export function ArticleCard({ article, index, searchQuery = "" }: ArticleCardProps) {
-  const animationDelay = `${index * 0.05}s`;
-  
   return (
     <Link to={`/articles/${article.slug}`} className="block">
-      <Card 
+      <Card
         className="overflow-hidden h-full smooth-transition hover:shadow-md hover:-translate-y-1 border-border/40"
-        style={{ animationDelay }}
+        style={{ animationDelay: `${index * 0.05}s` }}
       >
-        <div className="aspect-w-16 aspect-h-9 overflow-hidden">
-          <img 
-            src={`${article.imageUrl}?auto=format&fit=crop&w=500&q=80`}
+        <div className="aspect-video overflow-hidden">
+          <img
+            src={article.imageUrl}
             alt={article.title}
+            loading="lazy"
             className="object-cover w-full h-full transition-transform duration-500 hover:scale-105"
           />
         </div>

@@ -1,5 +1,4 @@
-
-import React from 'react';
+import { Fragment } from "react";
 
 interface HighlightedTextProps {
   text: string;
@@ -7,32 +6,30 @@ interface HighlightedTextProps {
   className?: string;
 }
 
+const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
 export function HighlightedText({ text, highlight, className = "" }: HighlightedTextProps) {
-  // If no search query or empty text, return the original text
-  if (!highlight.trim() || !text) {
+  const term = highlight.trim();
+
+  if (!term || !text) {
     return <span className={className}>{text}</span>;
   }
 
-  // Escape special regex characters in the highlight string
-  const sanitizedHighlight = highlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  
-  // Create a regex to find the highlight terms (case insensitive)
-  const regex = new RegExp(`(${sanitizedHighlight})`, 'gi');
-  
-  // Split the text by the regex matches
-  const parts = text.split(regex);
+  const splitter = new RegExp(`(${escapeRegExp(term)})`, "gi");
+  const matcher = new RegExp(`^${escapeRegExp(term)}$`, "i");
+  const parts = text.split(splitter);
 
   return (
     <span className={className}>
-      {parts.map((part, i) => (
-        regex.test(part) ? (
-          <span key={i} className="bg-yellow-200 dark:bg-yellow-800 px-0.5 rounded">
+      {parts.map((part, i) =>
+        matcher.test(part) ? (
+          <mark key={i} className="bg-yellow-200 dark:bg-yellow-800 px-0.5 rounded">
             {part}
-          </span>
+          </mark>
         ) : (
-          <React.Fragment key={i}>{part}</React.Fragment>
+          <Fragment key={i}>{part}</Fragment>
         )
-      ))}
+      )}
     </span>
   );
 }

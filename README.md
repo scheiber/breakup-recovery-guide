@@ -1,69 +1,60 @@
-# Welcome to your Lovable project
+# Breakup Recovery Guide
 
-## Project info
+A free, non-commercial guide to recovering from a breakup or divorce. Built as a
+static single-page site with Vite, React, TypeScript, Tailwind CSS, and a few
+shadcn/ui components.
 
-**URL**: https://lovable.dev/projects/1f4f786f-572a-4280-8f8d-aad8f9f10cc0
+## Getting started
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/1f4f786f-572a-4280-8f8d-aad8f9f10cc0) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Requires Node.js 18+ and npm.
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+npm install
+npm run dev      # start the dev server on http://localhost:8080
+npm run build    # generate sitemap + production build into dist/
+npm run preview  # preview the production build
+npm run lint     # run eslint
 ```
 
-**Edit a file directly in GitHub**
+## Content
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Every article lives in `src/content/<slug>.md` as plain Markdown. The reading
+order, titles, subtitles, and hero images are defined in
+[`src/utils/articles.ts`](src/utils/articles.ts); each entry's `slug` must match a
+Markdown filename.
 
-**Use GitHub Codespaces**
+To add an article:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Create `src/content/my-new-article.md`.
+2. Add a matching entry to the `articles` array in `src/utils/articles.ts`.
 
-## What technologies are used for this project?
+Prev/next navigation, the article index, search, and the sitemap all update
+automatically.
 
-This project is built with .
+## Project layout
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+| Path | Purpose |
+| --- | --- |
+| `src/content/` | Article bodies (Markdown) |
+| `src/utils/articles.ts` | Ordered article manifest + lookup helpers |
+| `src/utils/articleContent.ts` | Loads Markdown bodies via `import.meta.glob` |
+| `src/pages/` | Route components |
+| `src/components/` | Shared UI (`ui/` holds the shadcn primitives in use) |
+| `src/components/Seo.tsx` | Per-route `<title>` / Open Graph tags |
+| `src/config.ts` | Site name, description, canonical base URL |
+| `scripts/generate-sitemap.mjs` | Writes `public/sitemap.xml` + `robots.txt` at build |
 
-## How can I deploy this project?
+## Configuration
 
-Simply open [Lovable](https://lovable.dev/projects/1f4f786f-572a-4280-8f8d-aad8f9f10cc0) and click on Share -> Publish.
+Set `VITE_SITE_URL` in the build environment to your deployed origin (used for
+canonical URLs, Open Graph tags, and the sitemap). It defaults to the value in
+`src/config.ts`.
 
-## I want to use a custom domain - is that possible?
+## Deployment
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Any static host works. The included `public/_redirects` routes all paths to
+`index.html` for client-side routing (Netlify style).
+
+## AI Disclaimer
+
+This project was created and developed by a human, but an AI assistant ([Claude Code](https://claude.ai)) was used for brainstorming, code generation, design, and debugging purposes. The final implementation and design decisions were made solely by the author, and all generated code, content, and logic were reviewed, tested, and validated by the author prior to inclusion. Any errors, bugs, or issues in the final product are the responsibility of the author. The AI was a tool to assist in the creative and development process, but the vision, implementation, and final product are entirely the work of the author.
