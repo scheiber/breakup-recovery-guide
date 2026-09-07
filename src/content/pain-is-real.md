@@ -1,3 +1,13 @@
+---
+title: "The Pain Is Real"
+subtitle: >-
+  It's not "just in your mind". The pain you feel from being rejected is a
+  traumatic event as strong as any physical pain and activates some of the same
+  areas of the brain. Understand the physical effects of what happens to all of
+  us when we are rejected.
+image: /images/pain-is-real.jpg
+---
+
 The first step is to realize that the pain you feel is real. It's not just "in your mind". Rejection is a traumatic event as strong as any physical pain you can receive. In fact, the pain of rejection activates some of the same areas of the brain as physical pain.
 
 There've been several studies based on MRI scans in the last decade showing that the areas of the brain activated when you are rejected are the same as when you suffer serious physical pain, such as being burned or punched violently. The stronger the rejection, the worse the pain you feel. And nothing can dampen the pain: those brain areas are triggered by rejection even if you get some other reward (freedom from your ex-, a new partner, money) or even if you don't/didn't even really like the person who has rejected you.

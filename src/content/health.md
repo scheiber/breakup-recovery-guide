@@ -1,3 +1,13 @@
+---
+title: "Health"
+subtitle: >-
+  Your body goes through extreme physical duress following a divorce or breakup:
+  sleep issues, stress hormones, food problems, lethargy, anxiety, and more.
+  Ignoring these issues will only worsen your suffering. Above anything else,
+  you need to focus on your health. Here's how.
+image: /images/health.jpg
+---
+
 The physical impact of a breakup is often underestimated. Your body experiences the end of a significant relationship as a major stressor, triggering numerous physiological responses that can affect your health and wellbeing.
 
 ## Common Physical Symptoms

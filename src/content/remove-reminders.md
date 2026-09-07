@@ -1,3 +1,13 @@
+---
+title: "Remove All Reminders"
+subtitle: >-
+  It's obvious, but it's so hard to do: you have to get rid of anything and
+  everything that reminds you of your ex-. Anything which triggers memories of
+  your ex- is harmful to you. Here's why… and several ideas of how to get rid of
+  everything.
+image: /images/remove-reminders.jpg
+---
+
 It's really obvious, but it's so hard to do: you have to get rid of anything and everything that reminds you of your ex-. Pictures, letters, presents, clothes you bought with him/her, that "special pillow" that reminds you of him/her, etc.
 
 I know how hard it is. But it's very important. Anything which triggers memories of your ex- is harmful to you. As MRI brain scans show, reminders of your ex- activate the same areas of your brain as physical pain does, so looking at any keepsakes from the ex- is literally like cutting your wound open over and over again. You significantly prolong your pain and slow your healing. (The physical effects which are caused by a breakup are discussed in more detail in the article [Pain of Rejection is Real](/articles/pain-is-real) here on this site, so please take a look if you haven't seen it.)

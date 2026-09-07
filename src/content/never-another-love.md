@@ -1,3 +1,12 @@
+---
+title: "Never Another Love"
+subtitle: >-
+  The ex- is "the one" for you. You'll never find anyone else. You're doomed to
+  die alone. Sigh… But on the other hand, everyone repeating to you "big ocean,
+  lots of fish" doesn't help. So here are realistic ways to look at this issue.
+image: /images/never-another-love.jpg
+---
+
 The belief that you'll never find love again is one of the most painful and persistent thoughts during breakup recovery. This fear feels rational in the moment but is almost always a product of grief rather than reality.
 
 ## Why We Believe This Myth

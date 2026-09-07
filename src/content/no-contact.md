@@ -1,3 +1,12 @@
+---
+title: "No Contact"
+subtitle: >-
+  Contact with your ex- is like cutting an open wound over and over again. Any
+  contact at all, any reminders, makes healing harder. No contact is by far the
+  most important step, and also the most difficult. Learn why to do it and how.
+image: /images/no-contact.jpg
+---
+
 ## The most important rule by far is to have absolutely no contact with your ex- until you are healed.
 
 Any contact at all, any reminders, simply prolongs your suffering, increases your pain, and delays your eventual recovery.

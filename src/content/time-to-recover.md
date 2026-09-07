@@ -1,3 +1,10 @@
+---
+title: "Time To Recover"
+subtitle: >-
+  How much time will it take until you recover from the breakup?
+image: /images/time-to-recover.jpg
+---
+
 ## One of the biggest questions on the mind of every dumpee is: "How much time will it take until I recover?"
 
 There's no definite answer. I've seen lots of methods of estimating. The most common is to say that it will take half the length of the relationship. Other ways try to calculate based on the length of the relationship, how much time you spent together with your ex- in any given week, how much you knew in advance whether you were about to be dumped or not, how important everything else in your life is to you, etc.

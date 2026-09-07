@@ -1,19 +1,6 @@
-/**
- * Loads the raw Markdown body for each article from `src/content/*.md`.
- * Vite inlines the file contents at build time, keyed by slug.
- */
-const modules = import.meta.glob("../content/*.md", {
-  query: "?raw",
-  import: "default",
-  eager: true,
-}) as Record<string, string>;
+import { loadedArticles } from "./content";
 
-const contentBySlug: Record<string, string> = {};
-for (const [path, source] of Object.entries(modules)) {
-  const slug = path.split("/").pop()!.replace(/\.md$/, "");
-  contentBySlug[slug] = source;
-}
-
+/** Returns the Markdown body (frontmatter stripped) for an article slug. */
 export function getArticleContent(slug: string): string | undefined {
-  return contentBySlug[slug];
+  return loadedArticles[slug]?.body;
 }

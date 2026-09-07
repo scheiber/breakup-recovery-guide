@@ -1,3 +1,12 @@
+---
+title: "Rebound Relationships"
+subtitle: >-
+  Casual sex, casual dating, rebound relationships: there's lots of debate about
+  how helpful it can be to your recovery. It all depends on YOU and what's best
+  for YOU. Here are many pros and cons to help you think through the issue.
+image: /images/rebound-relationships.jpg
+---
+
 The question of whether to engage in casual dating or new relationships after a breakup is complex and highly individual. Understanding the potential benefits and pitfalls can help you make choices aligned with your long-term healing.
 
 ## What Research Shows About Rebounds

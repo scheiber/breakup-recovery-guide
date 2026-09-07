@@ -1,3 +1,12 @@
+---
+title: "Bumping into the Ex"
+subtitle: >-
+  It's a difficult and stressful situation to bump into the ex- when you're
+  still recovering from the breakup, so it's worth thinking about in advance.
+  Here are ideas and suggestions of how to handle it.
+image: /images/bumping-into-ex.jpg
+---
+
 I must have read thousands of posts about bumping into the ex-, thinking there might be an encounter with the ex- coming up, and so on.
 
 It's a difficult and stressful situation to bump into the ex- when you're still recovering from the breakup, so it's worth thinking in advance about how to handle it.

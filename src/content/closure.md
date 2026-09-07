@@ -1,3 +1,12 @@
+---
+title: "Closure"
+subtitle: >-
+  Everyone wants closure after a breakup. Why did it happen? Why? Why, why, why?
+  But closure is not important for your healing. Understand why it doesn't
+  matter… and how to do it right, if you still feel it's necessary.
+image: /images/closure.jpg
+---
+
 Getting "closure" from your ex- is not important.
 
 I know, I know. I've been there. I know you're screaming in your head that you "NEED TO UNDERSTAND BETTER WHAT HAPPENED."

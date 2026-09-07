@@ -22,26 +22,49 @@ pull request.
 
 ## Content
 
-Every article lives in `src/content/<slug>.md` as plain Markdown. The reading
-order, titles, subtitles, and hero images are defined in
-[`src/utils/articles.ts`](src/utils/articles.ts); each entry's `slug` must match a
-Markdown filename.
+Each article is a single file, `src/content/<slug>.md`. The title, subtitle, and
+hero image are in the file's YAML frontmatter; everything below the closing `---`
+is the article body in GitHub-flavored Markdown.
+
+```markdown
+---
+title: "No Contact"
+subtitle: >-
+  Contact with your ex- is like cutting an open wound over and over again.
+  No contact is by far the most important step. Learn why to do it and how.
+image: /images/no-contact.jpg
+---
+
+The most important rule by far is to have absolutely no contact with your ex-...
+```
+
+The subtitle uses YAML's `>-` folded block scalar: write it over as many indented
+lines as you like and they're joined with spaces — no quote-escaping needed. It's
+shown on the article card, under the article's heading, and as the page's
+`<meta name="description">`.
+
+Reading order (used for prev/next navigation and the sitemap) is the
+`readingOrder` list in [`src/utils/articles.ts`](src/utils/articles.ts). Every
+slug in that list must have a matching file in `src/content/`.
 
 To add an article:
 
-1. Create `src/content/my-new-article.md`.
-2. Add a matching entry to the `articles` array in `src/utils/articles.ts`.
+1. Create `src/content/my-new-article.md` with frontmatter and a body.
+2. Add `"my-new-article"` to `readingOrder` where it should appear.
+3. Add `public/images/my-new-article.jpg` (or point `image:` somewhere else).
 
-Prev/next navigation, the article index, search, and the sitemap all update
-automatically.
+`npm test` checks that `readingOrder` and the content files stay in sync, that
+every file's frontmatter is complete, and that internal links resolve.
 
 ## Project layout
 
 | Path | Purpose |
 | --- | --- |
-| `src/content/` | Article bodies (Markdown) |
-| `src/utils/articles.ts` | Ordered article manifest + lookup helpers |
-| `src/utils/articleContent.ts` | Loads Markdown bodies via `import.meta.glob` |
+| `src/content/` | One Markdown file per article (frontmatter + body) |
+| `src/utils/content.ts` | Loads + validates every article file |
+| `src/utils/articles.ts` | `readingOrder` + lookup / prev-next helpers |
+| `src/utils/articleContent.ts` | Returns an article's Markdown body by slug |
+| `vite.config.ts` | `markdown-content` plugin parses frontmatter at build time |
 | `src/pages/` | Route components |
 | `src/components/` | Shared UI (`ui/` holds the shadcn primitives in use) |
 | `src/components/Seo.tsx` | Per-route `<title>` / Open Graph tags |

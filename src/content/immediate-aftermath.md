@@ -1,3 +1,12 @@
+---
+title: "Immediate Aftermath"
+subtitle: >-
+  A very short and clear summary of what you should and should not do
+  immediately after being dumped. If your partner just broke up with you in the
+  last hours or day and you’re in shock, read this section first.
+image: /images/immediate-aftermath.jpg
+---
+
 Like everyone, I did the wrong thing in the first hours after my ex- broke up with me. I begged. I ran away, came back, then ran away again. I called non-stop. I texted crazy things. I cried to my ex-. I wanted to kill myself. I was certain my life was over.
 
 This website is a long and detailed guide to recovering as quickly as possible after a breakup or divorce and coming out of it strong and complete. As you go through the recovery process, I hope you can benefit from all the detail of each article.

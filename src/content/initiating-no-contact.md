@@ -1,3 +1,11 @@
+---
+title: "Initiating No Contact"
+subtitle: >-
+  How do you actually begin a no contact policy with your ex-? When should you
+  start it?
+image: /images/initiating-no-contact.jpg
+---
+
 When to initiate no-contact is easy: IMMEDIATELY. If your ex- broke up with you, IMMEDIATELY go into no-contact mode. Any contact you have will make it worse.
 
 The longer you engage in the begging/bargaining phase, the longer it's going to take you to heal… and most likely, the less respect you'll have for yourself when it's all over.

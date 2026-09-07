@@ -1,3 +1,13 @@
+---
+title: "Costly Guides & Plans"
+subtitle: >-
+  A dumpee is in an incredibly vulnerable state and would pay anything for a
+  "guaranteed solution" to end the pain and/or get the ex- back. Thousands of
+  internet guides take advantage and offer paid-for plans and strategies. Learn
+  what they are and why you shouldn't waste your money.
+image: /images/costly-guides-plans.jpg
+---
+
 The breakup recovery industry has exploded in recent years, with countless programs promising to help you heal faster or even win back your ex. Understanding how to evaluate these offerings can protect you during a vulnerable time.
 
 ## The Breakup Recovery Market

@@ -1,3 +1,10 @@
+---
+title: "Intro"
+subtitle: >-
+  All about this site, who it's for, and how you can use it.
+image: /images/intro.jpg
+---
+
 The pain I felt when my relationship ended is indescribable. The first 6 months was living hell: I was on auto-pilot, completely unaware of what I was doing, completely miserable.
 
 That period is still a haze, shrouded in the screams of pain while I let myself be pulled back and forth by my ex-. The next 12 months were a bit better, but still a very slow process of gradually healing.

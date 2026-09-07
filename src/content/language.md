@@ -1,3 +1,14 @@
+---
+title: "Language"
+subtitle: >-
+  As much as it hurts, you have to force yourself to make your language reflect
+  the reality of the present… even when just talking to yourself. This person is
+  no longer your significant other. They are your ex-. And your relationship no
+  longer is, it was. Learn how your language reflects your thinking and learn
+  how to change it.
+image: /images/language.jpg
+---
+
 The words you use—both in conversation with others and in your internal dialogue—profoundly shape your experience of breakup recovery. Linguistic shifts are powerful tools for healing and creating healthy detachment.
 
 ## Relationship Tense

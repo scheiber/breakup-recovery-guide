@@ -1,3 +1,12 @@
+---
+title: "Revenge"
+subtitle: >-
+  The desire to hurt the person who hurt you is overwhelming. That's natural.
+  And if there was betrayal as well… trust me, my mental revenge scenarios were
+  detailed and gory. Here's what to do about it.
+image: /images/revenge.jpg
+---
+
 The desire for revenge after a painful breakup—especially one involving betrayal—is a natural human response. Understanding these impulses can help you channel them constructively rather than destructively.
 
 ## The Psychology of Revenge Desires

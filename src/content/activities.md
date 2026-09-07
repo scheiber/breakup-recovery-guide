@@ -1,3 +1,13 @@
+---
+title: "Activities"
+subtitle: >-
+  After a break-up, everyone experiences a massive void. It's not just a hole in
+  your heart… it's also literally a hole in your schedule: you have a huge
+  amount of extra free time. Wallowing in your misery only prolongs your
+  recovery. Here are ideas for activities that will help.
+image: /images/activities.jpg
+---
+
 After a breakup, you suddenly find yourself with blocks of time that were previously dedicated to your relationship. How you fill this time significantly impacts your recovery process and future growth.
 
 ## The Empty Calendar Challenge

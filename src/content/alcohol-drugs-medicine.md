@@ -1,3 +1,13 @@
+---
+title: "Alcohol, Drugs, Medicine"
+subtitle: >-
+  It's natural that you want to dull the pain and try to escape. A magic pill to
+  make it all go away would be great. But it's not going to help and usually
+  just makes things worse. Understand what the problems are… and when it does
+  make sense to use it.
+image: /images/alcohol-drugs-medicine.jpg
+---
+
 The intense emotional pain of a breakup naturally drives many people to seek relief through substances. Understanding both the appeal and risks of this approach is crucial for healthy recovery.
 
 ## Why Substances Seem Like a Solution

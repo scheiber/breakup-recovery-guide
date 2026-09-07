@@ -1,3 +1,11 @@
+---
+title: "Contact from the Ex"
+subtitle: >-
+  You shouldn't contact your ex-. But what if your ex- contacts you? How do you
+  interpret what the ex- says and does? How do you respond?
+image: /images/contact-from-ex.jpg
+---
+
 Let's say you're doing a great job with no-contact. But then out of nowhere, your ex- breaks through all the barriers you've created and somehow manages to contact you. What do you do?
 
 In the years of this site, I've gotten hundreds of questions on this topic. So much energy is put into analyzing every phrase, every word used, even every word not used.
