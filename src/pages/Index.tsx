@@ -49,16 +49,12 @@ const Index = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-slide-down"
             style={{ animationDelay: "0.4s" }}
           >
-            <Link to="/articles/immediate-aftermath">
-              <Button size="lg" className="w-full sm:w-auto animate-pulse">
-                Immediate Aftermath
-              </Button>
-            </Link>
-            <Link to="/articles">
-              <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                Browse All Articles
-              </Button>
-            </Link>
+            <Button asChild size="lg" className="w-full sm:w-auto animate-pulse">
+              <Link to="/articles/immediate-aftermath">Immediate Aftermath</Link>
+            </Button>
+            <Button asChild size="lg" variant="outline" className="w-full sm:w-auto">
+              <Link to="/articles">Browse All Articles</Link>
+            </Button>
           </div>
         </div>
       </section>
@@ -93,11 +89,9 @@ const Index = () => {
             Our carefully curated content provides a step-by-step approach to recovery, helping you
             transform pain into personal growth.
           </p>
-          <Link to="/articles/intro">
-            <Button size="lg" className="animate-pulse">
-              Start Your Recovery
-            </Button>
-          </Link>
+          <Button asChild size="lg" className="animate-pulse">
+            <Link to="/articles/intro">Start Your Recovery</Link>
+          </Button>
         </div>
       </section>
     </div>

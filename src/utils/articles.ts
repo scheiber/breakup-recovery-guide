@@ -173,7 +173,7 @@ export const articles: Article[] = [
   {
     title: "You're Not Alone",
     subtitle:
-      "After a breakup, it's easy to feel that no one is suffering as you are. But right now at this moment, there are many others who've come to this site for help. Real people with real breakup problems. Watch in real-time what queries brought them here.",
+      "After a breakup, it's easy to feel that no one has ever suffered the way you are suffering. But the experience is far more common than it feels, and understanding that is part of the healing.",
     slug: "youre-not-alone",
     imageUrl: "/images/youre-not-alone.jpg",
   },

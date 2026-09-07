@@ -27,12 +27,12 @@ const Article = () => {
       />
 
       <div className="mb-8 animate-fade-in">
-        <Link to="/articles">
-          <Button variant="outline" size="sm" className="mb-4">
+        <Button asChild variant="outline" size="sm" className="mb-4">
+          <Link to="/articles">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Articles
-          </Button>
-        </Link>
+          </Link>
+        </Button>
 
         <div className="space-y-2">
           <h1 className="heading-lg animate-slide-down">{article.title}</h1>
@@ -46,13 +46,15 @@ const Article = () => {
       </div>
 
       <div
-        className="mb-8 rounded-lg overflow-hidden animate-fade-in"
+        className="mb-8 rounded-lg overflow-hidden animate-fade-in aspect-video"
         style={{ animationDelay: "0.15s" }}
       >
         <img
           src={article.imageUrl}
           alt={article.title}
-          className="w-full h-auto object-cover"
+          width={1200}
+          height={675}
+          className="w-full h-full object-cover"
         />
       </div>
 
@@ -65,23 +67,31 @@ const Article = () => {
 
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-12 pt-8 border-t animate-fade-in">
         {prev ? (
-          <Link to={`/articles/${prev.slug}`} className="w-full sm:w-auto">
-            <Button variant="outline" className="w-full justify-start">
+          <Button
+            asChild
+            variant="outline"
+            className="w-full sm:w-auto justify-start"
+          >
+            <Link to={`/articles/${prev.slug}`}>
               <ArrowLeft className="mr-2 h-4 w-4" />
               {prev.title}
-            </Button>
-          </Link>
+            </Link>
+          </Button>
         ) : (
           <div />
         )}
 
         {next && (
-          <Link to={`/articles/${next.slug}`} className="w-full sm:w-auto">
-            <Button variant="outline" className="w-full justify-end">
+          <Button
+            asChild
+            variant="outline"
+            className="w-full sm:w-auto justify-end"
+          >
+            <Link to={`/articles/${next.slug}`}>
               {next.title}
               <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-          </Link>
+            </Link>
+          </Button>
         )}
       </div>
     </div>

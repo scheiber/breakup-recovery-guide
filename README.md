@@ -11,10 +11,14 @@ Requires Node.js 18+ and npm.
 ```sh
 npm install
 npm run dev      # start the dev server on http://localhost:8080
-npm run build    # generate sitemap + production build into dist/
+npm run build    # typecheck, generate sitemap, production build into dist/
 npm run preview  # preview the production build
 npm run lint     # run eslint
+npm test         # run the content-integrity tests (vitest)
 ```
+
+CI (`.github/workflows/ci.yml`) runs lint, tests, and build on every push and
+pull request.
 
 ## Content
 
