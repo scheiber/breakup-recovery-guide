@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
-import { Article } from "@/utils/articles";
+import { Article, formatReadingTime } from "@/utils/articles";
 import { HighlightedText } from "@/components/HighlightedText";
 
 interface ArticleListItemProps {
@@ -41,6 +41,9 @@ export function ArticleListItem({
             text={excerpt ?? article.subtitle}
             highlight={searchQuery}
           />
+        </p>
+        <p className="mt-1.5 text-xs text-muted-foreground">
+          {formatReadingTime(article.readingMinutes)}
         </p>
       </div>
     </Link>

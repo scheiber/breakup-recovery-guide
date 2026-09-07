@@ -171,6 +171,12 @@
 }
 
 @layer base {
+  /* Reader-adjustable article body size (see src/lib/font-scale.ts). Child
+     elements are sized in em, so they scale with this. */
+  .prose.article-body {
+    font-size: calc(1.125rem * var(--article-scale, 1)) !important;
+  }
+
   /* Article headings clear the sticky header when linked to via #anchor. */
   .prose :is(h1, h2, h3, h4) {
     scroll-margin-top: 6rem;

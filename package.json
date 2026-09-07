@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && node scripts/generate-sitemap.mjs && vite-react-ssg build",
+    "build": "tsc -b && node scripts/prebuild.mjs && vite-react-ssg build",
     "lint": "eslint .",
     "test": "vitest run",
     "preview": "vite preview"
@@ -49,6 +49,7 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^7.3.6",
+    "vite-plugin-pwa": "^1.3.0",
     "vitest": "^3.2.7",
     "yaml": "^2.9.0"
   }

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Article } from "@/utils/articles";
+import { Article, formatReadingTime } from "@/utils/articles";
 import { HighlightedText } from "@/components/HighlightedText";
 
 interface ArticleCardProps {
@@ -50,6 +50,9 @@ export function ArticleCard({
               text={excerpt ?? article.subtitle}
               highlight={searchQuery}
             />
+          </p>
+          <p className="mt-3 text-xs text-muted-foreground">
+            {formatReadingTime(article.readingMinutes)}
           </p>
         </CardContent>
       </Card>

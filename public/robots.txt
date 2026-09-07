@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://breakup-recovery-guide.netlify.app/sitemap.xml

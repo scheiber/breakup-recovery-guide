@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { LayoutGrid, List, Search } from "lucide-react";
 import { ArticleCard } from "@/components/ArticleCard";
@@ -23,6 +23,7 @@ const Articles = () => {
   const [view, setView] = useState<View>("grid");
   const [readSlugs, setReadSlugs] = useState<Set<string>>(() => new Set());
   const [lastReadSlug, setLastReadSlug] = useState<string | null>(null);
+  const searchRef = useRef<HTMLInputElement>(null);
 
   // Load per-browser state after mount so SSR and the first client render match.
   useEffect(() => {
@@ -33,6 +34,25 @@ const Articles = () => {
     }
     setReadSlugs(getReadSlugs());
     setLastReadSlug(getLastRead());
+  }, []);
+
+  // "/" focuses the search box.
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== "/" || event.defaultPrevented) return;
+      if (event.metaKey || event.ctrlKey || event.altKey) return;
+      const el = event.target;
+      if (
+        el instanceof HTMLElement &&
+        (el.tagName === "INPUT" || el.tagName === "TEXTAREA" || el.isContentEditable)
+      ) {
+        return;
+      }
+      event.preventDefault();
+      searchRef.current?.focus();
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
   }, []);
 
   const changeView = (next: View) => {
@@ -78,8 +98,9 @@ const Articles = () => {
         <div className="relative w-full max-w-md">
           <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <Input
+            ref={searchRef}
             type="text"
-            placeholder="Search titles and article text..."
+            placeholder='Search titles and article text  ( / )'
             className="pl-10"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}

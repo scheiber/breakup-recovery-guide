@@ -68,16 +68,28 @@ jump list.
 
 ## Reader features
 
-- **Progress** — opened articles are remembered in `localStorage`
-  ([`src/utils/readingProgress.ts`](src/utils/readingProgress.ts)); the articles
-  list shows read badges and a "Continue reading" shortcut.
+All reader state lives in `localStorage` — no accounts, no server, no tracking.
+
+- **Progress** — an article is marked read once you reach the end or linger a
+  while ([`src/utils/readingProgress.ts`](src/utils/readingProgress.ts)); the
+  articles list shows read badges, an "N of 24" count, and "Continue reading".
+- **Resume** — leaving an article part-way and coming back drops you where you
+  left off.
+- **Reading time** — a per-article estimate on every card and header.
+- **Text size** — an A−/A+ control on articles ([`FontSizeControl.tsx`](src/components/FontSizeControl.tsx));
+  applied before first paint from `index.html`.
 - **Contents panel** — the header's "Contents" button opens the full guide from
   anywhere ([`GuideContents.tsx`](src/components/GuideContents.tsx)).
+- **Keyboard** — `←`/`→` move between articles, `/` focuses search, `?` shows the
+  shortcut list.
 - **`/resources`** — crisis support lines, linked prominently from the footer.
-- Motion is disabled for `prefers-reduced-motion`. Theme is a small home-grown
-  store ([`src/lib/theme.ts`](src/lib/theme.ts)) plus an inline no-flash script
-  in `index.html`; light / dark / system, remembered per browser.
-- A print stylesheet drops the site chrome so an article prints cleanly.
+- **Installable / offline** — `vite-plugin-pwa` precaches the whole guide, so it
+  works offline after one visit and can be added to a home screen.
+- **RSS** — `/rss.xml`, generated from the article frontmatter.
+- Motion is disabled for `prefers-reduced-motion`. Theme
+  ([`src/lib/theme.ts`](src/lib/theme.ts)) is light / dark / system with an
+  inline no-flash script. A print stylesheet drops the chrome so articles print
+  cleanly.
 
 ## Project layout
 
@@ -97,7 +109,8 @@ jump list.
 | `src/components/` | Shared UI (`ui/` holds the shadcn primitives in use) |
 | `src/components/Seo.tsx` | Per-route `<title>`, social tags, JSON-LD |
 | `src/config.ts` | Site name, description, canonical base URL |
-| `scripts/generate-sitemap.mjs` | Writes `public/sitemap.xml` + `robots.txt` at build |
+| `scripts/prebuild.mjs` | Writes `sitemap.xml`, `robots.txt`, `rss.xml` at build |
+| `scripts/generate-icons.mjs` | Rasterizes `public/icon.svg` → PWA icons (run manually) |
 
 ## Configuration
 

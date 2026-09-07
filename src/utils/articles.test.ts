@@ -5,6 +5,7 @@ import {
   getAdjacentArticles,
   getArticlePosition,
   searchArticles,
+  formatReadingTime,
 } from "./articles";
 import { loadedArticles } from "./content";
 
@@ -57,6 +58,28 @@ describe("derived article list", () => {
     const mid = getAdjacentArticles(readingOrder[1]);
     expect(mid.prev?.slug).toBe(readingOrder[0]);
     expect(mid.next?.slug).toBe(readingOrder[2]);
+  });
+});
+
+describe("reading time", () => {
+  it("every article has a whole-minute estimate of at least 1", () => {
+    for (const article of articles) {
+      expect(Number.isInteger(article.readingMinutes)).toBe(true);
+      expect(article.readingMinutes).toBeGreaterThanOrEqual(1);
+    }
+  });
+
+  it("longer articles estimate longer", () => {
+    const noContact = articles.find((a) => a.slug === "no-contact")!;
+    const intro = articles.find((a) => a.slug === "intro")!;
+    const short = articles.find((a) => a.slug === "bumping-into-ex")!;
+    expect(noContact.readingMinutes).toBeGreaterThan(short.readingMinutes);
+    expect(intro.readingMinutes).toBeGreaterThan(short.readingMinutes);
+  });
+
+  it("formats as '<n> min read'", () => {
+    expect(formatReadingTime(1)).toBe("1 min read");
+    expect(formatReadingTime(9)).toBe("9 min read");
   });
 });
 

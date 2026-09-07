@@ -39,7 +39,12 @@ export function GuideContents({ open, onOpenChange }: GuideContentsProps) {
                   <span className="w-5 shrink-0 tabular-nums text-muted-foreground">
                     {index + 1}
                   </span>
-                  <span className="flex-1">{article.title}</span>
+                  <span className="flex-1">
+                    {article.title}
+                    <span className="block text-xs font-normal text-muted-foreground">
+                      {article.readingMinutes} min
+                    </span>
+                  </span>
                   {read.has(article.slug) && (
                     <Check className="mt-0.5 h-4 w-4 shrink-0 text-primary/70" aria-label="Read" />
                   )}

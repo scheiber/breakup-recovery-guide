@@ -5,6 +5,19 @@ export interface Article {
   subtitle: string;
   slug: string;
   imageUrl: string;
+  /** Estimated reading time in whole minutes (>= 1). */
+  readingMinutes: number;
+}
+
+const WORDS_PER_MINUTE = 200;
+
+function estimateReadingMinutes(body: string): number {
+  const words = body.trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.round(words / WORDS_PER_MINUTE));
+}
+
+export function formatReadingTime(minutes: number): string {
+  return `${minutes} min read`;
 }
 
 /**
@@ -52,6 +65,7 @@ export const articles: Article[] = readingOrder.map((slug) => {
     title: loaded.frontmatter.title,
     subtitle: loaded.frontmatter.subtitle,
     imageUrl: loaded.frontmatter.image,
+    readingMinutes: estimateReadingMinutes(loaded.body),
   };
 });
 

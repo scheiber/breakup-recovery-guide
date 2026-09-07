@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Seo } from "@/components/Seo";
-import { articles, getArticleBySlug } from "@/utils/articles";
+import { articles, getArticleBySlug, formatReadingTime } from "@/utils/articles";
 import { getLastRead } from "@/utils/readingProgress";
 import { useMounted } from "@/hooks/use-mounted";
 
@@ -68,6 +68,9 @@ const Index = () => {
                     <h3 className="font-semibold">{article.title}</h3>
                     <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">
                       {article.subtitle}
+                    </p>
+                    <p className="mt-1.5 text-xs text-muted-foreground">
+                      {formatReadingTime(article.readingMinutes)}
                     </p>
                   </div>
                 </Link>
