@@ -4,11 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Seo } from "@/components/Seo";
 import { articles, getArticleBySlug } from "@/utils/articles";
 import { getLastRead } from "@/utils/readingProgress";
+import { useMounted } from "@/hooks/use-mounted";
 
 const firstTopics = articles.slice(0, 7);
 
 const Index = () => {
-  const lastReadSlug = getLastRead();
+  const mounted = useMounted();
+  const lastReadSlug = mounted ? getLastRead() : null;
   const lastRead = lastReadSlug ? getArticleBySlug(lastReadSlug) : undefined;
 
   return (

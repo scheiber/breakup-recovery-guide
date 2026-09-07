@@ -53,7 +53,7 @@ const Article = () => {
       />
 
       <div className="mb-8 animate-fade-in">
-        <div className="mb-4 flex items-center justify-between gap-3">
+        <div className="mb-4 flex items-center justify-between gap-3 print:hidden">
           <Button asChild variant="outline" size="sm">
             <Link to="/articles">
               <ArrowLeft className="mr-2 h-4 w-4" />
@@ -127,7 +127,7 @@ const Article = () => {
         <Markdown>{content}</Markdown>
       </div>
 
-      <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t pt-8 animate-fade-in sm:flex-row">
+      <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t pt-8 animate-fade-in sm:flex-row print:hidden">
         {prev ? (
           <Button asChild variant="outline" className="w-full justify-start sm:w-auto">
             <Link to={`/articles/${prev.slug}`}>

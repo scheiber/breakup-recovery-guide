@@ -19,7 +19,7 @@ export function ArticleToc({ entries }: ArticleTocProps) {
   return (
     <nav
       aria-label="Sections in this article"
-      className="not-prose my-6 rounded-lg border bg-secondary/40 text-sm"
+      className="not-prose my-6 rounded-lg border bg-secondary/40 text-sm print:hidden"
     >
       <button
         type="button"

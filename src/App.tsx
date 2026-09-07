@@ -1,38 +1,31 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HelmetProvider } from "react-helmet-async";
-import { ThemeProvider } from "next-themes";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import { ScrollToTop } from "@/components/ScrollToTop";
-import Index from "@/pages/Index";
-import Articles from "@/pages/Articles";
-import Article from "@/pages/Article";
-import About from "@/pages/About";
-import Resources from "@/pages/Resources";
-import NotFound from "@/pages/NotFound";
+import type { RouteRecord } from "vite-react-ssg";
+import RootLayout from "./components/RootLayout";
+import { readingOrder } from "./utils/articles";
 
-const App = () => (
-  <HelmetProvider>
-    <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-      <BrowserRouter>
-        <ScrollToTop />
-        <div className="flex min-h-screen flex-col">
-          <Header />
-          <main className="flex-1 pt-2">
-            <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="/articles" element={<Articles />} />
-              <Route path="/articles/:slug" element={<Article />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/resources" element={<Resources />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </main>
-          <Footer />
-        </div>
-      </BrowserRouter>
-    </ThemeProvider>
-  </HelmetProvider>
-);
+/** react-router's `lazy` wants a `Component`; our pages use a default export. */
+const lazyPage = (
+  loader: () => Promise<{ default: React.ComponentType }>
+) => async () => ({ Component: (await loader()).default });
 
-export default App;
+export const routes: RouteRecord[] = [
+  {
+    path: "/",
+    Component: RootLayout,
+    entry: "src/components/RootLayout.tsx",
+    children: [
+      { index: true, lazy: lazyPage(() => import("./pages/Index")) },
+      { path: "articles", lazy: lazyPage(() => import("./pages/Articles")) },
+      {
+        path: "articles/:slug",
+        lazy: lazyPage(() => import("./pages/Article")),
+        getStaticPaths: () => readingOrder.map((slug) => `articles/${slug}`),
+      },
+      { path: "about", lazy: lazyPage(() => import("./pages/About")) },
+      { path: "resources", lazy: lazyPage(() => import("./pages/Resources")) },
+      // "404" is pre-rendered to dist/404.html (see public/_redirects); "*"
+      // handles unknown paths during client-side navigation.
+      { path: "404", lazy: lazyPage(() => import("./pages/NotFound")) },
+      { path: "*", lazy: lazyPage(() => import("./pages/NotFound")) },
+    ],
+  },
+];

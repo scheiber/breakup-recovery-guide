@@ -1,3 +1,4 @@
+/// <reference types="vite-react-ssg" />
 import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
@@ -40,5 +41,10 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  ssgOptions: {
+    entry: "src/main.tsx",
+    dirStyle: "flat",
+    script: "async",
   },
 });

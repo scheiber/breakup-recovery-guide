@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
 import { Sun, Moon, Monitor } from "lucide-react";
-import { useTheme } from "next-themes";
+import { useTheme, type Theme } from "@/lib/theme";
+import { useMounted } from "@/hooks/use-mounted";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -9,17 +9,15 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 
-const options = [
+const options: { value: Theme; label: string; icon: typeof Sun }[] = [
   { value: "light", label: "Light", icon: Sun },
   { value: "dark", label: "Dark", icon: Moon },
   { value: "system", label: "System", icon: Monitor },
-] as const;
+];
 
 export function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => setMounted(true), []);
+  const mounted = useMounted();
 
   const current = options.find((o) => o.value === theme) ?? options[2];
   const TriggerIcon = mounted ? current.icon : Monitor;

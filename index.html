@@ -3,21 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Breakup Recovery Guide</title>
-    <meta
-      name="description"
-      content="Overcome the pain of breakup or divorce. Survive, heal, grow. Over 20 incredibly detailed articles on recovery. Real advice. No nonsense. And 100% free."
-    />
-    <meta name="author" content="Breakup Recovery Guide" />
-    <meta property="og:title" content="Breakup Recovery Guide" />
-    <meta
-      property="og:description"
-      content="Overcome the pain of breakup or divorce. Survive, heal, grow. Real advice. No nonsense. And 100% free."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/og-image.png" />
-    <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="/favicon.ico" />
+    <!-- Per-route <title>, description, and social tags are injected by src/components/Seo.tsx -->
+    <title>Breakup Recovery Guide</title>
+    <script>
+      // Apply the saved theme before first paint to avoid a flash.
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          var dark =
+            t === "dark" ||
+            ((!t || t === "system") &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches);
+          var e = document.documentElement;
+          e.classList.add(dark ? "dark" : "light");
+          e.style.colorScheme = dark ? "dark" : "light";
+        } catch (e) {}
+      })();
+    </script>
   </head>
 
   <body>

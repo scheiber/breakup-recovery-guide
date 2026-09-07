@@ -1,21 +1,27 @@
 # Breakup Recovery Guide
 
-A free, non-commercial guide to recovering from a breakup or divorce. Built as a
-static single-page site with Vite, React, TypeScript, Tailwind CSS, and a few
-shadcn/ui components.
+A free, non-commercial guide to recovering from a breakup or divorce. Built with
+Vite, React, TypeScript, Tailwind CSS, and a few shadcn/ui components. Every route
+is pre-rendered to static HTML at build time (`vite-react-ssg`) and then hydrates
+into a client-side app.
 
 ## Getting started
 
-Requires Node.js 18+ and npm.
+Requires Node.js 20+ and npm.
 
 ```sh
 npm install
-npm run dev      # start the dev server on http://localhost:8080
-npm run build    # typecheck, generate sitemap, production build into dist/
-npm run preview  # preview the production build
+npm run dev      # dev server (CSR) on http://localhost:8080
+npm run build    # typecheck, sitemap, then pre-render every route into dist/
+npm run preview  # preview the pre-rendered build
 npm run lint     # run eslint
 npm test         # run the content-integrity tests (vitest)
 ```
+
+`npm run build` runs `vite-react-ssg build`: it renders each route (all 24
+articles plus the static pages) to its own `.html` file, so crawlers and
+no-JS visitors get the full content. Routing, `<title>`, and social/JSON-LD tags
+still come from the React app.
 
 CI (`.github/workflows/ci.yml`) runs lint, tests, and build on every push and
 pull request.
@@ -68,8 +74,10 @@ jump list.
 - **Contents panel** — the header's "Contents" button opens the full guide from
   anywhere ([`GuideContents.tsx`](src/components/GuideContents.tsx)).
 - **`/resources`** — crisis support lines, linked prominently from the footer.
-- Motion is disabled for `prefers-reduced-motion`; the theme is `next-themes`
-  (system default, no flash).
+- Motion is disabled for `prefers-reduced-motion`. Theme is a small home-grown
+  store ([`src/lib/theme.ts`](src/lib/theme.ts)) plus an inline no-flash script
+  in `index.html`; light / dark / system, remembered per browser.
+- A print stylesheet drops the site chrome so an article prints cleanly.
 
 ## Project layout
 
@@ -81,10 +89,13 @@ jump list.
 | `src/utils/articleContent.ts` | Returns an article's Markdown body by slug |
 | `src/utils/toc.ts` | Extracts a heading jump-list from an article body |
 | `src/utils/readingProgress.ts` | Per-browser read / last-read tracking |
-| `vite.config.ts` | `markdown-content` plugin parses frontmatter at build time |
+| `src/App.tsx` | `vite-react-ssg` route table (lazy-loaded pages) |
+| `src/main.tsx` | SSG / hydration entry |
+| `src/components/RootLayout.tsx` | Shell: header, footer, skip link, `<Outlet>` |
+| `vite.config.ts` | `markdown-content` plugin + `ssgOptions` |
 | `src/pages/` | Route components |
 | `src/components/` | Shared UI (`ui/` holds the shadcn primitives in use) |
-| `src/components/Seo.tsx` | Per-route `<title>` / Open Graph tags |
+| `src/components/Seo.tsx` | Per-route `<title>`, social tags, JSON-LD |
 | `src/config.ts` | Site name, description, canonical base URL |
 | `scripts/generate-sitemap.mjs` | Writes `public/sitemap.xml` + `robots.txt` at build |
 
@@ -96,8 +107,9 @@ canonical URLs, Open Graph tags, and the sitemap). It defaults to the value in
 
 ## Deployment
 
-Any static host works. The included `public/_redirects` routes all paths to
-`index.html` for client-side routing (Netlify style).
+Any static host works — `dist/` contains a `.html` file per route. The included
+`public/_redirects` sends unknown paths to `index.html` so the client router can
+render the 404 page (Netlify syntax).
 
 ## AI Disclaimer
 

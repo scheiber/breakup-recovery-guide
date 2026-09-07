@@ -18,31 +18,33 @@ import { cn } from "@/lib/utils";
 type View = "grid" | "list";
 const VIEW_KEY = "brg:articles-view";
 
-function loadView(): View {
-  try {
-    return localStorage.getItem(VIEW_KEY) === "list" ? "list" : "grid";
-  } catch {
-    return "grid";
-  }
-}
-
 const Articles = () => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [view, setView] = useState<View>(loadView);
+  const [view, setView] = useState<View>("grid");
+  const [readSlugs, setReadSlugs] = useState<Set<string>>(() => new Set());
+  const [lastReadSlug, setLastReadSlug] = useState<string | null>(null);
 
-  // localStorage-backed state, read once on mount.
-  const [readSlugs] = useState<Set<string>>(() => getReadSlugs());
-  const lastReadSlug = getLastRead();
-  const lastRead = lastReadSlug ? getArticleBySlug(lastReadSlug) : undefined;
-
+  // Load per-browser state after mount so SSR and the first client render match.
   useEffect(() => {
     try {
-      localStorage.setItem(VIEW_KEY, view);
+      if (localStorage.getItem(VIEW_KEY) === "list") setView("list");
     } catch {
       /* ignore */
     }
-  }, [view]);
+    setReadSlugs(getReadSlugs());
+    setLastReadSlug(getLastRead());
+  }, []);
 
+  const changeView = (next: View) => {
+    setView(next);
+    try {
+      localStorage.setItem(VIEW_KEY, next);
+    } catch {
+      /* ignore */
+    }
+  };
+
+  const lastRead = lastReadSlug ? getArticleBySlug(lastReadSlug) : undefined;
   const results = useMemo(() => searchArticles(searchQuery), [searchQuery]);
 
   return (
@@ -95,7 +97,7 @@ const Articles = () => {
               type="button"
               aria-label={label}
               aria-pressed={view === value}
-              onClick={() => setView(value)}
+              onClick={() => changeView(value)}
               className={cn(
                 "rounded p-1.5 smooth-transition",
                 view === value

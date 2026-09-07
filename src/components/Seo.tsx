@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Head } from "vite-react-ssg";
 import { useLocation } from "react-router-dom";
 import { siteName, siteUrl, siteDescription } from "@/config";
 
@@ -22,8 +22,30 @@ export function Seo({
   const fullTitle = title ? `${title} — ${siteName}` : siteName;
   const imageUrl = image.startsWith("http") ? image : `${siteUrl}${image}`;
 
+  const jsonLd =
+    type === "article"
+      ? {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: title ?? siteName,
+          description,
+          image: imageUrl,
+          url: canonical,
+          inLanguage: "en",
+          isAccessibleForFree: true,
+          author: { "@type": "Organization", name: siteName },
+          publisher: { "@type": "Organization", name: siteName },
+        }
+      : {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: siteName,
+          description,
+          url: siteUrl,
+        };
+
   return (
-    <Helmet>
+    <Head>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonical} />
@@ -39,6 +61,8 @@ export function Seo({
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={imageUrl} />
-    </Helmet>
+
+      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+    </Head>
   );
 }

@@ -11,8 +11,8 @@
     --card-foreground: 240 10% 3.9%;
     --popover: 350 30% 99%;
     --popover-foreground: 240 10% 3.9%;
-    --primary: 354 100% 60%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 354 90% 48%; /* deepened so white button text passes AA */
+    --primary-foreground: 0 0% 100%;
     --secondary: 350 30% 96.1%;
     --secondary-foreground: 355 50% 20%;
     --muted: 350 30% 96.1%;
@@ -114,6 +114,28 @@
       animation-iteration-count: 1 !important;
       transition-duration: 0.01ms !important;
       scroll-behavior: auto !important;
+    }
+  }
+
+  /* Print: drop the site chrome, keep the article. */
+  @media print {
+    header,
+    footer,
+    .print-hidden {
+      display: none !important;
+    }
+
+    .page-container {
+      max-width: none !important;
+      padding: 0 !important;
+    }
+
+    .prose {
+      max-width: none !important;
+    }
+
+    .prose a {
+      border-bottom: 0 !important;
     }
   }
 }
