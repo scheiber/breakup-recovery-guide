@@ -2,9 +2,9 @@
 title: "Mental Work"
 subtitle: >-
   You need to make a real mental effort to focus on YOU and YOUR future, not to
-  obsess about your ex- and the past. It's hard. Very hard. It's hard. Very
-  hard. There's no easy switch to flip and instantly change your thinking. But
-  there are things you can do. Learn how.
+  obsess about your ex- and the past. It's hard. Very hard. There's no easy
+  switch to flip and instantly change your thinking. But there are things you
+  can do. Learn how.
 image: /images/mental-work.jpg
 ---
 

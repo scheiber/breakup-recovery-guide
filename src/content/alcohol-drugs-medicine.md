@@ -8,33 +8,30 @@ subtitle: >-
 image: /images/alcohol-drugs-medicine.jpg
 ---
 
-The intense emotional pain of a breakup naturally drives many people to seek relief through substances. Understanding both the appeal and risks of this approach is crucial for healthy recovery.
+It's natural that you want to dull the pain and try to escape. A magic pill to make it all go away would be great.
 
-## Why Substances Seem Like a Solution
+But it doesn't exist: only time – a lot of it - and your own effort will do it. Drugs, alcohol, pills... it won't help.
 
-The neurochemical basis of breakup pain makes substance use particularly tempting because:
+Don't.
 
-- Alcohol temporarily increases dopamine and serotonin, mimicking the neurochemistry of attachment
-- Certain substances can temporarily dull the acute pain of loss
-- Sleep aids seem to offer escape from insomnia and rumination
-- Stimulants can counteract the physical fatigue that accompanies grief
+Really, don't do it.
 
-## The Substance Trap
+You're not going to solve anything, your life won't get better, and it won't even help you escape your pain and sadness (in my case, it just exacerbated my depression until I realized how stupid I was being by taking all that stuff).
 
-Research shows that self-medication during breakup recovery creates several problems:
+And they all bring lots of problems of their own… and the last thing you want following a breakup is more problems.
 
-- Interferes with the natural emotional processing needed for healing
-- Creates rebound anxiety/depression when substances wear off
-- Can lead to psychological dependence as a coping mechanism
-- Often results in impulsive behaviors you later regret (e.g., drunk texting)
-- Extends the overall recovery timeline by masking rather than addressing feelings
+## Prescription medicines
 
-## Medication Considerations
+As for legal medicine… there's a lot of controversy about different medicines. I address sleeping pills in the section under [Health/Sleep](/articles/health), so take a look there.
 
-While self-medication is problematic, there are legitimate roles for professional medical intervention:
+Anti-anxiety pills such as Xanax are another common post breakup medicine. It does relax you initially, which might be beneficial if you are extremely anxious following the breakup, but it's a crutch for a very short period only, has many potential problems and doesn't solve any of the underlying issues.
 
-- Short-term sleep aids (under medical supervision) for severe insomnia
-- Treatment for clinical depression that extends beyond normal grief
-- Anxiety management for those with pre-existing anxiety disorders
+Depression medication is another controversial remedy. Some people swear it helps them and they're unhappy without, others point out the side effects, the long time it takes before any benefits are perceived, and the limited evidence of any widely verified benefit above the placebo effect.
 
-The key difference is professional assessment, appropriate dosing, and integration with other recovery approaches.
+If you're thinking about medicine, research on your own and talk to an experienced doctor.
+
+One other medicine to mention is over-the-counter painkillers: aspirin, ibuprofen, paracetamol, etc. In the [section](/articles/pain-is-real) of this guide on the physical effects of the breakup, I discussed the current scientific understanding based on MRI brain scans that the pain of romantic rejection activates the same areas of the brain as intense physical pain, such as burning yourself or being hit hard.
+
+This same research has also shown that painkillers can help dull the feelings of emotional pain just as they dull physical pain.
+
+A problem with this, though, is that your own constant thinking about the breakup will cause more pain (as far as your brain is concerned, thinking about the breakup is similar to hitting yourself over and over), so the pain-relief benefits of aspirin and other pain-killers might be overwhelmed by your own thinking. But it's an idea worth considering when the pain is so strong.
