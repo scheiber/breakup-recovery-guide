@@ -8,6 +8,7 @@ import {
 import { getArticleContent } from "@/utils/articleContent";
 import { extractToc } from "@/utils/toc";
 import { markRead } from "@/utils/readingProgress";
+import { useArrowNav } from "@/hooks/use-arrow-nav";
 import { Markdown } from "@/components/Markdown";
 import { ArticleToc } from "@/components/ArticleToc";
 import { ReadingProgressBar } from "@/components/ReadingProgressBar";
@@ -22,6 +23,12 @@ const Article = () => {
   const content = slug ? getArticleContent(slug) : undefined;
 
   const toc = useMemo(() => (content ? extractToc(content) : []), [content]);
+  const { prev, next } = getAdjacentArticles(slug ?? "");
+
+  useArrowNav(
+    prev ? `/articles/${prev.slug}` : null,
+    next ? `/articles/${next.slug}` : null
+  );
 
   useEffect(() => {
     if (slug && article && content) markRead(slug);
@@ -39,7 +46,6 @@ const Article = () => {
     return <Navigate to="/articles" replace />;
   }
 
-  const { prev, next } = getAdjacentArticles(article.slug);
   const position = getArticlePosition(article.slug);
 
   return (
