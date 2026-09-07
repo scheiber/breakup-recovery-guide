@@ -1,67 +1,160 @@
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { Link } from "react-router-dom";
+import { LayoutGrid, List, Search } from "lucide-react";
 import { ArticleCard } from "@/components/ArticleCard";
+import { ArticleListItem } from "@/components/ArticleListItem";
 import { Seo } from "@/components/Seo";
-import { articles } from "@/utils/articles";
+import {
+  articles,
+  getArticleBySlug,
+  getArticlePosition,
+  searchArticles,
+} from "@/utils/articles";
+import { getReadSlugs, getLastRead } from "@/utils/readingProgress";
 import { Input } from "@/components/ui/input";
-import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+
+type View = "grid" | "list";
+const VIEW_KEY = "brg:articles-view";
+
+function loadView(): View {
+  try {
+    return localStorage.getItem(VIEW_KEY) === "list" ? "list" : "grid";
+  } catch {
+    return "grid";
+  }
+}
 
 const Articles = () => {
   const [searchQuery, setSearchQuery] = useState("");
+  const [view, setView] = useState<View>(loadView);
 
-  const query = searchQuery.toLowerCase();
-  const filteredArticles = articles.filter(
-    (article) =>
-      article.title.toLowerCase().includes(query) ||
-      article.subtitle.toLowerCase().includes(query)
-  );
+  // localStorage-backed state, read once on mount.
+  const [readSlugs] = useState<Set<string>>(() => getReadSlugs());
+  const lastReadSlug = getLastRead();
+  const lastRead = lastReadSlug ? getArticleBySlug(lastReadSlug) : undefined;
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(VIEW_KEY, view);
+    } catch {
+      /* ignore */
+    }
+  }, [view]);
+
+  const results = useMemo(() => searchArticles(searchQuery), [searchQuery]);
 
   return (
-    <div className="page-container max-w-7xl space-y-8">
+    <div className="page-container max-w-6xl space-y-8">
       <Seo
         title="All Articles"
         description="Browse the complete collection of breakup recovery articles, covering every stage of healing."
       />
 
-      <div className="text-center space-y-4 animate-fade-in">
+      <div className="animate-fade-in space-y-4 text-center">
         <h1 className="heading-lg">All Articles</h1>
-        <p className="text-muted-foreground max-w-xl mx-auto">
-          Browse our complete collection of recovery articles designed to guide you through every
-          stage of healing.
+        <p className="mx-auto max-w-xl text-muted-foreground">
+          The full guide, in reading order. Start at the top, or jump to whatever
+          you need right now.
         </p>
+        {readSlugs.size > 0 && (
+          <p className="text-sm text-muted-foreground">
+            You've read {readSlugs.size} of {articles.length}.
+          </p>
+        )}
+        {lastRead && (
+          <Button asChild variant="outline" size="sm">
+            <Link to={`/articles/${lastRead.slug}`}>
+              Continue reading: {lastRead.title}
+            </Link>
+          </Button>
+        )}
       </div>
 
-      <div className="relative max-w-md mx-auto mt-8 animate-fade-in">
-        <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground h-4 w-4" />
-        <Input
-          type="text"
-          placeholder="Search articles..."
-          className="pl-10"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
+      <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-between">
+        <div className="relative w-full max-w-md">
+          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+          <Input
+            type="text"
+            placeholder="Search titles and article text..."
+            className="pl-10"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+        </div>
+        <div className="flex shrink-0 rounded-md border p-0.5">
+          {(
+            [
+              ["grid", LayoutGrid, "Grid view"],
+              ["list", List, "List view"],
+            ] as const
+          ).map(([value, Icon, label]) => (
+            <button
+              key={value}
+              type="button"
+              aria-label={label}
+              aria-pressed={view === value}
+              onClick={() => setView(value)}
+              className={cn(
+                "rounded p-1.5 smooth-transition",
+                view === value
+                  ? "bg-secondary text-foreground"
+                  : "text-muted-foreground hover:text-foreground"
+              )}
+            >
+              <Icon className="h-4 w-4" />
+            </button>
+          ))}
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 landscape:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
-        {filteredArticles.length > 0 ? (
-          filteredArticles.map((article, index) => (
+      {results.length === 0 ? (
+        <div className="py-12 text-center">
+          <p className="text-muted-foreground">
+            No articles found matching your search.
+          </p>
+          <Button
+            variant="link"
+            onClick={() => setSearchQuery("")}
+            className="mt-2"
+          >
+            Clear search
+          </Button>
+        </div>
+      ) : view === "grid" ? (
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {results.map(({ article, excerpt }, index) => (
             <div
               key={article.slug}
               className="animate-scale-in"
-              style={{ animationDelay: `${index * 0.05}s` }}
+              style={{ animationDelay: `${Math.min(index, 7) * 0.05}s` }}
             >
-              <ArticleCard article={article} index={index} searchQuery={searchQuery} />
+              <ArticleCard
+                article={article}
+                index={index}
+                searchQuery={searchQuery}
+                excerpt={excerpt}
+                read={readSlugs.has(article.slug)}
+              />
             </div>
-          ))
-        ) : (
-          <div className="col-span-full text-center py-12">
-            <p className="text-muted-foreground">No articles found matching your search.</p>
-            <Button variant="link" onClick={() => setSearchQuery("")} className="mt-2">
-              Clear search
-            </Button>
-          </div>
-        )}
-      </div>
+          ))}
+        </div>
+      ) : (
+        <ol className="space-y-2">
+          {results.map(({ article, excerpt }) => (
+            <li key={article.slug}>
+              <ArticleListItem
+                article={article}
+                position={getArticlePosition(article.slug)?.number ?? 0}
+                searchQuery={searchQuery}
+                excerpt={excerpt}
+                read={readSlugs.has(article.slug)}
+              />
+            </li>
+          ))}
+        </ol>
+      )}
     </div>
   );
 };

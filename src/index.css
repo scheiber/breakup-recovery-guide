@@ -24,8 +24,8 @@
     --border: 354 20% 91.4%;
     --input: 354 20% 91.4%;
     --ring: 354 100% 60%;
-    --link: 354 100% 60%; /* Primary color for links */
-    --link-hover: 354 70% 45%; /* Darker red for link hover in light mode */
+    --link: 354 72% 42%; /* darkened for AA contrast on the light background */
+    --link-hover: 354 80% 34%;
     --radius: 0.75rem;
   }
 
@@ -49,8 +49,8 @@
     --border: 355 32.6% 20%;
     --input: 355 32.6% 20%;
     --ring: 354 70% 50%;
-    --link: 354 70% 65%; /* Lighter red for links in dark mode */
-    --link-hover: 354 80% 75%; /* Brighter red for link hover in dark mode */
+    --link: 354 85% 78%; /* lightened for AA contrast on the dark background */
+    --link-hover: 354 90% 86%;
   }
 }
 
@@ -58,7 +58,7 @@
   * {
     @apply border-border;
   }
-  
+
   html,
   body {
     @apply antialiased;
@@ -104,6 +104,18 @@
   ::-webkit-scrollbar-thumb:hover {
     @apply bg-muted-foreground/40;
   }
+
+  /* Respect users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
 }
 
 @layer components {
@@ -112,7 +124,7 @@
   }
 
   .page-container {
-    @apply container max-w-4xl py-8 md:py-12 px-4 md:px-8 animate-fade-in;
+    @apply container py-8 md:py-12 px-4 md:px-8 animate-fade-in;
   }
 
   .heading-xl {
@@ -133,5 +145,26 @@
 
   .smooth-transition {
     @apply transition-all duration-300 ease-in-out;
+  }
+}
+
+@layer base {
+  /* Article headings clear the sticky header when linked to via #anchor. */
+  .prose :is(h1, h2, h3, h4) {
+    scroll-margin-top: 6rem;
+  }
+
+  /* rehype-autolink-headings wraps each heading in an <a href="#id">.
+     Keep it looking like a heading, reveal a # affordance on hover. */
+  .prose :is(h1, h2, h3, h4) > a {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+    border-bottom: 0;
+  }
+
+  .prose :is(h2, h3, h4) > a:hover::after {
+    content: " #";
+    color: hsl(var(--muted-foreground));
   }
 }

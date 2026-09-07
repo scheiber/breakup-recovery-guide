@@ -56,14 +56,31 @@ To add an article:
 `npm test` checks that `readingOrder` and the content files stay in sync, that
 every file's frontmatter is complete, and that internal links resolve.
 
+Section headings inside an article get slugged ids (`rehype-slug`) and are
+linkable; articles with 3+ `##` headings show an auto-generated "In this article"
+jump list.
+
+## Reader features
+
+- **Progress** — opened articles are remembered in `localStorage`
+  ([`src/utils/readingProgress.ts`](src/utils/readingProgress.ts)); the articles
+  list shows read badges and a "Continue reading" shortcut.
+- **Contents panel** — the header's "Contents" button opens the full guide from
+  anywhere ([`GuideContents.tsx`](src/components/GuideContents.tsx)).
+- **`/resources`** — crisis support lines, linked prominently from the footer.
+- Motion is disabled for `prefers-reduced-motion`; the theme is `next-themes`
+  (system default, no flash).
+
 ## Project layout
 
 | Path | Purpose |
 | --- | --- |
 | `src/content/` | One Markdown file per article (frontmatter + body) |
 | `src/utils/content.ts` | Loads + validates every article file |
-| `src/utils/articles.ts` | `readingOrder` + lookup / prev-next helpers |
+| `src/utils/articles.ts` | `readingOrder`, lookup / prev-next / position / search |
 | `src/utils/articleContent.ts` | Returns an article's Markdown body by slug |
+| `src/utils/toc.ts` | Extracts a heading jump-list from an article body |
+| `src/utils/readingProgress.ts` | Per-browser read / last-read tracking |
 | `vite.config.ts` | `markdown-content` plugin parses frontmatter at build time |
 | `src/pages/` | Route components |
 | `src/components/` | Shared UI (`ui/` holds the shadcn primitives in use) |

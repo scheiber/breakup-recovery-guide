@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { HeartCrack, Menu } from "lucide-react";
+import { HeartCrack, Menu, List } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { ThemeSwitcher } from "@/components/ThemeSwitcher";
+import { GuideContents } from "@/components/GuideContents";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -17,6 +18,7 @@ const linkClass = (isActive: boolean) =>
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isContentsOpen, setIsContentsOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-lg">
@@ -30,7 +32,7 @@ export function Header() {
 
         {/* Desktop navigation */}
         <nav className="flex items-center gap-6">
-          <div className="hidden md:flex gap-4">
+          <div className="hidden md:flex items-center gap-4">
             {navLinks.map((link) => (
               <NavLink
                 key={link.to}
@@ -41,6 +43,14 @@ export function Header() {
                 {link.label}
               </NavLink>
             ))}
+            <button
+              type="button"
+              onClick={() => setIsContentsOpen(true)}
+              className={`flex items-center gap-1.5 text-sm ${linkClass(false)}`}
+            >
+              <List className="h-4 w-4" />
+              Contents
+            </button>
           </div>
           <div className="hidden md:block">
             <ThemeSwitcher />
@@ -71,6 +81,17 @@ export function Header() {
                     {link.label}
                   </NavLink>
                 ))}
+                <button
+                  type="button"
+                  onClick={() => {
+                    setIsMenuOpen(false);
+                    setIsContentsOpen(true);
+                  }}
+                  className={`flex items-center gap-1.5 text-base ${linkClass(false)}`}
+                >
+                  <List className="h-4 w-4" />
+                  Contents
+                </button>
 
                 <div className="pt-4 border-t">
                   <div className="flex items-center justify-between">
@@ -83,6 +104,8 @@ export function Header() {
           </Sheet>
         </div>
       </div>
+
+      <GuideContents open={isContentsOpen} onOpenChange={setIsContentsOpen} />
     </header>
   );
 }

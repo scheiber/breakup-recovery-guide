@@ -8,6 +8,7 @@ import Index from "@/pages/Index";
 import Articles from "@/pages/Articles";
 import Article from "@/pages/Article";
 import About from "@/pages/About";
+import Resources from "@/pages/Resources";
 import NotFound from "@/pages/NotFound";
 
 const App = () => (
@@ -15,17 +16,20 @@ const App = () => (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
       <BrowserRouter>
         <ScrollToTop />
-        <Header />
-        <main className="min-h-screen pt-2">
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/articles" element={<Articles />} />
-            <Route path="/articles/:slug" element={<Article />} />
-            <Route path="/about" element={<About />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </main>
-        <Footer />
+        <div className="flex min-h-screen flex-col">
+          <Header />
+          <main className="flex-1 pt-2">
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/articles" element={<Articles />} />
+              <Route path="/articles/:slug" element={<Article />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/resources" element={<Resources />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
       </BrowserRouter>
     </ThemeProvider>
   </HelmetProvider>

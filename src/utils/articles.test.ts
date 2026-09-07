@@ -1,5 +1,11 @@
 import { describe, it, expect } from "vitest";
-import { articles, readingOrder, getAdjacentArticles } from "./articles";
+import {
+  articles,
+  readingOrder,
+  getAdjacentArticles,
+  getArticlePosition,
+  searchArticles,
+} from "./articles";
 import { loadedArticles } from "./content";
 
 const contentSlugs = new Set<string>(Object.keys(loadedArticles));
@@ -51,6 +57,46 @@ describe("derived article list", () => {
     const mid = getAdjacentArticles(readingOrder[1]);
     expect(mid.prev?.slug).toBe(readingOrder[0]);
     expect(mid.next?.slug).toBe(readingOrder[2]);
+  });
+});
+
+describe("getArticlePosition", () => {
+  it("is 1-based and covers the whole guide", () => {
+    expect(getArticlePosition(readingOrder[0])).toEqual({ number: 1, total: articles.length });
+    expect(getArticlePosition(readingOrder[readingOrder.length - 1])).toEqual({
+      number: articles.length,
+      total: articles.length,
+    });
+  });
+
+  it("returns null for an unknown slug", () => {
+    expect(getArticlePosition("nope")).toBeNull();
+  });
+});
+
+describe("searchArticles", () => {
+  it("returns every article, in order, for an empty query", () => {
+    const results = searchArticles("   ");
+    expect(results.map((r) => r.article.slug)).toEqual([...readingOrder]);
+    expect(results.every((r) => r.excerpt === undefined)).toBe(true);
+  });
+
+  it("matches title/subtitle without an excerpt", () => {
+    const results = searchArticles("no contact");
+    expect(results.some((r) => r.article.slug === "no-contact")).toBe(true);
+    expect(results.find((r) => r.article.slug === "no-contact")?.excerpt).toBeUndefined();
+  });
+
+  it("matches body text and returns a highlighted excerpt", () => {
+    const results = searchArticles("oxytocin");
+    const hit = results.find((r) => r.article.slug === "pain-is-real");
+    expect(hit).toBeDefined();
+    expect(hit?.excerpt?.toLowerCase()).toContain("oxytocin");
+    expect(hit?.excerpt).not.toMatch(/[#*`]/);
+  });
+
+  it("returns nothing for a term that appears nowhere", () => {
+    expect(searchArticles("zzzznotarealword")).toEqual([]);
   });
 });
 
