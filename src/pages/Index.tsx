@@ -18,7 +18,7 @@ const Index = () => {
       <Seo />
 
       <section className="py-12 md:py-20">
-        <div className="container max-w-3xl space-y-5 text-center animate-fade-in">
+        <div className="container space-y-5 text-center animate-fade-in">
           <h1 className="heading-xl">Surviving the End of a Relationship</h1>
           <p
             className="mx-auto max-w-2xl text-xl text-muted-foreground md:text-2xl animate-slide-down"
@@ -53,7 +53,7 @@ const Index = () => {
 
       <section className="flex-1 py-8">
         <div className="container max-w-2xl">
-          <h2 className="heading-md mb-6">The guide, in order</h2>
+          <h2 className="heading-md mb-6">Pick a topic to get started</h2>
           <ol className="space-y-3">
             {firstTopics.map((article, index) => (
               <li key={article.slug}>
@@ -99,7 +99,7 @@ const Index = () => {
         <div className="container max-w-2xl text-center">
           <h2 className="heading-md mb-3">Free, and it stays that way</h2>
           <p className="mx-auto max-w-xl text-muted-foreground">
-            No ads, no accounts, no tracking, no email capture, nothing to buy.
+            No ads, no accounts, no tracking, no email capture, nothing to buy.<br />
             The whole guide is here, and it always will be.
           </p>
         </div>
