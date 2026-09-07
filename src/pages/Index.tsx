@@ -59,12 +59,12 @@ const Index = () => {
               <li key={article.slug}>
                 <Link
                   to={`/articles/${article.slug}`}
-                  className="flex gap-4 rounded-lg border border-border/40 p-4 smooth-transition hover:border-border hover:bg-secondary/50"
+                  className="flex items-start gap-4 rounded-lg border border-border/40 p-4 smooth-transition hover:border-border hover:bg-secondary/50"
                 >
                   <span className="w-6 shrink-0 pt-0.5 text-sm tabular-nums text-muted-foreground">
                     {index + 1}
                   </span>
-                  <div>
+                  <div className="min-w-0 flex-1">
                     <h3 className="font-semibold">{article.title}</h3>
                     <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">
                       {article.subtitle}
@@ -73,6 +73,14 @@ const Index = () => {
                       {formatReadingTime(article.readingMinutes)}
                     </p>
                   </div>
+                  <img
+                    src={article.imageUrl}
+                    alt=""
+                    width={160}
+                    height={90}
+                    loading="lazy"
+                    className="hidden h-16 w-28 shrink-0 rounded object-cover sm:block"
+                  />
                 </Link>
               </li>
             ))}
