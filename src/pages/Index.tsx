@@ -21,15 +21,13 @@ const Index = () => {
         <div className="container space-y-5 text-center animate-fade-in">
           <h1 className="heading-xl">Surviving the End of a Relationship</h1>
           <p
-            className="mx-auto max-w-2xl text-xl text-muted-foreground md:text-2xl animate-slide-down"
-            style={{ animationDelay: "0.15s" }}
+            className="mx-auto max-w-2xl text-xl text-muted-foreground md:text-2xl"
           >
             An honest, detailed guide to getting through a breakup or divorce.
             No platitudes, no false cheerfulness, nothing for sale.
           </p>
           <div
-            className="flex flex-col justify-center gap-3 pt-6 animate-slide-down sm:flex-row"
-            style={{ animationDelay: "0.3s" }}
+            className="flex flex-col justify-center gap-3 pt-6 sm:flex-row"
           >
             <Button asChild size="lg" className="w-full sm:w-auto">
               <Link to="/articles/immediate-aftermath">Just been dumped? Start here</Link>
