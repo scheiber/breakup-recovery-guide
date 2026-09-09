@@ -2,7 +2,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Info, Users, Heart, Coffee, type LucideIcon } from "lucide-react";
 import { Seo } from "@/components/Seo";
 
-const sections: { icon: LucideIcon; title: string; body: string }[] = [
+const sections: {
+  icon: LucideIcon;
+  title: string;
+  body: string;
+  email?: string;
+}[] = [
   {
     icon: Info,
     title: "Non-Commercial",
@@ -26,6 +31,7 @@ const sections: { icon: LucideIcon; title: string; body: string }[] = [
     title: "Contact",
     body:
       "The content in these pages is regularly updated and maintained. If you have questions, suggestions, or just want to share your story, we'd love to hear from you. Your experiences help us create better content for others walking this path.",
+    email: "contact@breakuprecovery.org",
   },
 ];
 
@@ -48,7 +54,7 @@ const About = () => {
 
       <section className="py-12 container max-w-4xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {sections.map(({ icon: Icon, title, body }, index) => (
+          {sections.map(({ icon: Icon, title, body, email }, index) => (
             <Card
               key={title}
               className="animate-fade-in"
@@ -62,6 +68,15 @@ const About = () => {
                   <div>
                     <h2 className="heading-sm mb-3">{title}</h2>
                     <p className="text-muted-foreground">{body}</p>
+                    {email && (
+                      <p className="mt-3 text-muted-foreground">
+                        Email us at{" "}
+                        <a href={`mailto:${email}`} className="font-medium">
+                          {email}
+                        </a>
+                        .
+                      </p>
+                    )}
                   </div>
                 </div>
               </CardContent>
