@@ -1,5 +1,6 @@
 import type { RouteRecord } from "vite-react-ssg";
 import RootLayout from "./components/RootLayout";
+import RouteErrorBoundary from "./components/RouteErrorBoundary";
 import { readingOrder } from "./utils/articles";
 
 /** react-router's `lazy` wants a `Component`; our pages use a default export. */
@@ -12,6 +13,7 @@ export const routes: RouteRecord[] = [
     path: "/",
     Component: RootLayout,
     entry: "src/components/RootLayout.tsx",
+    errorElement: <RouteErrorBoundary />,
     children: [
       { index: true, lazy: lazyPage(() => import("./pages/Index")) },
       { path: "articles", lazy: lazyPage(() => import("./pages/Articles")) },

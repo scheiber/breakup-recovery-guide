@@ -14,6 +14,14 @@ export default function RootLayout() {
   useEffect(() => {
     applyTheme();
     applyFontScale();
+    // A successful mount means the current build is loading fine; clear the
+    // guard in RouteErrorBoundary so a future stale-deploy error can trigger
+    // another silent auto-reload instead of going straight to the fallback.
+    try {
+      sessionStorage.removeItem("brg:route-error-reloaded");
+    } catch {
+      // ignore
+    }
   }, []);
 
   return (
